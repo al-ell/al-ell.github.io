@@ -1,0 +1,103 @@
+/*----------------------Colors */
+
+
+.topnav,
+footer {
+    background-color: #425851;
+}
+
+
+/*-------------------Special paddings/margins/text */
+
+
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Ubuntu";
+    font-weight: 700;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+
+
+/*----------------------Heading */
+
+#logo {
+    font-family: Monoton;
+    font-size: 65px;
+    text-align: center;
+    margin-top: 15px;
+    color: #425851;
+    background-color:
+}
+
+
+.watch-link,
+.topnav {
+    overflow: hidden;
+    Margin-top: 5px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    display: inline;
+    color: #8f8f8f;
+    float: center;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 5px 5px 10px 5px;
+}
+
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #8f8f8f;
+    min-height: 20px;
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    color: #8f8f8f;
+}
+
+
+/*-------------------Homepage */
+
+#homeimage {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 600px;
+    background: url("../images/street-homeimage.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+
+
+
+/*-------------------Hover.css *
+
+/*-------------------Footer */
+
+
+/*-------------------Contact Form */
+
+/*-------------------Media Queries */
+
+
