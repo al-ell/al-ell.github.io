@@ -21,7 +21,8 @@ h5 {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
     margin: 0;
 }
 
@@ -32,13 +33,13 @@ h4 {
 
 
 /*----------------------Heading */
-
 #logo {
     font-family: Monoton;
     font-size: 65px;
     text-align: center;
     margin-top: 15px;
     color: #425851;
+    background-color:
 }
 
 
@@ -50,7 +51,6 @@ h4 {
     font-weight: 700;
     display: inline;
     color: #8f8f8f;
-    text-decoration: none;
     float: center;
     text-align: center;
     font-size: 18px;
@@ -67,12 +67,17 @@ h4 {
 
 }
 
-/* Change the color of links on hover */
-.topnav a:hover {
-    color: #425851;
+/*how to push header/nav down> */
+#header-container {
+    margin-top: 5px;
 }
 
 
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    color: #8f8f8f;
+}
 /*-------------------Homepage */
 
 .homeimage {
@@ -96,10 +101,40 @@ h4 {
 /*-------------------Footer */
 
 
-
-
 /*-------------------Contact Form */
 
 /*-------------------Media Queries */
 
 
+@media screen and (max-width:576px) {
+    #top-nav {
+        padding: 20px 40px 20px 10px;
+        border-radius: 25 25px 25px 25px;
+    }
+
+    #logo {
+        margin-bottom: 30px;
+    }
+
+    footer {
+        display: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #top-nav {
+        padding: 20px 40px 20px 10px;
+        border-radius: 25px 25px 25px 25px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    #top-nav {
+        padding: 20px 40px 20px 10px;
+        border-radius: 0 25px 25px 0;
+    }
+
+    #logo {
+        font-size: 72px;
+    }
+}
