@@ -20,24 +20,32 @@
                     <h1 class="logo" id="logo">Deaf Cats</h1>
                 </div>    
                 <div class="col-md-7 col-sm-12 nav-container topnav" id="top-nav">
-                    <div>
-                        <ul id="nav" class="list-inline menucontainer topnav">
-                            <li class="list-inline-item menuitem">
-                                <a href="#" class=><span>Tour Dates</span></a>
-                            </li>
-                            <li class="list-inline-item menuitem">
-                                <a href="#" class=><span>History</span></a>
-                            </li>
-                            <li class="list-inline-item menuitem">
-                                <a href="#" class=><span>Gallery</span></a>
-                            </li>
-                            <li class="list-inline-item menuitem">
-                                <a href="index.html" class=><span>Home</span></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-12 menuitem watch-link">
-                        <a href="https://www.youtube.com" target="_blank">Watch our new music video!</a>
+                    <div class="container">
+                        <nav class="navbar navbar-dark navbar-expand-lg">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse topnav" id="navbarText">
+                                <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item active" id="nav-home">
+                                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item menuitem">
+                                        <a class="nav-link" href="#">Gallery</a>
+                                    </li>
+                                    <li class="nav-item menuitem">
+                                        <a class="nav-link" href="#">History</a>
+                                    </li>
+                                    <li class="nav-item menuitem">
+                                        <a class="nav-link" href="#">Live</a>
+                                    </li>
+                                </ul>
+                                <span class="navbar-text menuitem">
+                                    <a href="https://www.youtube.com" target="_blank">Watch our new music video!</a>
+                                </span>
+                            </div>
+                        </nav>   
                     </div>
                 </div>
             </div>
@@ -45,17 +53,17 @@
     </header>
     <section class="container-fluid">
         <div class="row justify-content-center no-gutters">
-            <a href="index.html" class="col-md-8 homeimage"></a>
+            <div class="col-8 home-image"></div>
         </div>
     </section>
     <footer class="container-fluid">
         <div class="row" id="footer-details">              
-            <div class="col-sm-4">
+            <div class="col-sm-4 social-heading">
                 <h5 class="uppercase">Contact Us</h5>
                 <p>modal form button here</p>           
             </div>
-            <div class="col-sm-8">
-                <h5 class="uppercase social-heading">Find Us Online:</h5>
+            <div class="col-sm-8 social-heading">
+                <h5 class="uppercase">Find Us Online:</h5>
                 <ul class="list-inline social-links">
                     <li class="list-inline-item">
                         <a target="_blank" href="#">
