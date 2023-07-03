@@ -81,7 +81,7 @@ watch-link,
 
 /*-------------------Homepage */
 
-.homeimage {
+#homeimage {
     background: url("../images/homepage-image.jpg");
     margin-top: 50px;
     margin-bottom: 50px;
