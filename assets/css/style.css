@@ -43,8 +43,8 @@ h5 {
 }
 
 
-watch-link,
-.menuitem {
+watch-link a,
+.menuitem a {
     overflow: hidden;
     Margin-top: 5px;
     font-family: "Ubuntu", sans-serif;
@@ -67,16 +67,23 @@ watch-link,
 
 /* Change the color of links on hover */
 .menuitem a:hover {
-    color: #425851;
+    color: #8f8f8f;
 }
 
 #nav-home {
-    color: #425851;
+    color: #8f8f8f;
     text-decoration: none;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 5px 5px 10px 5px;
+    margin: 0;
 }
 
 .navbar {
     text-decoration: none;
+    color: #cdbea7;
 }
 
 /*-------------------Homepage */
@@ -101,6 +108,52 @@ watch-link,
 
 /*-------------------Footer */
 
+.social-heading h5 {
+    text-align: center;
+}
+
+.social-links li a i {
+    width: 45px;
+    height: 45px;
+    padding: 20px 0;
+    border-radius: 50%;
+    font-size: 24px;
+    line-height: 7px;
+    text-align: center;
+    color: #425851;
+    background: #cdbea7;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links {
+    padding-bottom: 5px;
+    float: right;
+    padding-right: 40px;
+
+}
+
+.social-links li a i:hover {
+    color: #cdbea7;
+    background-color: #8f8f8f;
+}
+
+#footer-details {
+    padding: 10px;
+}
+
+footer {
+    color: #cdbea7;
+    max-height: 100px;
+    position: fixed;
+    bottom: 5px;
+    width: 85%;
+    margin-top: 10px;
+    border-radius: 25px 25px 25px 25px;
+}
+
 
 
 
@@ -118,10 +171,6 @@ watch-link,
     .logo {
         margin-bottom: 30px;
     }
-
-    footer {
-        display: none;
-    }
 }
 
 @media screen and (max-width:768px) {
@@ -129,6 +178,7 @@ watch-link,
         padding: 20px 40px 20px 10px;
         border-radius: 25px 25px 25px 25px;
     }
+    
 }
 
 @media screen and (min-width:768px) {
