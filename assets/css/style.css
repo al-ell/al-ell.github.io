@@ -1,6 +1,6 @@
 /*----------------------Colors */
 
-
+watch-link,
 .topnav,
 footer {
     background-color: #425851;
@@ -50,6 +50,7 @@ h4 {
     font-weight: 700;
     display: inline;
     color: #8f8f8f;
+    text-decoration: none;
     float: center;
     text-align: center;
     font-size: 18px;
@@ -68,18 +69,18 @@ h4 {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    color: #8f8f8f;
+    color: #425851;
 }
 
 
 /*-------------------Homepage */
 
-#homeimage {
+.homeimage {
+    background: url("../images/homepage-image.jpg");
     margin-top: 50px;
     margin-bottom: 50px;
     width: 100%;
-    height: 600px;
-    background: url("..images/homepage-image.jpg");
+    min-height: 600px;
     background-repeat: no-repeat;
     background-size: contain;
     transition: all .5s ease-in-out;
@@ -93,6 +94,8 @@ h4 {
 /*-------------------Hover.css *
 
 /*-------------------Footer */
+
+
 
 
 /*-------------------Contact Form */
