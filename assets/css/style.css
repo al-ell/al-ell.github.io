@@ -39,7 +39,6 @@ h4 {
     text-align: center;
     margin-top: 15px;
     color: #425851;
-    background-color:
 }
 
 
@@ -80,7 +79,7 @@ h4 {
     margin-bottom: 50px;
     width: 100%;
     height: 600px;
-    background: url("../images/street-homeimage.jpg");
+    background: url("..images/homepage-image.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     transition: all .5s ease-in-out;
