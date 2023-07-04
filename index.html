@@ -61,46 +61,48 @@
     </div>
     <footer class="container-fluid">
         <div class="row" id="footer-details">              
-            <div class="col-sm-4 contact-heading">
-                <div>
-                    <h5 class="uppercase">Contact Us</h5>
-                </div>
-                <div class="container">
+            
+            <div class="container col-sm-4 contact-heading"">
 
-                    <!-- Trigger the modal with a button -->
-                    <button href="#myModal" type="button" class="btn contact-button" data-toggle="modal" id="myBtn">Send a message</button>
-
-                    <!-- Modal -->
-                    <div class="modal fade" id="myModal" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                        <!-- Modal content-->
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            </div>
-                            <div class="modal-body">
-                                <form action="send-message.php" method="post">
-                                    <fieldset>
-                                        <legend>We'd love to hear from you!</legend>
-                                        <label for="name">Name: </label>
-                                        <br>
-                                        <input type="text" class="form-control" id="name" placeholder="Your name" required>
-                                        <br>
-                                        <label for="email-address">Email: </label>
-                                        <br>
-                                        <input type="email" class="form-control" id="email-address" placeholder="Enter email" required>
-                                        <br><br>
-                                        <textarea id="feedback" rows="16" cols="60" name="feedback" placeholder="Hi!" required></textarea>
-                                    </fieldset>
-                                </form>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="submit" class="btn btn-outline-secondary btn-lg" id="cancel" data-dismiss="modal">Cancel</button>
-                                <button type="submit" class="btn btn-success btn-lg" id="send">Enter</button>
-                            </div>
-                        </div> 
+                <!-- Button trigger modal -->
+                <button type="button" class="btn contact-button" data-toggle="modal" data-target="#formModal">
+                    Contact Us!
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="formModal" tabindex="-1"  data-backdrop="false" aria-labelledby="contact form" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">                    
+                        <div class="modal-header">
+                        <button type="button" id="modalBtnClick" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                        <div class="modal-body">
+                            <form action="send-message.php" method="post">
+                                <fieldset>
+                                    <legend id="form-header"><h5 class="uppercase">We'd love to hear from you!</h5></legend>
+                                    <label for="name" id="name-label">Name: </label>
+                                    <br>
+                                    <input type="text" class="form-control" id="name" placeholder="Your name" required>
+                                    <br>
+                                    <label for="email-address" id="email-label">Email: </label>
+                                    <br>
+                                    <input type="email" class="form-control" id="email-address" placeholder="Enter email" required>
+                                    <br><br>
+                                    <textarea class="form-control" id="feedback" rows="10" cols="60" name="feedback" placeholder="Hi!" required></textarea>
+                                </fieldset>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-secondary btn-lg" id="cancel" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-success btn-lg" id="send">Send!</button>
+                        </div>
+                    
                     </div>
                 </div>
+
             </div>
+
             <div class="col-sm-8 social-heading">
                 <h5 class="uppercase">Find Us Online:</h5>
                 <ul class="list-inline social-links">
@@ -132,7 +134,16 @@
             </div>                          
         </div>
     </footer>
-    <script src="https://kit.fontawesome.com/fe32e32a81.js" crossorigin="anonymous"></script>    
+    <script src="https://kit.fontawesome.com/fe32e32a81.js" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+        $("#modalBtnClick").on("click", function () {
+            $('#myModal').modal('hide');
+            $('body').removeClass('modal-open');
+            $('.modal-backdrop').remove();
+        });
+    });
+    </script>    
 </body>
 </html>
 

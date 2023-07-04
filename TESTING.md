@@ -142,7 +142,7 @@ Each device tested the site using the following browsers:
 | No | Bug | How I solved the issue |
 | :--- | :--- | :--- |
 |  |  |  |  |  |
-|  |  |  |  |  |
+| 2 | Modal displayed under background | Stackoverflow forum(https://stackoverflow.com/questions/41292673/bootstrap-modal-opens-but-stays-in-gray-background-and-cannot-close-or-interact) Bootstrap z-index{https://getbootstrap.com/docs/5.0/layout/z-index/} |  |  |
 |  | |  |  |  |
 |  |  |  |  |  |
 
