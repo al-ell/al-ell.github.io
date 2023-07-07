@@ -22,16 +22,16 @@
                 <div class="col-md-5 col-sm-12">
                     <h1 class="logo" id="logo">Deaf Cats</h1>
                 </div>    
-                <div class="col-md-7 col-sm-12 nav-container topnav" id="top-nav">
+                <div class="col-md-4 col-sm-12 nav-container topnav" id="header-container">
                     <div class="container">
-                        <nav class="navbar navbar-dark navbar-expand-lg">
+                        <nav class="navbar navbar-expand-lg">
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
                                 aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
                             <div class="collapse navbar-collapse topnav" id="navbarText">
                                 <ul class="navbar-nav mr-auto">
-                                    <li class="nav-item active" id="nav-home">
+                                    <li class="nav-item" id="nav-home">
                                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                                     </li>
                                     <li class="nav-item menuitem">
@@ -44,12 +44,12 @@
                                         <a class="nav-link" href="#">Live</a>
                                     </li>
                                 </ul>
-                                <span class="navbar-text menuitem">
-                                    <a href="https://www.youtube.com" target="_blank">Watch our new music video!</a>
-                                </span>
                             </div>
                         </nav>   
                     </div>
+                </div>
+                <div class="col-md-3 col-sm-12" id="watch-link">
+                    <a href="https://www.youtube.com" target="_blank">Watch our new music video!</a>
                 </div>
             </div>
         </div>
@@ -60,51 +60,20 @@
         </div>
     </div>
     <footer class="container-fluid">
-        <div class="row" id="footer-details">              
+        <div class="row" id="footer-container">              
             
-            <div class="container col-sm-4 contact-heading"">
+            <div class="container col-sm-4 contact">
 
                 <!-- Button trigger modal -->
-                <button type="button" class="btn contact-button" data-toggle="modal" data-target="#formModal">
+                <button type="button" id="contact-button" class="btn btn-lg" data-toggle="modal" data-target="#formModal">
                     Contact Us!
                 </button>
                 
-                <!-- Modal -->
-                <div class="modal fade" id="formModal" tabindex="-1"  data-backdrop="false" aria-labelledby="contact form" aria-hidden="true">
-                    <div class="modal-dialog modal-lg">                    
-                        <div class="modal-header">
-                        <button type="button" id="modalBtnClick" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                        </div>
-                        <div class="modal-body">
-                            <form action="send-message.php" method="post">
-                                <fieldset>
-                                    <legend id="form-header"><h5 class="uppercase">We'd love to hear from you!</h5></legend>
-                                    <label for="name" id="name-label">Name: </label>
-                                    <br>
-                                    <input type="text" class="form-control" id="name" placeholder="Your name" required>
-                                    <br>
-                                    <label for="email-address" id="email-label">Email: </label>
-                                    <br>
-                                    <input type="email" class="form-control" id="email-address" placeholder="Enter email" required>
-                                    <br><br>
-                                    <textarea class="form-control" id="feedback" rows="10" cols="60" name="feedback" placeholder="Hi!" required></textarea>
-                                </fieldset>
-                            </form>
-                        </div>
-                        <div class="modal-footer">
-                        <button type="button" class="btn btn-outline-secondary btn-lg" id="cancel" data-dismiss="modal">Close</button>
-                        <button type="submit" class="btn btn-success btn-lg" id="send">Send!</button>
-                        </div>
-                    
-                    </div>
-                </div>
+                
 
             </div>
 
-            <div class="col-sm-8 social-heading">
-                <h5 class="uppercase">Find Us Online:</h5>
+            <div class="col-sm-8 social-container">
                 <ul class="list-inline social-links">
                     <li class="list-inline-item">
                         <a target="_blank" href="#">
@@ -134,17 +103,40 @@
             </div>                          
         </div>
     </footer>
-    <script src="https://kit.fontawesome.com/fe32e32a81.js" crossorigin="anonymous"></script>
-    <script>
-        $(document).ready(function () {
-        $("#modalBtnClick").on("click", function () {
-            $('#myModal').modal('hide');
-            $('body').removeClass('modal-open');
-            $('.modal-backdrop').remove();
-        });
-    });
-    </script>    
+    <!-- Modal -->
+    <div class="modal fade" id="formModal" tabindex="-1"  data-backdrop="false" aria-labelledby="contact form" aria-hidden="true">
+        <div class="modal-dialog modal-lg"> 
+            <div class="modal-content">
+                <div class="modal-header">
+                <button type="button" id="modalBtnClick" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <form action="send-message.php" method="post">
+                        <fieldset>
+                            <legend id="form-header"><h5 class="uppercase">We'd love to hear from you!</h5></legend>
+                            <label for="name" id="name-label">Name: </label>
+                            <br>
+                            <input type="text" class="form-control" id="name" placeholder="Your name" required>
+                            <br>
+                            <label for="email-address" id="email-label">Email: </label>
+                            <br>
+                            <input type="email" class="form-control" id="email-address" placeholder="Enter email" required>
+                            <br><br>
+                            <textarea class="form-control" id="feedback" rows="10" cols="60" name="feedback" placeholder="Hi!" required></textarea>
+                        </fieldset>
+                    </form>
+                </div>                        
+                <div class="modal-footer">
+                <button type="button" value="Cancel" class="btn btn-outline-secondary btn-lg" id="cancel" data-dismiss="modal">Close</button>
+                <button type="submit" value="Submit" class="btn btn-success btn-lg" id="send">Send!</button>
+            </div>
+        </div>
+    </div>            
+    <script src="https://kit.fontawesome.com/fe32e32a81.js" crossorigin="anonymous"></script>      
 </body>
+
 </html>
 
 

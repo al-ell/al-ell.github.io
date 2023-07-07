@@ -1,9 +1,9 @@
 /*----------------------Colors */
 
-.watch-link,
+#watch-link,
 .nav-container,
 footer {
-    background-color: #425851;
+    background-color: #6c7c77;
 }
 
 
@@ -32,19 +32,24 @@ h5 {
 
 
 
-/*----------------------Heading */
+/*----------------------Header */
 
 #logo {
     font-family: Monoton;
-    font-size: 65px;
+    
     text-align: center;
     margin-top: 15px;
     color: #425851;
 }
 
+/*how to push header/nav down> */
+#header-container,
+#watch-link {
+    margin-top: 10px;
+    min-height: 120px;
+}
 
-watch-link a,
-.menuitem a {
+ a {
     overflow: hidden;
     Margin-top: 5px;
     font-family: "Ubuntu", sans-serif;
@@ -57,41 +62,27 @@ watch-link a,
     margin: 0;
 }
 
-
-/*how to push header/nav down> */
-#header-container {
-    margin-top: 10px;
-    min-height: 120px;
-}
-
-
 /* Change the color of links on hover */
 .menuitem a:hover {
     color: #8f8f8f;
 }
 
-#nav-home {
+#nav-home a {
     color: #8f8f8f;
-    text-decoration: none;
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    letter-spacing: 2px;
-    padding: 5px 5px 10px 5px;
-    margin: 0;
 }
 
-.navbar {
-    text-decoration: none;
-    color: #cdbea7;
+#watch-link {
+    display: flex;  
+    justify-content: center;  
+    align-items: center;
 }
+
 
 /*-------------------Homepage */
 
 #homeimage {
     background: url("../images/homepage-image.jpg");
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 20px;
     width: 100%;
     min-height: 600px;
     background-repeat: no-repeat;
@@ -108,13 +99,6 @@ watch-link a,
 
 /*-------------------Footer */
 
-.contact-heading h5 {
-    text-align: left;
-}
-
-.social-heading h5 {
-    text-align: center;
-}
 
 .social-links li a i {
     width: 45px;
@@ -132,11 +116,9 @@ watch-link a,
     -o-transition: all 0.35s ease-in-out;
 }
 
-.social-links {
-    padding-bottom: 5px;
-    float: right;
-    padding-right: 40px;
 
+.social-links {
+    padding: 15px 40px 5px 20px;
 }
 
 .social-links li a i:hover {
@@ -144,35 +126,39 @@ watch-link a,
     background-color: #8f8f8f;
 }
 
-#footer-details {
-    padding: 10px;
+#footer-container {
+    display: flex;  
+    justify-content: center;  
+    align-items: center;
 }
 
 footer {
     color: #cdbea7;
-    max-height: 100px;
+    min-height: 80px;
     position: fixed;
-    bottom: 5px;
-    width: 85%;
+    bottom: 0;
+    width: 100%;
     margin-top: 10px;
-    border-radius: 25px 25px 25px 25px;
 }
-
 
 
 
 /*-------------------Modal */
 
-.contact-button {
+#contact-button {
 
     background-color: #cdbea7;
     color: #425851;
     text-decoration: none;
     font-family: "Ubuntu", sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
     font-weight: 700;
     font-size: 16px;
     letter-spacing: 1px;
-    padding: 5px 5px 10px 5px;
+    margin: 20px 5px 10px 40px;
+    padding: 5px;
 }
 
 
@@ -229,8 +215,6 @@ footer {
 #cancel,
 #send { 
     font-family: Ubuntu, sans-serif;
-
-
 }
 
 
@@ -246,8 +230,6 @@ footer {
     font-weight: 400;
     font-size: 16px;
     margin: 10px;
-
-
 }
 
 
@@ -256,8 +238,9 @@ footer {
 /*-------------------Media Queries */
 
 
-@media screen and (max-width:576px) {
-    .nav-container {
+@media screen and (max-width:576px) {  
+    .nav-container,
+    #watch-link {
         padding: 20px 40px 20px 10px;
         border-radius: 25px 25px 25px 25px;
     }
@@ -266,32 +249,46 @@ footer {
         margin-bottom: 30px;
     }
 
+    #logo {
+        font-size:
+    }
+
     .modal-content {
-        min-width: 80%;
+        max-width: 80%;
     }
 }
 
 @media screen and (max-width:768px) {
-    .nav-container {
+    .nav-container,
+    .watchlink {
         padding: 20px 40px 20px 10px;
+    }
+    
+    #watch-link {
         border-radius: 25px 25px 25px 25px;
+    }
+
+    #logo {
+        font-size:
     }
 
 }
 
 @media screen and (min-width:768px) {
-    .nav-container {
+    .nav-container,
+    .watchlink {
         padding: 20px 40px 20px 10px;
+    }
+    
+    #watch-link {
         border-radius: 0 25px 25px 0;
     }
 
-    .logo {
+    #logo {
         font-size: 72px;
     }
 }
 
 
-/*-------------------Modal Java*/
 
-$("#myModal").prependTo("body");
 
