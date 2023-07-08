@@ -110,10 +110,17 @@ As an administrator for the site I want to be able to:
 
 ### Colour Scheme
 
-I have taken inspiration from the header image for the colour palette and chosen colours that complement each other.
+I began using the pallete below as inspiration for the colour scheme:
 
-![Colour Scheme for Deaf Cats](documentation/imagecolorpallete.png)
-https://imagecolorpicker.com/en/user/shared-palette?id=753240f0-ee2b-4f3d-beba-6ac52191d34c
+![Colour Scheme for Deaf Cats](https://www.color-hex.com/color-palette/1027514)
+
+I then experimented with different tones and shades of these colours using WebAIM's color contrast checker:
+![Contrast checker][https://webaim.org/resources/contrastchecker/]
+
+
+
+The the contrast ratio for the chosen colors for text and header & footer background elements is 7.5.1
+
 
 ### Typography
 

@@ -3,13 +3,13 @@
 #watch-link,
 .nav-container,
 #footer-container {
-    background-color: #BEBCC8;
+    background-color: #AEABBA;
 }
 
 body,
 #logo,
 .container-fluid {
-    background-color: #EDEDED;
+    background-color: #ececef;
 }
 
 
@@ -21,6 +21,7 @@ h4,
 h5 {
     font-family: "Ubuntu";
     font-weight: 700;
+    color: #1c2543;
 }
 
 h1,
@@ -43,7 +44,7 @@ h5 {
     font-family: Monoton;
     text-align: center;
     margin-top: 15px;
-    color: #1c2543;
+    color: #151C32;
 }
 
 /*how to push header/nav down> */
@@ -68,11 +69,11 @@ h5 {
 
 /* Change the color of links on hover */
 .menuitem a:hover {
-    color: #EDEDED;
+    color: #ececef;
 }
 
 #nav-home a {
-    color: #EDEDED;
+    color: #ececef;
 }
 
 /* snippet below from: https://www.w3schools.com/css/css_align.asp */
@@ -113,8 +114,8 @@ h5 {
     font-size: 24px;
     line-height: 7px;
     text-align: center;
-    color: #EDEDED;
-    background-color: #1c2543;
+    color: #ececef;
+    background-color: #151C32;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -131,7 +132,7 @@ h5 {
 
 .social-links li a i:hover {
     color: #1c2543;
-    background-color: #EDEDED;
+    background-color: #ececef;
 }
 
 #footer-container {
@@ -154,8 +155,8 @@ footer {
 
 #contact-button {
 
-    background-color: #1c2543;
-    color: #EDEDED;
+    background-color: #151C32;
+    color: #ececef;
     text-decoration: none;
     font-family: "Ubuntu", sans-serif;
     text-align: center;
@@ -191,7 +192,7 @@ footer {
     margin: 0 auto;
     position: relative;
     padding: 10px;
-    border: 2px solid #1c2543;
+    border: 2px solid #151C32;
     max-height: 800px;
     border-radius: 25px 25px 25px 25px;
     color: #1c2543;
