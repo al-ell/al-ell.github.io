@@ -141,10 +141,11 @@ Each device tested the site using the following browsers:
 
 | No | Bug | How I solved the issue |
 | :--- | :--- | :--- |
-|  |  |  |  |  |
-| 2 | Modal displayed under background | Stackoverflow forum(https://stackoverflow.com/questions/41292673/bootstrap-modal-opens-but-stays-in-gray-background-and-cannot-close-or-interact) Bootstrap z-index{https://getbootstrap.com/docs/5.0/layout/z-index/} |  |  |
-|  | |  |  |  |
-|  |  |  |  |  |
+| 1 | Hero image won't display | I was seeking tutor support for another issue and Gemma spotted a typo, the class I was attempting to target did not match with the index page. | ![No Hero image](documentation/bugs/bug-hero-image-wont-display.png)  |  |
+|  | Modal displayed under background | Stackoverflow forum(https://stackoverflow.com/questions/41292673/bootstrap-modal-opens-but-stays-in-gray-background-and-cannot-close-or-interact) Bootstrap z-index{https://getbootstrap.com/docs/5.0/layout/z-index/} | ![Modal under background](documentation/bugs/bug-modal-display-under-background.jpg) |  |
+|  | Social media icons altered when bootstrap updated to include script needed for Modal | Tutor assistance sought. I was not using the best Fontawesome icon classes and the script was at the top, not the bottom of the html page. | ![Lost social media icons](documentation/bugs/bug-lost-social-icons-added-modal.jpg) |  |
+|  | Modal components not working when clicked | Rewatched Code Institute video on Modals and moved code to bottom of html page, now fully functioning. |  |  |
+|  | Navigation styling lost when componenet changed to a different bootstrap type |  experimented with targeting different elements that make up the navbar to override Bootstrap default styling. | ![Navbar styling lost](documentation/bugs/bug-navbar-styling-lost.jpg) |  |
 
 - - -
 

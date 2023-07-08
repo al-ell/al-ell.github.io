@@ -2,13 +2,18 @@
 
 #watch-link,
 .nav-container,
-footer {
-    background-color: #6c7c77;
+#footer-container {
+    background-color: #BEBCC8;
+}
+
+body,
+#logo,
+.container-fluid {
+    background-color: #EDEDED;
 }
 
 
 /*-------------------Special paddings/margins/text */
-
 
 h2,
 h3,
@@ -36,10 +41,9 @@ h5 {
 
 #logo {
     font-family: Monoton;
-    
     text-align: center;
     margin-top: 15px;
-    color: #425851;
+    color: #1c2543;
 }
 
 /*how to push header/nav down> */
@@ -54,7 +58,7 @@ h5 {
     Margin-top: 5px;
     font-family: "Ubuntu", sans-serif;
     font-weight: 700;
-    color: #cdbea7;
+    color: #1c2543;
     text-decoration: none;
     font-size: 20px;
     letter-spacing: 2px;
@@ -64,13 +68,14 @@ h5 {
 
 /* Change the color of links on hover */
 .menuitem a:hover {
-    color: #8f8f8f;
+    color: #EDEDED;
 }
 
 #nav-home a {
-    color: #8f8f8f;
+    color: #EDEDED;
 }
 
+/* snippet below from: https://www.w3schools.com/css/css_align.asp */
 #watch-link {
     display: flex;  
     justify-content: center;  
@@ -108,8 +113,8 @@ h5 {
     font-size: 24px;
     line-height: 7px;
     text-align: center;
-    color: #425851;
-    background: #cdbea7;
+    color: #EDEDED;
+    background-color: #1c2543;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -119,11 +124,14 @@ h5 {
 
 .social-links {
     padding: 15px 40px 5px 20px;
+    display: flex;  
+    justify-content: center;  
+    align-items: center;
 }
 
 .social-links li a i:hover {
-    color: #cdbea7;
-    background-color: #8f8f8f;
+    color: #1c2543;
+    background-color: #EDEDED;
 }
 
 #footer-container {
@@ -133,7 +141,6 @@ h5 {
 }
 
 footer {
-    color: #cdbea7;
     min-height: 80px;
     position: fixed;
     bottom: 0;
@@ -147,8 +154,8 @@ footer {
 
 #contact-button {
 
-    background-color: #cdbea7;
-    color: #425851;
+    background-color: #1c2543;
+    color: #EDEDED;
     text-decoration: none;
     font-family: "Ubuntu", sans-serif;
     text-align: center;
@@ -179,20 +186,20 @@ footer {
 }
 
 .modal-dialog {
-    background-color: #fefefe;
+    background-color: #EDEDED;
     z-index: 1060;
     margin: 0 auto;
     position: relative;
     padding: 10px;
-    border: 2px solid #425851;
+    border: 2px solid #1c2543;
     max-height: 800px;
     border-radius: 25px 25px 25px 25px;
-    color: #425851;
+    color: #1c2543;
 }
 
 .modal-header {
     padding: 2px 16px;
-    color: #425851;
+
 }
 
 .modal-body {
@@ -206,7 +213,6 @@ footer {
 
 .modal-footer {
     padding: 2px 16px;
-    color: #425851;
 }
 
 #form-header,
@@ -231,9 +237,6 @@ footer {
     font-size: 16px;
     margin: 10px;
 }
-
-
-
 
 /*-------------------Media Queries */
 
