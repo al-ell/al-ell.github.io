@@ -1,6 +1,5 @@
 /*----------------------Colors */
 
-#watch-link,
 .nav-container,
 #footer-container {
     background-color: #AEABBA;
@@ -43,15 +42,17 @@ h5 {
 #logo {
     font-family: Monoton;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 8px;
     color: #151C32;
+    font-size: 5.5vw;
 }
 
 /*how to push header/nav down> */
-#header-container,
-#watch-link {
+#header-container {
     margin-top: 10px;
-    min-height: 120px;
+    margin-bottom: 5px;
+    max-height: 90px;
+    width: 98%;
 }
 
  a {
@@ -61,10 +62,11 @@ h5 {
     font-weight: 700;
     color: #1c2543;
     text-decoration: none;
+    text-align: right;
     font-size: 20px;
+    float: right;
     letter-spacing: 2px;
     padding: 5px 5px 10px 5px;
-    margin: 0;
 }
 
 /* Change the color of links on hover */
@@ -74,13 +76,6 @@ h5 {
 
 #nav-home a {
     color: #ececef;
-}
-
-/* snippet below from: https://www.w3schools.com/css/css_align.asp */
-#watch-link {
-    display: flex;  
-    justify-content: center;  
-    align-items: center;
 }
 
 
@@ -109,7 +104,7 @@ h5 {
 .social-links li a i {
     width: 45px;
     height: 45px;
-    padding: 20px 0;
+    padding: 15px 0;
     border-radius: 50%;
     font-size: 24px;
     line-height: 7px;
@@ -124,16 +119,36 @@ h5 {
 
 
 .social-links {
-    padding: 15px 40px 5px 20px;
+    padding: 10px 40px 5px 10px;
     display: flex;  
     justify-content: center;  
     align-items: center;
 }
 
+
 .social-links li a i:hover {
     color: #1c2543;
     background-color: #ececef;
 }
+
+/* snippet below from: https://www.w3schools.com/css/css_align.asp */
+#watch-link {
+    display: flex;  
+    justify-content: center;  
+    align-items: center;
+}
+
+.watch-link {
+    font-size: 18px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+}
+
+.watch-link a i:hover {
+    color: #ececef;
+}
+
 
 #footer-container {
     display: flex;  
@@ -142,7 +157,7 @@ h5 {
 }
 
 footer {
-    min-height: 80px;
+    min-height: 60px;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -243,9 +258,11 @@ footer {
 
 
 @media screen and (max-width:576px) {  
-    .nav-container,
-    #watch-link {
+    .nav-container {
         padding: 20px 40px 20px 10px;
+    }
+
+    #header-container {
         border-radius: 25px 25px 25px 25px;
     }
 
@@ -263,12 +280,11 @@ footer {
 }
 
 @media screen and (max-width:768px) {
-    .nav-container,
-    .watchlink {
+    .nav-container {
         padding: 20px 40px 20px 10px;
     }
     
-    #watch-link {
+    #header-container {
         border-radius: 25px 25px 25px 25px;
     }
 
@@ -279,18 +295,14 @@ footer {
 }
 
 @media screen and (min-width:768px) {
-    .nav-container,
-    .watchlink {
+    .nav-container {
         padding: 20px 40px 20px 10px;
     }
     
-    #watch-link {
+    #header-container {
         border-radius: 0 25px 25px 0;
     }
 
-    #logo {
-        font-size: 72px;
-    }
 }
 
 
