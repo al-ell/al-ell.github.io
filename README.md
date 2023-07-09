@@ -334,9 +334,15 @@ Content for this project was written by Alice Elliott.
 
 * Image for gallery [guitar](https://www.pexels.com/photo/two-men-and-woman-sitting-next-to-each-other-2479312/)
 
-* Image for gallery [outdoor-concert](https://www.shutterstock.com/image-photo/jazz-musician-playing-outdoor-concert-1107297416)
+* Image for gallery [outdoor-concert](https://www.pexels.com/photo/man-playing-a-saxophone-16803242/)
 
-* Image for gallery [outdoor-concert2](https://www.shutterstock.com/image-photo/jazz-musician-playing-saxophone-beautiful-voice-1011331978)
+* Image for gallery [outdoor-concert2](https://www.pexels.com/photo/man-and-woman-dancing-while-man-in-black-clothes-playing-the-saxophone-on-the-roof-top-7502577/)
+
+* Image for gallery [drums-studio](https://www.pexels.com/photo/man-in-black-jacket-playing-drum-5650907/)
+
+* Image for gallery [garden-stage](https://www.pexels.com/photo/a-band-playing-music-in-a-park-in-summer-16803238/)
+
+* Image for gallery [closeup-guitar](https://www.pexels.com/photo/close-up-of-a-man-playing-an-electric-guitar-8133318/)
 
 
 ### Acknowledgments
