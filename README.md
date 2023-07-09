@@ -2,7 +2,7 @@
 
 ![Welcome to ](documentation/) - image of homepage in different devices
 
-![Bookworm](documentation/bookworm.png)
+!](documentation/)
 
 Deaf Cats was created as my first milestone project for the Code Institutes Level 5 Diploma in Web Application Development.
 

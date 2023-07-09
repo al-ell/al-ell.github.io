@@ -55,14 +55,13 @@ h5 {
     width: 98%;
 }
 
- a {
+a {
     overflow: hidden;
     Margin-top: 5px;
     font-family: "Ubuntu", sans-serif;
     font-weight: 700;
     color: #1c2543;
     text-decoration: none;
-    text-align: right;
     font-size: 20px;
     float: right;
     letter-spacing: 2px;
@@ -78,18 +77,42 @@ h5 {
     color: #ececef;
 }
 
+.tour-alert {
+    width: 80%;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-top: 3px;
+    max-height: 20px;
+    position: unset;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    position: relative;
+    padding: 0;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#buy-link {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+
+}
+
 
 /*-------------------Homepage */
 
 #homeimage {
-    background: url("../images/homepage-image.jpg");
-    margin-top: 10px;
+    background: url("../images/homepage-image.jpg") no-repeat center center;
+    margin-top: 15px;
     width: 100%;
     min-height: 600px;
-    background-repeat: no-repeat;
     background-size: contain;
     opacity: 0.7;
-    border-radius: 25px;
+    border: 1px solid #151C32;
+    border-radius: 25px 25px 25px 25px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -122,8 +145,8 @@ h5 {
 
 .social-links {
     padding: 10px 40px 5px 10px;
-    display: flex;  
-    justify-content: center;  
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -135,26 +158,26 @@ h5 {
 
 /* snippet below from: https://www.w3schools.com/css/css_align.asp */
 #watch-link {
-    display: flex;  
-    justify-content: center;  
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
-.watch-link {
+#watch-link {
     font-size: 18px;
     display: inline-block;
     text-decoration: none;
     text-align: center;
 }
 
-.watch-link a i:hover {
+#watch-link a i:hover {
     color: #ececef;
 }
 
 
 #footer-container {
-    display: flex;  
-    justify-content: center;  
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -200,7 +223,7 @@ footer {
     border-radius: 0;
     background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.4);
-    
+
 }
 
 .modal-dialog {
@@ -237,7 +260,7 @@ footer {
 #name-label,
 #email-label,
 #cancel,
-#send { 
+#send {
     font-family: Ubuntu, sans-serif;
 }
 
@@ -259,21 +282,24 @@ footer {
 /*-------------------Media Queries */
 
 
-@media screen and (max-width:576px) {  
+@media screen and (max-width:576px) {
     .nav-container {
-        padding: 20px 40px 20px 10px;
+        padding: 10px 10px 10px 5px;
     }
 
+    #homeimage,
     #header-container {
         border-radius: 25px 25px 25px 25px;
     }
 
-    .logo {
+
+    #logo {
+        font-size: 10vh;
         margin-bottom: 30px;
     }
 
-    #logo {
-        font-size:
+    .tour-alert {
+        display: none;
     }
 
     .modal-content {
@@ -283,30 +309,31 @@ footer {
 
 @media screen and (max-width:768px) {
     .nav-container {
-        padding: 20px 40px 20px 10px;
+        padding: 10px 20px 20px 10px;
     }
-    
+
+    #homeimage,
     #header-container {
         border-radius: 25px 25px 25px 25px;
     }
 
-    #logo {
-        font-size:
-    }
+
 
 }
 
 @media screen and (min-width:768px) {
     .nav-container {
-        padding: 20px 40px 20px 10px;
+        padding: 10px 10px 10px 5px;
     }
-    
+
+
+    #homeimage {
+        border-radius: 25px 25px 25px 25px;
+    }
+
+
     #header-container {
         border-radius: 0 25px 25px 0;
     }
 
 }
-
-
-
-
