@@ -8,7 +8,8 @@
 body,
 #logo,
 .container-fluid,
-.modal-content {
+.modal-content,
+.image-gallery-container {
     background-color: #ececef;
 }
 
@@ -64,7 +65,6 @@ a {
     color: #1c2543;
     text-decoration: none;
     font-size: 20px;
-    float: right;
     letter-spacing: 2px;
     padding: 5px 5px 10px 5px;
 }
@@ -82,28 +82,33 @@ a {
     color: #ececef;
 }
 
-.tour-alert {
+.alert {
+    margin-top: 5px;
+    text-align: center;
     width: 80%;
     font-size: 16px;
     letter-spacing: 2px;
-    margin-top: 3px;
+    margin-top: 5px;
     max-height: 20px;
     position: unset;
     font-family: "Ubuntu", sans-serif;
     font-weight: 700;
     position: relative;
-    padding: 0;
-    margin-bottom: 0;
+    padding: 4;
+    margin-bottom: 5;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+
+    
+
 #buy-link {
     font-size: 16px;
     margin: 0;
     padding: 0;
-
+    color: red;
 }
 
 
@@ -111,9 +116,9 @@ a {
 
 #homeimage {
     background: url("../images/homepage-image.jpg") no-repeat center center;
-    margin-top: 15px;
+    margin-top: 10px;
     width: 100%;
-    min-height: 600px;
+    min-height: 400px;
     background-size: contain;
     opacity: 0.7;
     border: 1px solid #151C32;
@@ -121,6 +126,10 @@ a {
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+}
+
+#home-image-container {
+        margin-bottom: 10vh;
 }
 
 
@@ -132,8 +141,8 @@ a {
 
 
 .social-links li a i {
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
     padding: 15px 0;
     border-radius: 50%;
     font-size: 24px;
@@ -149,7 +158,7 @@ a {
 
 
 .social-links {
-    padding: 10px 40px 5px 10px;
+    padding-top: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -179,6 +188,23 @@ a {
     color: #ececef;
 }
 
+#contact-button {
+
+    background-color: #151C32;
+    color: #ececef;
+    text-decoration: none;
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: 20px 5px 10px 40px;
+    padding: 5px;
+}
+
 
 #footer-container {
     display: flex;
@@ -187,11 +213,11 @@ a {
 }
 
 footer {
-    min-height: 60px;
+    max-height: 10vh;
     position: fixed;
     bottom: 0;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 6px;
 }
 
 
@@ -206,12 +232,25 @@ ul {
     list-style: none;
 }
 
+
+.gallery-heading {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Ubuntu, sans-serif;
+    font-size: 35px;
+    color: #1c2543;
+}
+
 /* Responsive image gallery rules begin*/
 
 .image-gallery {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+}
+
+.image-gallery-container {
+    margin-bottom: 11vh;
 }
 
 .image-gallery>li {
@@ -260,22 +299,6 @@ ul {
 
 
 /*-------------------Modal */
-
-#contact-button {
-
-    background-color: #151C32;
-    color: #ececef;
-    text-decoration: none;
-    font-family: "Ubuntu", sans-serif;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    font-weight: 700;
-    font-size: 16px;
-    letter-spacing: 1px;
-    margin: 20px 5px 10px 40px;
-    padding: 5px;
-}
 
 
 .modal {
