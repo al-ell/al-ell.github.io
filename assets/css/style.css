@@ -74,11 +74,9 @@ a {
     color: #ececef;
 }
 
-#nav-home a {
-    color: #ececef;
-}
-
-#nav-gallery a {
+#nav-home a,
+#nav-gallery a,
+#nav-history a {
     color: #ececef;
 }
 
