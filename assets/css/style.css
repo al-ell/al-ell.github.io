@@ -1,5 +1,6 @@
 /*----------------------Colors */
-
+.history-video,
+.history-image,
 article,
 .nav-container,
 #footer-container {
@@ -98,7 +99,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-}  
+}
 
 #buy-link {
     font-size: 16px;
@@ -114,8 +115,9 @@ a {
     background: url("../images/homepage-image.jpg") no-repeat center center;
     margin-top: 10px;
     width: 100%;
-    min-height: 400px;
+    min-height: 600px;
     background-size: contain;
+    padding: 0;
     opacity: 0.7;
     border: 1px solid #151C32;
     border-radius: 25px 25px 25px 25px;
@@ -125,7 +127,7 @@ a {
 }
 
 #home-image-container {
-        margin-bottom: 10vh;
+    margin-bottom: 10vh;
 }
 
 
@@ -133,37 +135,65 @@ a {
     Created with tutorial: (https: //www.youtube.com/watch?v=B_E6Kh9YkFM&t=321s) 
     Source code: (https: //github.com/iamshaunjp/css-flexbox-playlist/tree/master/example-3) */
 
-    #blocks {
-    margin: 5px 10px;
+#blocks {
+    margin: 20px 15px;
+    margin-bottom: 10vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.image,
+.history-video,
+.history-image,
 article {
     margin-bottom: 20px;
-    padding: 10px;
     box-sizing: border-box;
-    flex: 0 1 32%;
     border: 1px solid #151C32;
     border-radius: 25px 25px 25px 25px;
 }
 
-
-
-.image.stack,
-article.stack {
-    flex: 0 1 100%;
+.history-image {
+    padding: 0;
 }
 
-.image {
+#album-recording,
+article {
+    padding: 10px;
+}
+
+.history-image.stack,
+article.stack {
+    flex: 0 1 95%;
+}
+
+.history-video,
+.history-image,
+article {
+    flex: 0 1 32%;
+}
+
+#album-recording,
+#history-video {
+    flex: 0 1 49%;
+    min-height: 350px;
+}
+
+#festival-image {
+    flex: 0 2 66%;
+}
+
+.history-image {
     width: 32%;
     object-fit: fill;
 }
 
-#festival-image {
-    flex: 0 2 64%;
+.hisotry-top-line {
+    max-height: 50%;
+    justify-content: end;
+    align-items: center;
+    overflow: hidden;
+    flex-shrink: 0;
+    width: 32%;
 }
 
 article h2 {
@@ -173,7 +203,7 @@ article h2 {
 }
 
 p {
-    color:#151C32;
+    color: #151C32;
     font-family: "Cabin Condensed", sans-serif;
 }
 
@@ -370,7 +400,7 @@ ul {
     width: 100%;
     background-color: #ececef;
     border: 1px solid #151C32;
-    border-radius: 25px 25px 25px 25px;    
+    border-radius: 25px 25px 25px 25px;
 }
 
 .modal-header {
@@ -379,7 +409,7 @@ ul {
 }
 
 .form-group {
-    font-family:"Cabin Condensed", sans-serif;
+    font-family: "Cabin Condensed", sans-serif;
     color: #151C32;
 }
 
@@ -488,5 +518,3 @@ ul {
         flex: 0 1 32%;
     }
 }
-
-
