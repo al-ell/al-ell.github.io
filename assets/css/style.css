@@ -1,10 +1,12 @@
 /*----------------------Colors */
 
+article,
 .nav-container,
 #footer-container {
     background-color: #AEABBA;
 }
 
+#blocks,
 body,
 #logo,
 .container-fluid,
@@ -22,7 +24,7 @@ h4,
 h5 {
     font-family: "Ubuntu";
     font-weight: 700;
-    color: #1c2543;
+    color: #151C32;
 }
 
 h1,
@@ -38,7 +40,6 @@ h5 {
 }
 
 
-
 /*----------------------Header */
 
 #logo {
@@ -52,7 +53,7 @@ h5 {
 /*how to push header/nav down> */
 #header-container {
     margin-top: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     max-height: 90px;
     width: 98%;
 }
@@ -80,7 +81,7 @@ a {
     color: #ececef;
 }
 
-.alert {
+#ticket-alert {
     margin-top: 5px;
     text-align: center;
     width: 80%;
@@ -97,10 +98,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-
-    
+}  
 
 #buy-link {
     font-size: 16px;
@@ -131,9 +129,45 @@ a {
 }
 
 
+/*-------------------History Flex Grid vs Stack 
+    Created with tutorial: (https: //www.youtube.com/watch?v=B_E6Kh9YkFM&t=321s) 
+    Source code: (https: //github.com/iamshaunjp/css-flexbox-playlist/tree/master/example-3) */
+
+    #blocks {
+    margin: 5px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.image,
+article {
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    flex: 0 1 32%;
+    border: 1px solid #151C32;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.image.stack,
+article.stack {
+    flex: 0 1 100%;
+}
+
+article h2 {
+    text-align: left;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+p {
+    color:#151C32;
+    font-family: "Cabin Condensed", sans-serif;
+}
 
 
-/*-------------------Hover.css *
+/*-------------------Hover.css */
 
 /*-------------------Footer */
 
@@ -154,14 +188,12 @@ a {
     -o-transition: all 0.35s ease-in-out;
 }
 
-
 .social-links {
     padding-top: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 
 .social-links li a i:hover {
     color: #1c2543;
@@ -187,7 +219,6 @@ a {
 }
 
 #contact-button {
-
     background-color: #151C32;
     color: #ececef;
     text-decoration: none;
@@ -202,7 +233,6 @@ a {
     margin: 20px 5px 10px 40px;
     padding: 5px;
 }
-
 
 #footer-container {
     display: flex;
@@ -219,7 +249,6 @@ footer {
 }
 
 
-
 /*-------------------Responsive Gallery Styling */
 
 
@@ -229,7 +258,6 @@ footer {
 ul {
     list-style: none;
 }
-
 
 .gallery-heading {
     margin-top: 10px;
@@ -322,7 +350,7 @@ ul {
     margin: 0 auto;
     position: relative;
     padding: 3px;
-    max-width: 80%
+    max-width: 80%;
     border: 1px solid #151C32;
     border-radius: 25px 25px 25px 25px;
 }
@@ -340,7 +368,7 @@ ul {
 }
 
 .form-group {
-    font-family:'Courier New', Courier, monospace,
+    font-family:"Cabin Condensed", sans-serif;
     color: #151C32;
 }
 
@@ -395,14 +423,18 @@ ul {
         border-radius: 25px 25px 25px 25px;
     }
 
-
     #logo {
         font-size: 10vh;
         margin-bottom: 30px;
     }
 
-    .tour-alert {
+    .ticket-alert {
         display: none;
+    }
+
+    .image.stack,
+    article.stack {
+        flex: 0 1 100%;
     }
 
     .modal-content {
@@ -419,9 +451,6 @@ ul {
     #header-container {
         border-radius: 25px 25px 25px 25px;
     }
-
-
-
 }
 
 @media screen and (min-width:768px) {
@@ -429,14 +458,24 @@ ul {
         padding: 10px 10px 10px 5px;
     }
 
-
     #homeimage {
         border-radius: 25px 25px 25px 25px;
     }
-
 
     #header-container {
         border-radius: 0 25px 25px 0;
     }
 
+    #blocks {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .image,
+    article {
+        flex: 0 1 32%;
+    }
 }
+
+
