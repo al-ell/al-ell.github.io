@@ -324,13 +324,13 @@ Content for this project was written by Alice Elliott.
 
 ### Media
 
+* Homepage Image[street-homeimage](https://www.pexels.com/photo/two-men-and-woman-sitting-next-to-each-other-2479312/)
+
 * Image for gallery [street2](https://www.pexels.com/photo/man-playing-guitar-beside-woman-and-man-listening-to-him-2479320/)
 
 * Image for gallery [street3](https://www.pexels.com/photo/man-playing-guitar-on-street-2479323/)
 
 * Image for gallery [trumpet](https://www.pexels.com/photo/people-performing-on-stage-442540/)
-
-* Homepage Image[street-homeimage](https://www.pexels.com/photo/two-men-and-woman-sitting-next-to-each-other-2479312/)
 
 * Image for gallery [guitar](https://www.pexels.com/photo/two-men-and-woman-sitting-next-to-each-other-2479312/)
 
@@ -343,6 +343,14 @@ Content for this project was written by Alice Elliott.
 * Image for gallery [garden-stage](https://www.pexels.com/photo/a-band-playing-music-in-a-park-in-summer-16803238/)
 
 * Image for gallery [closeup-guitar](https://www.pexels.com/photo/close-up-of-a-man-playing-an-electric-guitar-8133318/)
+
+* Image for history [history1](https://www.pexels.com/search/stage%20and%20tables/)
+
+* Image for history [history2](https://www.pexels.com/photo/16844655/)
+
+* Image for history [band-practice](https://www.pexels.com/photo/16844655/)
+
+* Image for history [festival-stage](https://www.pexels.com/search/festival%20stage/)
 
 
 ### Acknowledgments

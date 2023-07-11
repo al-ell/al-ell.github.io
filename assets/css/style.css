@@ -150,9 +150,20 @@ article {
     border-radius: 25px 25px 25px 25px;
 }
 
+
+
 .image.stack,
 article.stack {
     flex: 0 1 100%;
+}
+
+.image {
+    width: 32%;
+    object-fit: fill;
+}
+
+#festival-image {
+    flex: 0 2 64%;
 }
 
 article h2 {
