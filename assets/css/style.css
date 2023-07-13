@@ -208,7 +208,83 @@ p {
 }
 
 
-/*-------------------Hover.css */
+/*-------------------Responsive Gallery Styling */
+
+/* Code below from tutorial: (https: //blog.logrocket.com/responsive-image-gallery-css-flexbox/)
+    Code source: https: //codesandbox.io/s/delicate-wave-sts6l7?file=/style.css:395-1242) */
+
+ul {
+    list-style: none;
+}
+
+.gallery-heading {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Ubuntu, sans-serif;
+    font-size: 35px;
+    color: #151C32;
+}
+
+/* Responsive image gallery rules begin*/
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.image-gallery-container {
+    marin-top: 10px;
+    margin-bottom: 10vh;
+    min-width: 80%;
+}
+
+.image-gallery>li {
+    flex: 1 1 auto;
+    /* or flex: auto; */
+    height: 400px;
+    cursor: pointer;
+    position: relative;
+}
+
+.image-gallery::after {
+    content: "";
+    flex-grow: 999;
+}
+
+.image-gallery li img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    border-radius: 10px;
+    border: 1px solid #151C32;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(57, 57, 57, 0.502);
+    top: 0;
+    left: 0;
+    transform: scale(0);
+    transition: all 0.2s 0.1s ease-in-out;
+    font-family: "Cabin Condensed", sans-serif;
+    color: #ececef;
+    border-radius: 10px;
+    /* center overlay content */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* hover */
+.image-gallery li:hover .overlay {
+    transform: scale(1);
+}
+
 
 /*-------------------Footer */
 
@@ -290,83 +366,18 @@ footer {
 }
 
 
-/*-------------------Responsive Gallery Styling */
 
+/*-------------------Gallery Page */
 
-/* Code below from tutorial: (https: //blog.logrocket.com/responsive-image-gallery-css-flexbox/)
-    Code source: https: //codesandbox.io/s/delicate-wave-sts6l7?file=/style.css:395-1242) */
-
-ul {
-    list-style: none;
-}
-
-.gallery-heading {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-family: Ubuntu, sans-serif;
-    font-size: 35px;
-    color: #1c2543;
-}
-
-/* Responsive image gallery rules begin*/
-
-.image-gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-.image-gallery-container {
-    margin-bottom: 11vh;
-}
-
-.image-gallery>li {
-    flex: 1 1 auto;
-    /* or flex: auto; */
-    height: 300px;
-    cursor: pointer;
-    position: relative;
-}
-
-.image-gallery::after {
-    content: "";
-    flex-grow: 999;
-}
-
-.image-gallery li img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    vertical-align: middle;
-    border-radius: 5px;
-}
-
-.overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: rgba(57, 57, 57, 0.502);
-    top: 0;
-    left: 0;
-    transform: scale(0);
-    transition: all 0.2s 0.1s ease-in-out;
-    font-family: 'Courier New', Courier, monospace;
-    color: #fff;
-    border-radius: 5px;
-    /* center overlay content */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-/* hover */
-.image-gallery li:hover .overlay {
-    transform: scale(1);
+#gallery-heading {
+    font-size: 42px;
+    margin: 25px 90px;
+    letter-spacing: 2px;
+    padding: 5px;
 }
 
 
 /*-------------------Modal */
-
 
 .modal {
     display: none;
