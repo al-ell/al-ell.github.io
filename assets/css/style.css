@@ -64,7 +64,7 @@ h5 {
 }
 
 /*how to push header/nav down> */
-#header-container {
+.header-container {
     margin-top: 10px;
     margin-bottom: 15px;
     max-height: 90px;
@@ -210,6 +210,7 @@ article {
 .history-image {
     width: 32%;
     object-fit: fill;
+    margin: 5px;
 }
 
 article h2 {
@@ -225,6 +226,26 @@ article p {
     padding: 20px 30px;
 }
 
+
+
+#history-image1 {order: 0;}
+#beginning-text {order: 2;}
+#history-image2 {order: 1;}
+#album-recording {order: 3;}
+#history-video {order: 4;}
+#festival-image {order: 6;}
+#history-current {order: 5;}
+
+
+
+/*-------------------Gallery Page */
+
+#gallery-heading {
+    font-size: 42px;
+    margin: 25px 90px;
+    letter-spacing: 2px;
+    padding: 5px;
+}
 
 /*-------------------Responsive Gallery Styling */
 
@@ -383,18 +404,6 @@ footer {
     margin-top: 6px;
 }
 
-
-
-/*-------------------Gallery Page */
-
-#gallery-heading {
-    font-size: 42px;
-    margin: 25px 90px;
-    letter-spacing: 2px;
-    padding: 5px;
-}
-
-
 /*-------------------Modal */
 
 .modal {
@@ -498,12 +507,27 @@ footer {
         margin-bottom: 30px;
     }
 
+    a {
+        overflow: hidden;
+        Margin-top: 2px;
+        text-decoration: none;
+        font-size: 12px;
+        letter-spacing: 2px;
+        padding: 3px 3px 5px 3px;
+    }
+
+    #grid-stack-toggle,
     #ticket-alert {
         display: none;
     }
 
+    #grid-stack-toggle {
+        display:none;
+    }
+
     .image.stack,
     article.stack {
+        display: flex;
         flex: 0 1 100%;
     }
 
@@ -520,6 +544,11 @@ footer {
     #homeimage,
     #header-container {
         border-radius: 25px 25px 25px 25px;
+    }
+
+    #ticket-alert,
+    #grid-stack-toggle {
+        display: none;
     }
 }
 
