@@ -40,6 +40,15 @@ h5 {
     text-transform: uppercase;
 }
 
+#history-heading,
+#gallery-heading {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Ubuntu, sans-serif;
+    font-size: 35px;
+    color: #151C32;
+}
+
 
 /*----------------------Header */
 
@@ -149,7 +158,7 @@ article {
     margin-bottom: 20px;
     box-sizing: border-box;
     border: 1px solid #151C32;
-    border-radius: 25px 25px 25px 25px;
+    border-radius: 10px;
 }
 
 .history-image {
@@ -199,12 +208,14 @@ article {
 article h2 {
     text-align: left;
     font-size: 20px;
-    margin: 10px 0;
+    padding: 10px 20px;
 }
 
-p {
+article p {
     color: #151C32;
+    font-size: 20px;
     font-family: "Cabin Condensed", sans-serif;
+    padding-left: 10px 15px;
 }
 
 
