@@ -140,16 +140,25 @@ a {
 }
 
 
-/*-------------------History Flex Grid vs Stack 
-    Created with tutorial: (https: //www.youtube.com/watch?v=B_E6Kh9YkFM&t=321s) 
+/*-------------------History Flex Grid vs Stack*/
+
+.history-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*  Created with tutorial: (https: //www.youtube.com/watch?v=B_E6Kh9YkFM&t=321s) 
     Source code: (https: //github.com/iamshaunjp/css-flexbox-playlist/tree/master/example-3) */
 
 #blocks {
-    margin: 20px 15px;
+    margin-top: 20px;
+    margin: 0 auto;
     margin-bottom: 10vh;
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .history-video,
@@ -165,7 +174,7 @@ article {
     padding: 0;
 }
 
-#album-recording,
+
 article {
     padding: 10px;
 }
@@ -178,17 +187,17 @@ article.stack {
 .history-video,
 .history-image,
 article {
-    flex: 0 1 32%;
+    flex: 0 1 30%;
 }
 
 #album-recording,
 #history-video {
-    flex: 0 1 49%;
+    flex: 0 1 47%;
     min-height: 350px;
 }
 
 #festival-image {
-    flex: 0 2 66%;
+    flex: 0 2 64%;
 }
 
 .history-image {
@@ -196,26 +205,17 @@ article {
     object-fit: fill;
 }
 
-.hisotry-top-line {
-    max-height: 50%;
-    justify-content: end;
-    align-items: center;
-    overflow: hidden;
-    flex-shrink: 0;
-    width: 32%;
-}
-
 article h2 {
     text-align: left;
     font-size: 20px;
-    padding: 10px 20px;
+    padding: 20px 25px;
 }
 
 article p {
     color: #151C32;
     font-size: 20px;
     font-family: "Cabin Condensed", sans-serif;
-    padding-left: 10px 15px;
+    padding: 20px 30px;
 }
 
 
@@ -246,12 +246,12 @@ ul {
 }
 
 .image-gallery-container {
-    marin-top: 10px;
+    margin-top: 10px;
     margin-bottom: 10vh;
     min-width: 80%;
 }
 
-.image-gallery>li {
+.image-gallery li {
     flex: 1 1 auto;
     /* or flex: auto; */
     height: 400px;
