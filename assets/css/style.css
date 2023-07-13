@@ -1,11 +1,14 @@
 /*----------------------Colors */
-.history-video,
-.history-image,
-article,
 .nav-container,
 #footer-container {
-    background-color: #AEABBA;
+    background-image: linear-gradient(to right, rgba(148, 97, 142, 0.001), rgba(148, 97, 142, 1));
 }
+
+.history-video,
+article {
+    background-color: rgba(148, 97, 142, 0.5);
+}
+
 
 #blocks,
 body,
@@ -13,7 +16,7 @@ body,
 .container-fluid,
 .modal-content,
 .image-gallery-container {
-    background-color: #ececef;
+    background-color: #F8EEE7;
 }
 
 
@@ -25,7 +28,7 @@ h4,
 h5 {
     font-family: "Ubuntu";
     font-weight: 700;
-    color: #151C32;
+    color: #49274A;
 }
 
 h1,
@@ -46,7 +49,7 @@ h5 {
     margin-bottom: 10px;
     font-family: Ubuntu, sans-serif;
     font-size: 35px;
-    color: #151C32;
+    color: #49274A;
 }
 
 
@@ -56,7 +59,7 @@ h5 {
     font-family: Monoton;
     text-align: center;
     margin-top: 8px;
-    color: #151C32;
+    color: #49274A;
     font-size: 5.5vw;
 }
 
@@ -73,7 +76,7 @@ a {
     Margin-top: 5px;
     font-family: "Ubuntu", sans-serif;
     font-weight: 700;
-    color: #1c2543;
+    color: #49274A;
     text-decoration: none;
     font-size: 20px;
     letter-spacing: 2px;
@@ -91,29 +94,29 @@ a {
     color: #ececef;
 }
 
+
+#alert-container {
+    margin-top: 10px;
+}
+
 #ticket-alert {
-    margin-top: 5px;
+    margin: 5px;
     text-align: center;
-    width: 80%;
     font-size: 16px;
     letter-spacing: 2px;
-    margin-top: 5px;
-    max-height: 20px;
-    position: unset;
+    max-height: 30px;
     font-family: "Ubuntu", sans-serif;
     font-weight: 700;
-    position: relative;
-    padding: 4;
-    margin-bottom: 5;
+    padding: 4px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
 #buy-link {
     font-size: 16px;
     margin: 0;
-    padding: 0;
+    padding: 5px;
     color: red;
 }
 
@@ -174,7 +177,6 @@ article {
     padding: 0;
 }
 
-
 article {
     padding: 10px;
 }
@@ -183,6 +185,11 @@ article {
 article.stack {
     flex: 0 1 95%;
 }
+
+#history-image1.stack {
+    display: none;
+}
+
 
 .history-video,
 .history-image,
@@ -491,7 +498,7 @@ footer {
         margin-bottom: 30px;
     }
 
-    .ticket-alert {
+    #ticket-alert {
         display: none;
     }
 
@@ -537,6 +544,6 @@ footer {
 
     .image,
     article {
-        flex: 0 1 32%;
+        flex: 0 1 30%;
     }
 }
