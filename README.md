@@ -67,9 +67,7 @@ Link to deployed site: [Deaf Cats](https://web-production-b7c20.up.railway.app/)
 
 ### Project Goals
 
-The idea for Bookworm was created from a need I saw that my mum had. Being a voracious reader, she never knew which books she had sat on her bookshelf at home whilst out purchasing new books. She also finds it difficult to keep track of which book she is currently on in a series, and previous authors she has read who she enjoyed and would like to try more of their work.
 
-I felt that the project could then be taken a step further, and could also provide a way to store reviews on books read together with a rating and the dates read. It would also be nice to make notes about a book, for example, if you have loaned the book out to a friend.
 
 ### User Stories
 
@@ -192,13 +190,14 @@ The website is comprised of 4 pages which are extended from a base template.
 * Gallery page
 * History page
 * Live page
+
 * Contact form modal
 
 
 ### Elements found on each page
 
 
-* Navbar - The Navbar is displayed on all pages of the website, it allows users to navigate the site with ease. The navbar is comprised of a logo, and links to navigate within the site and a search bar.
+* Navbar - The Navbar is displayed on all pages of the website, it allows users to navigate the site with ease. The navbar is comprised of a logo, and links to navigate within the site and a search bar. It has a text-colour indicator to show the current page.
 
   __Navbar__
   
@@ -208,7 +207,7 @@ The website is comprised of 4 pages which are extended from a base template.
 
 __Footer__
 
-  ![Footer](documentation/footer.png)
+  ![Footer]()
 
 - - -
 
@@ -238,7 +237,7 @@ __Footer__
 
 In future implementations I would like to:
 
-* Create a ticket booing system/allow users to boy tickets on the website.
+* Create a ticket booking system/allow users to boy tickets on the website.
 * Create an online shop selling merchandise.
 * Add a sign up link for a mailing list.
 
@@ -352,5 +351,6 @@ Content for this project was written by Alice Elliott.
 
 * Image for history [festival-stage](https://www.pexels.com/search/festival%20stage/)
 
+* Video for history [youtube-video](https://youtu.be/wPRwhu7WKp4)
 
 ### Acknowledgments

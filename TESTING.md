@@ -146,6 +146,8 @@ Each device tested the site using the following browsers:
 |  | Social media icons altered when bootstrap updated to include script needed for Modal | Tutor assistance sought. I was not using the best Fontawesome icon classes and the script was at the top, not the bottom of the html page. | ![Lost social media icons](documentation/bugs/bug-lost-social-icons-added-modal.jpg) |  |
 |  | Modal components not working when clicked | Rewatched Code Institute video on Modals and moved code to bottom of html page, now fully functioning. |  |  |
 |  | Navigation styling lost when componenet changed to a different bootstrap type |  experimented with targeting different elements that make up the navbar to override Bootstrap default styling. | ![Navbar styling lost](documentation/bugs/bug-navbar-styling-lost.jpg) |  |
+|  | Youtube video not playing | Change of embed method, now working. |  |  |
+|  |  |  |  |  |
 
 - - -
 
