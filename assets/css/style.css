@@ -228,13 +228,33 @@ article p {
 
 
 
-#history-image1 {order: 0;}
-#beginning-text {order: 2;}
-#history-image2 {order: 1;}
-#album-recording {order: 3;}
-#history-video {order: 4;}
-#festival-image {order: 6;}
-#history-current {order: 5;}
+#history-image1 {
+    order: 0;
+}
+
+#beginning-text {
+    order: 2;
+}
+
+#history-image2 {
+    order: 1;
+}
+
+#album-recording {
+    order: 3;
+}
+
+#history-video {
+    order: 4;
+}
+
+#festival-image {
+    order: 6;
+}
+
+#history-current {
+    order: 5;
+}
 
 
 
@@ -522,7 +542,7 @@ footer {
     }
 
     #grid-stack-toggle {
-        display:none;
+        display: none;
     }
 
     .image.stack,
@@ -546,8 +566,7 @@ footer {
         border-radius: 25px 25px 25px 25px;
     }
 
-    #ticket-alert,
-    #grid-stack-toggle {
+    #ticket-alert {
         display: none;
     }
 }
