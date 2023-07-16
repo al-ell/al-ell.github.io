@@ -98,7 +98,7 @@ nav a:hover {
 }
 
 #alert-container {
-    margin-top: 15px;
+    margin-top: 3vh;
 }
 
 #ticket-alert {
@@ -125,6 +125,11 @@ nav a:hover {
 
 /*-------------------Homepage */
 
+.home-container {
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+}
+
 #homeimage {
     background: url("../images/homepage-image.jpg") no-repeat center center;
     width: 100%;
@@ -141,14 +146,13 @@ nav a:hover {
 
 #home-image-container {
     margin-top: 5vh;
-    margin-bottom: 10vh;
 }
 
 
 /*-------------------History Page */
 
 .history-grid-container {
-    margin-top: 12vh;
+    margin-top: 5vh;
     width: 90%;
     margin-bottom: 10vh;
 }
@@ -202,10 +206,12 @@ nav a:hover {
 /*-------------------Gallery Page */
 
 #gallery-heading {
-    font-size: 42px;
-    margin: 25px 90px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Ubuntu, sans-serif;
+    font-size: 35px;
     letter-spacing: 2px;
-    padding: 5px;
+    color: #151C32;
 }
 
 /*-------------------Responsive Gallery Styling */
@@ -222,6 +228,7 @@ ul {
     margin-bottom: 10px;
     font-family: Ubuntu, sans-serif;
     font-size: 35px;
+    letter-spacing: 2px;
     color: #151C32;
 }
 
@@ -235,7 +242,7 @@ ul {
 }
 
 .image-gallery-container {
-    margin-top: 10px;
+    margin-top: 5vh;
     margin-bottom: 10vh;
     min-width: 80%;
 }

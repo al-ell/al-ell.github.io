@@ -29,8 +29,8 @@
                 <div class="col-md-5 col-sm-12" id="logo-container">
                     <h1 class="logo" id="logo">Deaf Cats</h1>
                 </div>
-                <div class="col-md-7 col-sm-12 nav-container topnav" id="nav-container">
-                    <div class="container-fluid">
+                <div class="col-md-7 col-sm-12 nav-container topnav header-container" id="nav-container">
+                    <div class="container">
                         <nav class="navbar navbar-expand-lg uppercase">
                             <button class="navbar-toggler" type="button" data-toggle="collapse"
                                 data-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
@@ -39,12 +39,12 @@
                             </button>
                             <div class="collapse navbar-collapse topnav" id="navbarText">
                                 <ul class="navbar-nav mr-auto">
-                                    <li class="nav-item" id="nav-home">
-                                        <a class="nav-link" href="index.html">Home<span
-                                                class="sr-only">(current)</span></a>
-                                    </li>
                                     <li class="nav-item menuitem">
-                                        <a class="nav-link" href="gallery.html">Gallery</a>
+                                        <a class="nav-link" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item" id="nav-gallery">
+                                        <a class="nav-link" href="gallery.html">Gallery <span
+                                                class="sr-only">(current)</span></a>
                                     </li>
                                     <li class="nav-item menuitem">
                                         <a class="nav-link" href="history.html">History</a>
@@ -59,17 +59,14 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid no-gutters" id="alert-container">
-            <div class="row justify-content-center">
-                <div class="col-sm-8 col-md-6 col-lg-5 alert alert-dark uppercase" id="ticket-alert" role="alert">
-                    New Tour Dates Added!! <a href="https://www.ticketmaster.co.uk/" class="alert-link"
-                        id="buy-link">Buy
-                        Now!</a>
-                </div>
+        <div class="row no-gutters justify-content-center" id="alert-container">
+            <div class="col-md-4 col-lg-3 alert alert-dark uppercase" id="ticket-alert" role="alert">
+                New Tour Dates Added!! <a href="https://www.ticketmaster.co.uk/" class="alert-link" id="buy-link">Buy
+                    Now!</a>
             </div>
         </div>
     </header>
-    <div class="container-fluid">
+    <div class="container-fluid home-container">
         <div class="row justify-content-center no-gutters" id="home-image-container">
             <div class="col-6 home-image" id="homeimage"
                 aria-labelledby="a picture of the group playing guitar on the street"></div>
