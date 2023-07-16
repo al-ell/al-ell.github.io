@@ -3,7 +3,12 @@
     background-image: linear-gradient(to right, rgba(148, 97, 142, 0.001), rgba(148, 97, 142, 1));
 }
 
-.history-content,
+.history-content-top-row,
+.history-content {
+    background-color: rgba(148, 97, 142, 0.8);
+}
+
+
 #footer-container {
     background-color: rgba(148, 97, 142, 1);
 }
@@ -142,8 +147,8 @@ nav a:hover {
 
 /*-------------------History Page */
 
-.history-container {
-    margin-top: 20px;
+.history-grid-container {
+    margin-top: 12vh;
     width: 90%;
     margin-bottom: 10vh;
 }
@@ -165,17 +170,33 @@ nav a:hover {
     border-radius: 10px;
 }
 
+#festival-image {
+    background: url("../images/festival-stage.jpg") no-repeat center center;
+    background-size: cover;
+    padding: 0;
+}
+
+.history-content-top-row,
 .history-content {
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 8px;
+    margin-bottom: 10px;
     min-height: 340px;
     box-sizing: border-box;
     border: 1px solid #151C32;
     border-radius: 10px;
 }
 
-article {
-    padding: 20px 15px;
+.history-text h4 {
+    text-align: left;
+    font-size: 20px;
+    padding: 20px 25px;
+}
+
+.history-text p {
+    color: #151C32;
+    font-size: 20px;
+    font-family: "Cabin Condensed", sans-serif;
+    padding: 20px 30px;
 }
 
 /*-------------------Gallery Page */
@@ -489,12 +510,12 @@ footer {
         border-radius: 25px 25px 25px 25px;
     }
 
-    .history-content {
+    .history-content-top-row {
         max-width: 32%;
     }
 
-    #ep-content {
-        max-width: 48%;
+    .history-content {
+        max-width: 49%;
     }
 
 }
