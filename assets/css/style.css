@@ -1,19 +1,16 @@
 /*----------------------Colors */
-.nav-container,
-#footer-container {
+.nav-container {
     background-image: linear-gradient(to right, rgba(148, 97, 142, 0.001), rgba(148, 97, 142, 1));
 }
 
-.history-video,
-article {
-    background-color: rgba(148, 97, 142, 0.5);
+
+#footer-container {
+    background-color: rgba(148, 97, 142, 1);
 }
 
 
-#blocks,
 body,
 #logo,
-.container-fluid,
 .modal-content,
 .image-gallery-container {
     background-color: #F8EEE7;
@@ -71,6 +68,7 @@ h5 {
     width: 98%;
 }
 
+
 a {
     overflow: hidden;
     Margin-top: 5px;
@@ -84,19 +82,19 @@ a {
 }
 
 /* Change the color of links on hover */
-.menuitem a:hover {
+nav a:hover {
     color: #ececef;
 }
 
+/*Change the color of the link for current page */
 #nav-home a,
 #nav-gallery a,
 #nav-history a {
     color: #ececef;
 }
 
-
 #alert-container {
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 #ticket-alert {
@@ -107,7 +105,7 @@ a {
     max-height: 30px;
     font-family: "Ubuntu", sans-serif;
     font-weight: 700;
-    padding: 4px;
+    padding: 6px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -143,118 +141,8 @@ a {
 }
 
 
-/*-------------------History Flex Grid vs Stack*/
+/*-------------------History Page */
 
-.history-heading {
-    display: flex;
-    justify-content: space-between;
-}
-
-
-/*  Created with tutorial: (https: //www.youtube.com/watch?v=B_E6Kh9YkFM&t=321s) 
-    Source code: (https: //github.com/iamshaunjp/css-flexbox-playlist/tree/master/example-3) */
-
-#blocks {
-    margin-top: 20px;
-    margin: 0 auto;
-    margin-bottom: 10vh;
-    width: 90%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.history-video,
-.history-image,
-article {
-    margin-bottom: 20px;
-    box-sizing: border-box;
-    border: 1px solid #151C32;
-    border-radius: 10px;
-}
-
-.history-image {
-    padding: 0;
-}
-
-article {
-    padding: 10px;
-}
-
-.history-image.stack,
-article.stack {
-    flex: 0 1 95%;
-}
-
-#history-image1.stack {
-    display: none;
-}
-
-
-.history-video,
-.history-image,
-article {
-    flex: 0 1 30%;
-}
-
-#album-recording,
-#history-video {
-    flex: 0 1 47%;
-    min-height: 350px;
-}
-
-#festival-image {
-    flex: 0 2 64%;
-}
-
-.history-image {
-    width: 32%;
-    object-fit: fill;
-    margin: 5px;
-}
-
-article h2 {
-    text-align: left;
-    font-size: 20px;
-    padding: 20px 25px;
-}
-
-article p {
-    color: #151C32;
-    font-size: 20px;
-    font-family: "Cabin Condensed", sans-serif;
-    padding: 20px 30px;
-}
-
-
-
-#history-image1 {
-    order: 0;
-}
-
-#beginning-text {
-    order: 2;
-}
-
-#history-image2 {
-    order: 1;
-}
-
-#album-recording {
-    order: 3;
-}
-
-#history-video {
-    order: 4;
-}
-
-#festival-image {
-    order: 6;
-}
-
-#history-current {
-    order: 5;
-}
 
 
 
@@ -390,7 +278,7 @@ ul {
     text-align: center;
 }
 
-#watch-link a i:hover {
+#watch-link a:hover {
     color: #ececef;
 }
 
@@ -513,8 +401,9 @@ footer {
 
 
 @media screen and (max-width:576px) {
-    #nav-container {
-        padding: 10px 10px 10px 5px;
+    .nav-container {
+        display: none;
+
     }
 
     #homeimage,
@@ -534,21 +423,6 @@ footer {
         font-size: 12px;
         letter-spacing: 2px;
         padding: 3px 3px 5px 3px;
-    }
-
-    #grid-stack-toggle,
-    #ticket-alert {
-        display: none;
-    }
-
-    #grid-stack-toggle {
-        display: none;
-    }
-
-    .image.stack,
-    article.stack {
-        display: flex;
-        flex: 0 1 100%;
     }
 
     .modal-content {
@@ -573,25 +447,11 @@ footer {
 
 @media screen and (min-width:768px) {
     #nav-container {
-        padding: 10px 10px 10px 5px;
+        border-radius: 0 25px 25px 0;
     }
 
     #homeimage {
         border-radius: 25px 25px 25px 25px;
     }
 
-    #nav-container {
-        border-radius: 0 25px 25px 0;
-    }
-
-    #blocks {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-
-    .image,
-    article {
-        flex: 0 1 30%;
-    }
 }

@@ -13,6 +13,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
         crossorigin="anonymous"></script>
+    <!-- below jquery script from CSS flexbox tutorial: (https://www.youtube.com/watch?v=B_E6Kh9YkFM&t=321s)-->
+    <script src="https://code.jquery.com/jquery-1.12.1.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <link
         href="https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;500&family=Monoton&family=Ubuntu:wght@400;500;700&display=swap"
@@ -29,8 +31,8 @@
                 <div class="col-md-5 col-sm-12" id="logo-container">
                     <h1 class="logo" id="logo">Deaf Cats</h1>
                 </div>
-                <div class="col-md-7 col-sm-12 nav-container topnav" id="nav-container">
-                    <div class="container-fluid">
+                <div class="col-md-7 col-sm-12 nav-container topnav header-container" id="nav-container">
+                    <div class="container">
                         <nav class="navbar navbar-expand-lg uppercase">
                             <button class="navbar-toggler" type="button" data-toggle="collapse"
                                 data-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
@@ -45,8 +47,9 @@
                                     <li class="nav-item menuitem">
                                         <a class="nav-link" href="gallery.html">Gallery</a>
                                     </li>
-                                    <li class="nav-item menuitem" id="nav-hisotry">
-                                        <a class="nav-link" href="history.html">History<span class="sr-only">(current)</span></a>
+                                    <li class="nav-item menuitem" id="nav-history">
+                                        <a class="nav-link" href="history.html">History<span
+                                                class="sr-only">(current)</span></a>
                                     </li>
                                     <li class="nav-item menuitem">
                                         <a class="nav-link" href="#">Live</a>
@@ -61,18 +64,77 @@
         <div class="container-fluid no-gutters" id="alert-container">
             <div class="row justify-content-center">
                 <div class="col-sm-8 col-md-6 col-lg-5 alert alert-dark uppercase" id="ticket-alert" role="alert">
-                    New Tour Dates Added!! <a href="https://www.ticketmaster.co.uk/" class="alert-link"
-                        id="buy-link">Buy
+                    New Tour Dates Added!! <a href="https://www.ticketmaster.co.uk/" class="alert-link" id="buy-link">Buy
                         Now!</a>
                 </div>
             </div>
         </div>
     </header>
-    <div class="container-fluid">
-        <div class="row justify-content-center no-gutters" id="home-image-container">
-            <div class="col-6 home-image" id="homeimage"
-                aria-labelledby="a picture of the group playing guitar on the street"></div>
+    <div class="container-fluid history-heading">
+        <h2 class="uppercase" id="history-heading">Our History</h2>
+        <div style="margin: 20px;" id="grid-stack-toggle">
+            <span class="uppercase">Layout: </span>
+            <a href="#" class="stack">Stack</a>
+            <a href="#" class="grid">Grid</a>
         </div>
+    </div> 
+
+    <!--Created with tutorial: (https: //www.youtube.com/watch?v=B_E6Kh9YkFM&t=321s) 
+        Source code: (https: //github.com/iamshaunjp/css-flexbox-playlist/tree/master/example-3)-->
+    <div class="flexbox-container" id="blocks">
+        <img src="assets/images/band-practice-cropped.png" alt="playing guitar live" class="history-image" id="history-image1">
+        <article class="history-text" id="beginning-text">
+            <h4 class="uppercase">The Beginning</h4>
+            <p>
+                We met at college and quickly bonded over music and started going to gigs together! It wasn't long until
+                we started to
+                make music, mostly playing little ditties we made up.
+
+                Things started to get a bit more serious and we started to look for a rehearsal space. We were in luck..
+                David's dad had
+                a garage and the neighbours didn't mind!
+
+                Next we needed a name, we took inspiration from Suzy's childhood cat who had just been confirmed as 100%
+                deaf by the
+                vet! We started playing at open mic nights, a lot of the bars asked us to come and play bigger sets! So
+                we had to learn a lot
+                more songs...
+            </p>
+        </article>
+        <img src="assets/images/history2cropped.png" alt="the drum kit in our first rehersal space" class="history-image" id="history-image2">
+        <article class="history-text" id="album-recording">
+            <h4 class="uppercase">Our first EP</h4>
+            <p>
+                We were playing somewhere most weekends, but we wanted to play our own music! We got to writing and it
+                all flowed so
+                naturally..
+
+                When we were starting to think about recording a good friend of ours reccomended a producer who really
+                helped us find
+                our sound! We are forever grateful.
+
+                We released it digitally at first, but we had lots of requests for record imprints. The small batch were
+                all sold before
+                we had them made! We never expected to be so in demand, a full album followed 6 months later to rave
+                reviews!
+            </p>
+        </article>
+        <iframe class="history-video" id="history-video" src="https://www.youtube.com/embed/wPRwhu7WKp4" title="YouTube video player" frameborder="0"
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <img src="assets/images/festival-stage.jpg" alt="playing at Greenman festival" class="history-image" id="festival-image">
+        <article class="history-text" id="history-current">
+            <h4 class="uppercase">Headlining Greenman Festival</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore
+                magna
+                aliqua. Pharetra diam sit amet nisl suscipit. Augue interdum velit euismod in. Felis donec et odio
+                pellentesque
+                diam
+                volutpat commodo. Molestie at elementum eu facilisis sed odio morbi. Tempus iaculis urna id volutpat
+                lacus
+                laoreet non.
+            </p>
+        </article>
     </div>
     <footer class="container-fluid">
         <div class="row justify-content-center" id="footer-container">
@@ -120,8 +182,7 @@
         </div>
     </footer>
     <!-- Modal -->
-    <div class="modal fade" id="formModal" tabindex="-1" data-backdrop="false" aria-labelledby="contact form"
-        aria-hidden="true">
+    <div class="modal fade" id="formModal" tabindex="-1" data-backdrop="false" aria-labelledby="contact form" aria-hidden="true">
         <div class="modal-dialog modal-lg justify-content-center">
             <div class="modal-content">
                 <div class="modal-header">
@@ -156,7 +217,16 @@
                 </div>
             </div>
         </div>
-        <script src="https://kit.fontawesome.com/fe32e32a81.js" crossorigin="anonymous"></script>
+    </div>
+    <script src="https://kit.fontawesome.com/fe32e32a81.js" crossorigin="anonymous"></script>
+    <script>
+        $("a.stack").on("click", function () {
+            $("article").addClass("stack");
+        });
+        $("a.grid").on("click", function () {
+            $("article").removeClass("stack");
+        });
+    </script>
 </body>
 
 </html>
