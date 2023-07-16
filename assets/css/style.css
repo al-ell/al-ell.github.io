@@ -3,7 +3,7 @@
     background-image: linear-gradient(to right, rgba(148, 97, 142, 0.001), rgba(148, 97, 142, 1));
 }
 
-
+.history-content,
 #footer-container {
     background-color: rgba(148, 97, 142, 1);
 }
@@ -123,10 +123,9 @@ nav a:hover {
 
 #homeimage {
     background: url("../images/homepage-image.jpg") no-repeat center center;
-    margin-top: 10px;
     width: 100%;
     min-height: 600px;
-    background-size: contain;
+    background-size: cover;
     padding: 0;
     opacity: 0.7;
     border: 1px solid #151C32;
@@ -137,6 +136,8 @@ nav a:hover {
 }
 
 #home-image-container {
+    margin-top: 5vh;
+    ;
     margin-bottom: 10vh;
 }
 
@@ -148,26 +149,42 @@ nav a:hover {
     margin-top: 20px;
     margin: 0 auto;
     margin-bottom: 10vh;
-    width: 90%;
+    width: 95%;
+}
+
+
+#history-image1 {
+    background: url("../images/band-practice-cropped.png") no-repeat bottom center;
+    background-size: cover;
+}
+
+#history-image2 {
+    background: url("../images/history2cropped.png") no-repeat bottom center;
+    background-size: cover;
+    padding: 0;
+}
+
+#history-video {
+    min-height: 350px;
+    width: 100%;
+    border-radius: 10px;
 }
 
 .history-content {
-    min-height: 600px;
-    background-size: contain;
-    padding: 0;
-    max-width: 300px;
-    margin-bottom: 20px;
+    margin: 5px 10px;
+    min-height: 400px;
+    max-width: 32%;
     box-sizing: border-box;
     border: 1px solid #151C32;
     border-radius: 10px;
 }
 
-.history-image {
-    padding: 0;
+#ep-text {
+    max-width: 48%;
 }
 
 article {
-    padding: 10px;
+    padding: 20px 15px;
 }
 
 /*-------------------Gallery Page */
