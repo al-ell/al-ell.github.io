@@ -68,7 +68,6 @@ h5 {
     width: 98%;
 }
 
-
 a {
     overflow: hidden;
     Margin-top: 5px;
@@ -137,21 +136,17 @@ nav a:hover {
 
 #home-image-container {
     margin-top: 5vh;
-    ;
     margin-bottom: 10vh;
 }
 
 
 /*-------------------History Page */
 
-
 .history-container {
     margin-top: 20px;
-    margin: 0 auto;
+    width: 90%;
     margin-bottom: 10vh;
-    width: 95%;
 }
-
 
 #history-image1 {
     background: url("../images/band-practice-cropped.png") no-repeat bottom center;
@@ -171,16 +166,12 @@ nav a:hover {
 }
 
 .history-content {
-    margin: 5px 10px;
-    min-height: 400px;
-    max-width: 32%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    min-height: 340px;
     box-sizing: border-box;
     border: 1px solid #151C32;
     border-radius: 10px;
-}
-
-#ep-text {
-    max-width: 48%;
 }
 
 article {
@@ -458,6 +449,17 @@ footer {
         padding: 3px 3px 5px 3px;
     }
 
+    .history-content {
+        margin: 5px;
+    }
+
+    .history-grid-container {
+        margin-top: 20vh;
+        display: inline-grid;
+        justify-items: center;
+        width: 90%;
+    }
+
     .modal-content {
         max-width: 80%;
     }
@@ -485,6 +487,14 @@ footer {
 
     #homeimage {
         border-radius: 25px 25px 25px 25px;
+    }
+
+    .history-content {
+        max-width: 32%;
+    }
+
+    #ep-content {
+        max-width: 48%;
     }
 
 }
