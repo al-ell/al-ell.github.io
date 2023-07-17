@@ -3,6 +3,7 @@
     background-image: linear-gradient(to right, rgba(148, 97, 142, 0.001), rgba(148, 97, 142, 1));
 }
 
+.tl-item,
 .history-content-top-row,
 .history-content {
     background-color: rgba(148, 97, 142, 0.8);
@@ -45,14 +46,16 @@ h5 {
     text-transform: uppercase;
 }
 
+#live-heading,
 #history-heading,
 #gallery-heading {
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-family: Ubuntu, sans-serif;
     font-size: 35px;
+    letter-spacing: 2px;
     color: #49274A;
 }
+
 
 
 /*----------------------Header */
@@ -73,10 +76,12 @@ h5 {
     width: 98%;
 }
 
+/*tutor support to help with nav alignment*/
 #navbarText {
     justify-content: flex-end;
 }
 
+/*tutor support to help with nav alignment*/
 #nav-list {
     margin: 0 !important;
     margin-left: auto;
@@ -214,14 +219,7 @@ nav a:hover {
 
 /*-------------------Gallery Page */
 
-#gallery-heading {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    font-family: Ubuntu, sans-serif;
-    font-size: 35px;
-    letter-spacing: 2px;
-    color: #151C32;
-}
+
 
 /*-------------------Responsive Gallery Styling */
 
@@ -304,14 +302,70 @@ ul {
 
 /*-------------------Live */
 
-.tour-dates-container {
-    margin: 20px auto;
+
+.timeline-area {
+    border-left: 4px solid #49274A;
+
 }
 
-.tour-box {
-    background-color: rgba(148, 97, 142, 0.8);
+.tl-item {
+    color: #49274A;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: 3px solid #49274A;
+    border-radius: 10px;
+    width: 40%;
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
+.tl-item::before {
+    content: '';
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgba(148, 97, 142, 1);
+    border: 2px solid #49274A;
+    position: absolute;
+    top: 8px;
+    left: -41px;
+}
+
+.tl-item::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent #49274A transparent transparent;
+    border-width: 12px;
+    position: absolute;
+    left: -26px;
+    top: 5px;
+}
+
+
+.tl-item h4 {
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.tl-item h5 {
+    font-size: 18px;
+    padding: 5px;
+    text-align: center;
+}
+
+.btn-link {
+    text-decoration: none;
+    text-align: right;
+    font-size: 22px;
+    color: #49274A;
+    font-family: "Cabin Condensed", sans-serif;
+    font-weight: 600;
+}
 
 /*-------------------Footer */
 
@@ -333,11 +387,13 @@ ul {
 }
 
 .social-links {
-    padding-top: 15px;
+    padding: 15px 0;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+
 
 .social-links li a i:hover {
     color: #1c2543;
@@ -369,27 +425,18 @@ ul {
     font-family: "Ubuntu", sans-serif;
     text-align: center;
     display: flex;
-    justify-content: center;
-    align-items: center;
     font-weight: 700;
     font-size: 16px;
     letter-spacing: 1px;
-    margin: 20px 5px 10px 40px;
+    margin: 0;
     padding: 5px;
 }
 
-#footer-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 footer {
-    max-height: 10vh;
     position: fixed;
     bottom: 0;
     width: 100%;
-    margin-top: 6px;
 }
 
 /*-------------------Modal */
@@ -473,19 +520,30 @@ footer {
 
 
 @media screen and (max-width:576px) {
-    .nav-container {
-        display: none;
-
-    }
-
+    /*--- Header*/
     #homeimage,
     #nav-container {
         border-radius: 25px 25px 25px 25px;
     }
 
+    #logo-container {
+        top: 35vh;
+    }
+
     #logo {
         font-size: 10vh;
-        margin-bottom: 30px;
+        margin-bottom: 30px 0;
+    }
+
+    #ticket-alert {
+        display: none;
+    }
+    /*--- Special Margins and Text*/
+    #live-heading,
+    #history-heading,
+    #gallery-heading {
+        margin-top: 20px;
+        margin-bottom: 10px;
     }
 
     a {
@@ -497,25 +555,62 @@ footer {
         padding: 3px 3px 5px 3px;
     }
 
+     /*--- History*/
+
     .history-content {
         margin: 5px;
     }
 
     .history-grid-container {
-        margin-top: 20vh;
-        display: inline-grid;
-        justify-items: center;
-        width: 90%;
+        margin-top: 15vh;
     }
 
-    .modal-content {
-        max-width: 80%;
+    /*--- Live*/
+
+    .timeline-container {
+        margin-top: 250px;
+        margin-left: 20px;
     }
+
+    .timeline-area {
+        margin-top: 10px;
+    }
+
+    .tl-item {
+        width: 90%;
+        height: 140px;
+    }
+
+    /*--- Footer*/
+
+    .social-container {
+        padding-bottom: 50px;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        align-items: center;
+        width: 50%;
+
+    }
+
+    .contact-container {
+        padding: 2vh 4vh;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        width: 50%;
+    }
+
+    footer {
+        max-height: 7vh;
+        align-items: center;
+    }
+
 }
 
 @media screen and (max-width:768px) {
     #nav-container {
         padding: 10px 20px 20px 10px;
+        background-color: rgba(148, 97, 142, 1);
+        margin: 0 auto;
     }
 
     #homeimage,
@@ -523,8 +618,29 @@ footer {
         border-radius: 25px 25px 25px 25px;
     }
 
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
     #ticket-alert {
         display: none;
+    }
+
+    .timeline-area {
+        margin-top: 10px;
+    }
+
+    .tl-item {
+        width: 90%;
+        height: 140px;
+    }
+
+
+    .contact-container,
+    .social-container {
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -537,6 +653,12 @@ footer {
         border-radius: 25px 25px 25px 25px;
     }
 
+    #live-heading,
+    #history-heading,
+    #gallery-heading {
+        margin-top: 20px;
+    }
+
     .history-content-top-row {
         max-width: 32%;
     }
@@ -544,5 +666,19 @@ footer {
     .history-content {
         max-width: 49%;
     }
+
+    .timeline-area {
+        margin-top: 5vh;
+    }
+
+    .tl-item {
+        width: 60%;
+        height: 160px;
+    }
+
+    footer {
+        max-height: 10vh;
+    }
+
 
 }

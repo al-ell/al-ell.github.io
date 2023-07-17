@@ -24,7 +24,7 @@
 
 <body>
     <header>
-        <div class="container-fluid no-gutters header-container">
+        <div class="container-fluid no-gutters header-container flex-container">
             <div class="row">
                 <div class="col-md-5 col-sm-12" id="logo-container">
                     <h1 class="logo" id="logo">Deaf Cats</h1>
@@ -59,135 +59,109 @@
             </div>
         </div>
         <div class="row no-gutters justify-content-center" id="alert-container">
-            <div class="col-md-4 col-lg-3 alert alert-dark uppercase" id="ticket-alert" role="alert">
-                New Tour Dates Added!! <a href="https://www.ticketmaster.co.uk/" class="alert-link" id="buy-link">Buy
+            <div class="col-md-5 col-lg-4 alert alert-dark uppercase" id="ticket-alert" role="alert">
+                New Tour Dates Added!! <a href="https://www.ticketmaster.co.uk/" target="_blank" class="alert-link"
+                    id="buy-link">Buy
                     Now!</a>
             </div>
         </div>
     </header>
-    <div class="container-fluid home-container">
-        <div class="row justify-content-center no-gutters">
-            <div class="col-sm-12 col-md-10">
-                <div class="live-dates-container">
-                    <div class="container-fluid tour-box">
-                        <article>
-                            <h5>Clwb Ifor Bach, Cardiff</h5>
-                            <p>19 August 2023</p>
-                            <a href="#" class="btn uppercase btn-link ticket-link" role="button">Buy</a>
-                        </article>
-                    </div>
-
-
-
+    <div class="container timeline-container">
+        <h2 class="uppercase" id="live-heading">See Us On Tour</h2>
+        <div class="row justify-content-center timeline-area">
+            <div class="col-sm-10 col-lg-8">
+                <div class="tl-item">
+                    <h4>Clwb Ifor Bach, Cardiff</h4>
+                    <h5>19 August 2023</h5>
+                    <a href="https://clwb.net/" class="btn uppercase btn-link ticket-link" target="_blank"
+                        role="button">Buy</a>
                 </div>
-
-
-
-
-
-
-                <div class="row no-gutters tour-table">
-                    <div class="col-3 date">
-                        <h5 class="uppercase">When</h5>
-                    </div>
-                    <div class="col-3 venue">
-                        <h5 class="uppercase">Where</h5>
-                    </div>
-                    <div class="col-3 buy-button">
-                        <h5 class="uppercase">Tickets</h5>
-                    </div>
-                    <div class="w-100"></div>
-                    <div class="col-3 date"><time datetime="2023-08-18T20:00"></div>
-                    <div class="col-3 venue"><span>Clwb Ifor Bach, Cardiff</span></div>
-                    <div class="col-3 buy-button">
-                        <a href="#" class="btn uppercase btn-link ticket-link" role="button">Buy</a>
-                    </div>
-                    <div class="w-100"></div>
-                    <div class="col-3 date" datetime="T20:00"></div>
-                    <div class="col-3 venue"><span>Bath Moles, Bath</span></div>
-                    <div class="col-3 buy-button">
-                        <a href="#" class="btn uppercase btn-link ticket-link" role="button">Buy</a>
-                    </div>
-                    <div class="w-100"></div>
-                    <div class="col-3 date" datetime="18/08.2023T20:00"></div>
-                    <div class="col-3 venue"><span>The Crescent, York</span></div>
-                    <div class="col-3 buy-button">
-                        <a href="#" class="btn uppercase btn-link ticket-link" role="button">Buy</a>
-                    </div>
-                    <div class="w-100"></div>
-                    <div class="col-3 date" datetime="18/08.2023T20:00"></div>
-                    <div class="col-3 venue"><span>Future Yard, Birkenhead</span></div>
-                    <div class="col-3 buy-button">
-                        <a href="#" class="btn uppercase btn-link ticket-link" role="button">Buy</a>
-                    </div>
-                    <div class="w-100"></div>
-                    <div class="col-3 date" datetime="18/08.2023T20:00"></div>
-                    <div class="col-3 venue"><span>The Ferret, Preston</span></div>
-                    <div class="col-3 buy-button">
-                        <a href="#" class="btn uppercase btn-link ticket-link" role="button">Buy</a>
-                    </div>
-                    <div class="w-100"></div>
-                    <div class="col-3 date" datetime="18/08.2023T20:00"></div>
-                    <div class="col-3 venue"><span>Docks Academy, Grimsby</span></div>
-                    <div class="col-3 buy-button">
-                        <a href="#" class="btn uppercase btn-link ticket-link" role="button">Buy</a>
-                    </div>
-                    <div class="w-100"></div>
-                    <div class="col-3 date" datetime="18/08.2023T20:00"></div>
-                    <div class="col-3 venue"><span>Norwich Arts Center, Norwich</span></div>
-                    <div class="col-3 buy-button">
-                        <a href="#" class="btn uppercase btn-link ticket-link" role="button">Buy</a>
-                    </div>
-                    <div class="w-100"></div>
-                    <div class="col-3 date" datetime="18/08.2023T20:00"></div>
-                    <div class="col-3 venue"><span>Opium Live, Dublin</span></div>
-                    <div class="col-3 buy-button">
-                        <a href="#" class="btn uppercase btn-link ticket-link" role="button">Buy</a>
-                    </div>
+                <div class="tl-item">
+                    <h4>Bath Moles, Bath</h4>
+                    <h5>20 August 2023</h5>
+                    <a href="https://www.moles.co.uk/" class="btn uppercase btn-link ticket-link" target="_blank"
+                        role="button">Buy</a>
+                </div>
+                <div class="tl-item">
+                    <h4>The Crescent, York</h4>
+                    <h5>23 August 2023</h5>
+                    <a href="http://thecrescentyork.com/" class="btn uppercase btn-link ticket-link" target="_blank"
+                        role="button">Buy</a>
+                </div>
+                <div class="tl-item">
+                    <h4>Future Yard, Birkenhead</h4>
+                    <h5>24 August 2023</h5>
+                    <a href="https://futureyard.org/" class="btn uppercase btn-link ticket-link" target="_blank"
+                        role="button">Buy</a>
+                </div>
+                <div class="tl-item">
+                    <h4>The Ferret, Preston</h4>
+                    <h5>25 August 2023</h5>
+                    <a href="https://theferret.live/" class="btn uppercase btn-link ticket-link" target="_blank"
+                        role="button">Buy</a>
+                </div>
+                <div class="tl-item">
+                    <h4>Docks Academy, Grimsby</h4>
+                    <h5>27 August 2023</h5>
+                    <a href="https://docksacademy.com/" class="btn uppercase btn-link ticket-link" target="_blank"
+                        role="button">Buy</a>
+                </div>
+                <div class="tl-item">
+                    <h4>Norwich Arts Center, Norwich</h4>
+                    <h5>28 August 2023</h5>
+                    <a href="https://norwichartscentre.co.uk/" class="btn uppercase btn-link ticket-link"
+                        target="_blank" role="button">Buy</a>
+                </div>
+                <div class="tl-item">
+                    <h4>Opium Live, Dublin</h4>
+                    <h5>30 August 2023</h5>
+                    <a href="https://opium.ie/spaces/club/" class="btn uppercase btn-link ticket-link" target="_blank"
+                        role="button">Buy</a>
                 </div>
             </div>
         </div>
     </div>
-    <footer class="container-fluid">
-        <div class="row justify-content-center" id="footer-container">
-            <div class="container col-sm-4 contact">
+    <footer class="container-fluid" id="footer-container">
+        <div class="row">
+            <div class="col-sm-6 col-md-4 contact-container">
                 <!-- Button trigger modal -->
                 <button type="button" id="contact-button" class="btn btn-lg" data-toggle="modal"
                     data-target="#formModal">
                     Contact Us!
                 </button>
             </div>
-            <div class="col-sm-4  social-container">
+            <div class="col-sm-6 col-md-4  social-container">
                 <ul class="list-inline social-links">
                     <li class="list-inline-item">
-                        <a target="_blank" href="#">
+                        <a target="_blank" href="https://open.spotify.com/">
                             <i class="fa fa-spotify" aria-hidden="true"></i>
                             <span class="sr-only">Spotify</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a target="_blank" href="#">
+                        <a target="_blank" href="https://www.youtube.com/">
                             <i class="fa fa-youtube" aria-hidden="true"></i>
                             <span class="sr-only">Youtube</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a target="_blank" href="#">
+                        <a target="_blank" href="https://bandcamp.com/">
                             <i class="fa fa-bandcamp" aria-hidden="true"></i>
                             <span class="sr-only">Bandcamp</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a target="_blank" href="#">
+                        <a target="_blank" href="https://www.instagram.com/">
                             <i class="fa fa-instagram" aria-hidden="true"></i>
                             <span class="sr-only">Instagram</span>
                         </a>
                     </li>
                 </ul>
             </div>
-            <div class="col-sm-4 watch-link-container">
+            <div class="d-none d-sm-none col-md-4 watch-link-container">
                 <span class="watch-link" id="watch-link">
-                    <a href="https://www.youtube.com" target="_blank" aria-labelledby="youtube link">Watch our new music
+                    <a href="https://www.youtube.com" target="_blank" aria-labelledby="youtube link">Watch our new
+                        music
                         video!</a>
                 </span>
             </div>
