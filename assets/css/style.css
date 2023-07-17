@@ -19,7 +19,7 @@ body,
 #logo,
 .modal-content,
 .image-gallery-container {
-    background-color: #F8EEE7;
+    background-color: rgba(232, 232, 232, 0.9);
 }
 
 
@@ -302,15 +302,16 @@ ul {
 
 /*-------------------Live */
 
-
 .timeline-area {
     border-left: 4px solid #49274A;
+    left: -30px;
+
 
 }
 
 .tl-item {
     color: #49274A;
-    padding: 10px 20px;
+    padding: 10px 10px;
     font-size: 20px;
     border: 3px solid #49274A;
     border-radius: 10px;
@@ -330,7 +331,7 @@ ul {
     border: 2px solid #49274A;
     position: absolute;
     top: 8px;
-    left: -41px;
+    left: -28px;
 }
 
 .tl-item::after {
