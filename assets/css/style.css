@@ -520,6 +520,7 @@ footer {
 
 
 @media screen and (max-width:576px) {
+
     /*--- Header*/
     #homeimage,
     #nav-container {
@@ -538,6 +539,7 @@ footer {
     #ticket-alert {
         display: none;
     }
+
     /*--- Special Margins and Text*/
     #live-heading,
     #history-heading,
@@ -555,7 +557,7 @@ footer {
         padding: 3px 3px 5px 3px;
     }
 
-     /*--- History*/
+    /*--- History*/
 
     .history-content {
         margin: 5px;
@@ -581,15 +583,74 @@ footer {
         height: 140px;
     }
 
-    /*--- Footer*/
+}
 
+@media screen and (max-width:768px) {
+
+    /*--- Header*/
+    #nav-container {
+        padding: 1px;
+        background-color: rgba(148, 97, 142, 1);
+        margin: 0 auto;
+        color: #AEABBA;
+    }
+
+    .navbar button {
+        color: #AEABBA;
+    }
+
+    #nav-container {
+        border-radius: 10px;
+    }
+
+    #logo-container {
+        position: absolute;
+        top: 6vh;
+    }
+
+    #logo {
+        font-size: 10vh;
+        margin: 20px 0;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    #ticket-alert {
+        display: none;
+    }
+
+
+    /*--- Homepage*/
+    #homeimage {
+        border-radius: 25px 25px 25px 25px;
+    }
+
+    /*--- Live*/
+    .timeline-container {
+        margin-top: 280px;
+        margin-left: 20px;
+        margin-bottom: 7vh;
+    }
+
+    .timeline-area {
+        margin-top: 15px;
+    }
+
+    .tl-item {
+        width: 100%;
+        height: 140px;
+    }
+
+    /*--- Footer*/
     .social-container {
         padding-bottom: 50px;
         flex-wrap: nowrap;
         justify-content: flex-end;
         align-items: center;
         width: 50%;
-
     }
 
     .contact-container {
@@ -603,62 +664,28 @@ footer {
         max-height: 7vh;
         align-items: center;
     }
-
-}
-
-@media screen and (max-width:768px) {
-    #nav-container {
-        padding: 10px 20px 20px 10px;
-        background-color: rgba(148, 97, 142, 1);
-        margin: 0 auto;
-    }
-
-    #homeimage,
-    #nav-container {
-        border-radius: 25px 25px 25px 25px;
-    }
-
-    .flex-container {
-        display: flex;
-        flex-wrap: wrap-reverse;
-    }
-
-    #ticket-alert {
-        display: none;
-    }
-
-    .timeline-area {
-        margin-top: 10px;
-    }
-
-    .tl-item {
-        width: 90%;
-        height: 140px;
-    }
-
-
-    .contact-container,
-    .social-container {
-        justify-content: center;
-        align-items: center;
-    }
 }
 
 @media screen and (min-width:768px) {
+
+    /*--- Header*/
     #nav-container {
         border-radius: 0 25px 25px 0;
     }
 
-    #homeimage {
-        border-radius: 25px 25px 25px 25px;
-    }
-
+    /*--- Special Headings and Margins*/
     #live-heading,
     #history-heading,
     #gallery-heading {
         margin-top: 20px;
     }
 
+    /*--- Homepage*/
+    #homeimage {
+        border-radius: 25px 25px 25px 25px;
+    }
+
+    /*--- History*/
     .history-content-top-row {
         max-width: 32%;
     }
@@ -667,6 +694,7 @@ footer {
         max-width: 49%;
     }
 
+    /*--- Live*/
     .timeline-area {
         margin-top: 5vh;
     }
@@ -676,6 +704,7 @@ footer {
         height: 160px;
     }
 
+    /*--- Footer*/
     footer {
         max-height: 10vh;
     }
