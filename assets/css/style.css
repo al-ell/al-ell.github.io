@@ -73,6 +73,15 @@ h5 {
     width: 98%;
 }
 
+#navbarText {
+    justify-content: flex-end;
+}
+
+#nav-list {
+    margin: 0 !important;
+    margin-left: auto;
+}
+
 a {
     overflow: hidden;
     Margin-top: 5px;
@@ -290,6 +299,17 @@ ul {
 /* hover */
 .image-gallery li:hover .overlay {
     transform: scale(1);
+}
+
+
+/*-------------------Live */
+
+.tour-dates-container {
+    margin: 20px auto;
+}
+
+.tour-box {
+    background-color: rgba(148, 97, 142, 0.8);
 }
 
 
