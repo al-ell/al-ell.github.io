@@ -528,6 +528,11 @@ footer {
         border-radius: 25px 25px 25px 25px;
     }
 
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
     #logo-container {
         top: 35vh;
     }
@@ -569,19 +574,14 @@ footer {
     }
 
     /*--- Live*/
-
     .timeline-container {
-        margin-top: 250px;
+        margin-top: 360px;
         margin-left: 20px;
+        margin-bottom: 7vh;
     }
 
     .timeline-area {
-        margin-top: 10px;
-    }
-
-    .tl-item {
-        width: 90%;
-        height: 140px;
+        margin-top: 20px;
     }
 
 }
@@ -601,10 +601,14 @@ footer {
     }
 
     #nav-container {
+        display: block;
+        flex-wrap: wrap-reverse;
         border-radius: 10px;
     }
 
     #logo-container {
+        display: block;
+        flex-wrap: wrap-reverse;
         position: absolute;
         top: 6vh;
     }
@@ -612,11 +616,6 @@ footer {
     #logo {
         font-size: 10vh;
         margin: 20px 0;
-    }
-
-    .flex-container {
-        display: flex;
-        flex-wrap: wrap-reverse;
     }
 
     #ticket-alert {
@@ -631,18 +630,36 @@ footer {
 
     /*--- Live*/
     .timeline-container {
-        margin-top: 280px;
+        margin-top: 360px;
         margin-left: 20px;
         margin-bottom: 7vh;
     }
 
     .timeline-area {
-        margin-top: 15px;
+        margin-top: 20px;
     }
 
     .tl-item {
-        width: 100%;
+        width: 90%;
         height: 140px;
+    }
+
+    /*--- History*/
+    .history-grid-container {
+        margin-top: 360px;
+        margin-left: 20px;
+        margin-bottom: 7vh;
+    }
+
+    /*--- Gallery*/
+    .image-gallery-container {
+        margin-top: 360px;
+        margin-left: -5px;
+        margin-bottom: 7vh;
+    }
+
+    #gallery-heading {
+        text-align: center;
     }
 
     /*--- Footer*/

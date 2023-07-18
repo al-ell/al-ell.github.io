@@ -24,7 +24,7 @@
 
 <body>
     <header>
-        <div class="container-fluid no-gutters header-container">
+        <div class="container-fluid no-gutters header-container flex-container">
             <div class="row">
                 <div class="col-md-5 col-sm-12" id="logo-container">
                     <h1 class="logo" id="logo">Deaf Cats</h1>
@@ -34,8 +34,8 @@
                         <nav class="navbar navbar-expand-lg uppercase">
                             <button class="navbar-toggler" type="button" data-toggle="collapse"
                                 data-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
-                                aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
+                                aria-label="Toggle navigation" id="nav-burger">
+                                <span class="navbar-toggler-icon"><i class="fa-solid fa-bars fa-xl"></i></span>
                             </button>
                             <div class="collapse navbar-collapse topnav" id="navbarText">
                                 <ul class="navbar-nav mr-auto" id="nav-list">
@@ -43,7 +43,7 @@
                                         <a class="nav-link" href="index.html">Home</a>
                                     </li>
                                     <li class="nav-item" id="nav-gallery">
-                                        <a class="nav-link" href="gallery.html">Gallery <span
+                                        <a class="nav-link" href="gallery.html">Gallery<span
                                                 class="sr-only">(current)</span></a>
                                     </li>
                                     <li class="nav-item menuitem">
@@ -60,8 +60,9 @@
             </div>
         </div>
         <div class="row no-gutters justify-content-center" id="alert-container">
-            <div class="col-md-4 col-lg-3 alert alert-dark uppercase" id="ticket-alert" role="alert">
-                New Tour Dates Added!! <a href="https://www.ticketmaster.co.uk/" class="alert-link" id="buy-link">Buy
+            <div class="col-md-5 col-lg-4 alert alert-dark uppercase" id="ticket-alert" role="alert">
+                New Tour Dates Added!! <a href="https://www.ticketmaster.co.uk/" target="_blank" class="alert-link"
+                    id="buy-link">Buy
                     Now!</a>
             </div>
         </div>
