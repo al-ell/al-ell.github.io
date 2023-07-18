@@ -528,17 +528,12 @@ footer {
         border-radius: 25px 25px 25px 25px;
     }
 
-    .flex-container {
-        display: flex;
-        flex-wrap: wrap-reverse;
-    }
-
     #logo-container {
         top: 35vh;
     }
 
     #logo {
-        font-size: 10vh;
+        font-size: 9vh;
         margin-bottom: 30px 0;
     }
 
@@ -551,7 +546,6 @@ footer {
     #history-heading,
     #gallery-heading {
         margin-top: 20px;
-        margin-bottom: 10px;
     }
 
     a {
@@ -564,7 +558,6 @@ footer {
     }
 
     /*--- History*/
-
     .history-content {
         margin: 5px;
     }
@@ -613,6 +606,11 @@ footer {
         top: 6vh;
     }
 
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
     #logo {
         font-size: 10vh;
         margin: 20px 0;
@@ -626,6 +624,10 @@ footer {
     /*--- Homepage*/
     #homeimage {
         border-radius: 25px 25px 25px 25px;
+    }
+
+    .home-container {
+        margin-top: 360px;
     }
 
     /*--- Live*/
