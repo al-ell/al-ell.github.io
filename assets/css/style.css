@@ -541,13 +541,6 @@ footer {
         display: none;
     }
 
-    /*--- Special Margins and Text*/
-    #live-heading,
-    #history-heading,
-    #gallery-heading {
-        margin-top: 20px;
-    }
-
     a {
         overflow: hidden;
         Margin-top: 2px;
@@ -557,18 +550,20 @@ footer {
         padding: 3px 3px 5px 3px;
     }
 
+    /*--- Special Margin and Padding*/
+    .image-gallery-container,
+    .history-grid-container,
+    .timeline-container {
+        margin-top: 280px;
+    }
+
     /*--- History*/
     .history-content {
         margin: 5px;
     }
 
-    .history-grid-container {
-        margin-top: 15vh;
-    }
-
     /*--- Live*/
     .timeline-container {
-        margin-top: 360px;
         margin-left: 20px;
         margin-bottom: 7vh;
     }
@@ -577,6 +572,17 @@ footer {
         margin-top: 20px;
     }
 
+}
+
+
+@media screen and (min-width:576px) {
+
+    /*--- Special Margin and Padding*/
+    .image-gallery-container,
+    .history-grid-container,
+    .timeline-container {
+        margin-top: 180px;
+    }
 }
 
 @media screen and (max-width:768px) {
@@ -632,13 +638,8 @@ footer {
 
     /*--- Live*/
     .timeline-container {
-        margin-top: 360px;
         margin-left: 20px;
         margin-bottom: 7vh;
-    }
-
-    .timeline-area {
-        margin-top: 20px;
     }
 
     .tl-item {
@@ -648,15 +649,12 @@ footer {
 
     /*--- History*/
     .history-grid-container {
-        margin-top: 360px;
         margin-left: 20px;
         margin-bottom: 7vh;
     }
 
     /*--- Gallery*/
     .image-gallery-container {
-        margin-top: 360px;
-        margin-left: -5px;
         margin-bottom: 7vh;
     }
 
