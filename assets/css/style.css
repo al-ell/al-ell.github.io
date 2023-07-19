@@ -550,7 +550,7 @@ footer {
     .image-gallery-container,
     .history-grid-container,
     .timeline-container {
-        margin-top: 280px;
+        margin-top: 200px;
     }
 
     /*--- History*/
@@ -567,7 +567,6 @@ footer {
     .timeline-area {
         margin-top: 20px;
     }
-
 }
 
 
@@ -577,8 +576,10 @@ footer {
     .image-gallery-container,
     .history-grid-container,
     .timeline-container {
-        margin-top: 180px;
+        margin-top: 130px;
     }
+
+    /*navbar fade + right align, not block elements for tablet*/
 }
 
 @media screen and (max-width:768px) {
