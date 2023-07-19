@@ -1,8 +1,4 @@
 /*----------------------Colors */
-.nav-container {
-    background-image: linear-gradient(to right, rgba(148, 97, 142, 0.001), rgba(148, 97, 142, 1));
-}
-
 .tl-item,
 .history-content-top-row,
 .history-content {
@@ -589,20 +585,37 @@ footer {
 
     /*--- Header*/
     #nav-container {
-        padding: 1px;
-        background-color: rgba(148, 97, 142, 1);
-        margin: 0 auto;
-        color: #AEABBA;
+        background-color: rgba(232, 232, 232, 0.9);
     }
 
-    .navbar button {
+    .navbar-toggler {
         color: #AEABBA;
+        text-align: center;
+        background-color: rgba(148, 97, 142, 1);
+        justify-content: flex-start;
+    }
+
+    .nav-button-container {
+        width: 10vh;
+        justify-content: center;
+        height: 5vh;
+        margin-left: -30px;
+        margin-top: -20px;
     }
 
     #nav-container {
         display: block;
         flex-wrap: wrap-reverse;
         border-radius: 10px;
+    }
+
+    .navbar-nav {
+        background-color: rgba(148, 97, 142, 1);
+        padding: 5px 20px 5px 20px;
+        border-radius: 10px;
+        text-align: center;
+        letter-spacing: 1px;
+        color: #AEABBA;
     }
 
     #logo-container {
@@ -685,6 +698,11 @@ footer {
 }
 
 @media screen and (min-width:768px) {
+
+    /*----Colors */
+    .nav-container {
+        background-image: linear-gradient(to right, rgba(148, 97, 142, 0.001), rgba(148, 97, 142, 1));
+    }
 
     /*--- Header*/
     #nav-container {
