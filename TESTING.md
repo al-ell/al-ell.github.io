@@ -8,16 +8,16 @@ Visit the deployed site: [Deaf Cats]()
 
 ## CONTENTS
 
-* [AUTOMATED TESTING](#automated-testing)
+  * [AUTOMATED TESTING](#automated-testing)
   * [W3C Validator](#w3c-validator)
   * [JavaScript Validator](#javascript-validator)
   * [Python Validator](#python-validator)
   * [Lighthouse](#lighthouse)
   * [WAVE Testing](#wave-testing)
-* [MANUAL TESTING](#manual-testing)
+  * [MANUAL TESTING](#manual-testing)
   * [Testing User Stories](#testing-user-stories)
   * [Full Testing](#full-testing)
-* [BUGS](#bugs)
+  * [BUGS](#bugs)
   * [Solved Bugs](#solved-bugs)
   * [Known Bugs](#known-bugs)
 
@@ -147,7 +147,12 @@ Each device tested the site using the following browsers:
 |  | Modal components not working when clicked | Rewatched Code Institute video on Modals and moved code to bottom of html page, now fully functioning. |  |  |
 |  | Navigation styling lost when componenet changed to a different bootstrap type |  experimented with targeting different elements that make up the navbar to override Bootstrap default styling. | ![Navbar styling lost](documentation/bugs/bug-navbar-styling-lost.jpg) |  |
 |  | Youtube video not playing | Change of embed method, now working. |  |  |
+|  | History grid made with flexbox tutorial not changing to stack style for smaller screen sizes | I requested tutor support, they suggested I use Bootstrap grid instead of flexbox to be in keeping with the rest of the website. | ![Grid not responsive](documentation/bugs/grid-not-responsive.png) |  |
+|  | Footer has too many parts for mobile view | I researched how to get different columns to dissapear, I found some help on Stack Overflow () | ![No watch link](documentation/bugs/nav-toggler-working-no-watch-link.png) |  |
+|  | Navbar didn't revert to button for smaller screens | I don't know what I changed to get this working, but as I was trying to target other things it started working! However, it wasn't converting at the right breakpoint. I found some help on Stack Overflow (https://stackoverflow.com/questions/19827605/how-to-change-bootstrap-navbar-collapse-breakpoint) I then had to update margins for difference @media queries| ![Nav button](documentation/bugs/nav-toggler-working-no-watch-link.png) |  |
+|  | Homepage image didn't fit container | I researched the issue and found it was an object-fit issue. has been amended and now fills container and is responsive |  |  |
 |  |  |  |  |  |
+
 
 - - -
 

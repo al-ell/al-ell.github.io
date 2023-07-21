@@ -519,6 +519,10 @@ footer {
 @media screen and (max-width:576px) {
 
     /*--- Header*/
+    #nav-container {
+        background-color: rgba(232, 232, 232, 0.9);
+    }
+
     #homeimage,
     #nav-container {
         border-radius: 25px 25px 25px 25px;
@@ -572,6 +576,12 @@ footer {
 
 @media screen and (min-width:576px) {
 
+    /*----Colors */
+    /* Info on how to make colour gradients (https: //www.w3schools.com/css/css3_gradients.asp)*/
+    .nav-container {
+        background-image: linear-gradient(to right, rgba(148, 97, 142, 0.001), rgba(148, 97, 142, 1));
+    }
+
     /*--- Special Margin and Padding*/
     .image-gallery-container,
     .history-grid-container,
@@ -585,9 +595,7 @@ footer {
 @media screen and (max-width:768px) {
 
     /*--- Header*/
-    #nav-container {
-        background-color: rgba(232, 232, 232, 0.9);
-    }
+
 
     .navbar-toggler {
         color: #AEABBA;
@@ -677,74 +685,73 @@ footer {
     }
 
     /*--- Footer*/
-    .social-container {
-        padding-bottom: 50px;
-        flex-wrap: nowrap;
-        justify-content: flex-end;
-        align-items: center;
-        width: 50%;
-    }
+    /*  Tutorials and websites used to understand flexbox and increase responsiveness of webpages */
+    (https: //www.youtube.com/playlist?list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG)
+        (https: //css-tricks.com/almanac/properties/f/flex-wrap/) */
 
-    .contact-container {
-        padding: 2vh 4vh;
-        flex-wrap: nowrap;
-        justify-content: flex-start;
-        width: 50%;
-    }
+            .social-container {
+                padding-bottom: 50px;
+                flex-wrap: nowrap;
+                justify-content: flex-end;
+                align-items: center;
+                width: 50%;
+            }
 
-    footer {
-        max-height: 7vh;
-        align-items: center;
-    }
-}
+            .contact-container {
+                padding: 2vh 4vh;
+                flex-wrap: nowrap;
+                justify-content: flex-start;
+                width: 50%;
+            }
 
-@media screen and (min-width:768px) {
+            footer {
+                max-height: 7vh;
+                align-items: center;
+            }
+        }
 
-    /*----Colors */
-    .nav-container {
-        background-image: linear-gradient(to right, rgba(148, 97, 142, 0.001), rgba(148, 97, 142, 1));
-    }
+        @media screen and (min-width:768px) {
 
-    /*--- Header*/
-    #nav-container {
-        border-radius: 0 25px 25px 0;
-    }
+            /*--- Header*/
+            #nav-container {
+                border-radius: 0 25px 25px 0;
+            }
 
-    /*--- Special Headings and Margins*/
-    #live-heading,
-    #history-heading,
-    #gallery-heading {
-        margin-top: 20px;
-    }
+            /*--- Special Headings and Margins*/
+            #live-heading,
+            #history-heading,
+            #gallery-heading {
+                margin-top: 20px;
+            }
 
-    /*--- Homepage*/
-    #homeimage {
-        border-radius: 25px 25px 25px 25px;
-    }
+            /*--- Homepage*/
+            #homeimage {
+                border-radius: 25px 25px 25px 25px;
+            }
 
-    /*--- History*/
-    .history-content-top-row {
-        max-width: 32%;
-    }
+            /*--- History*/
+            .history-content-top-row {
+                max-width: 32%;
+            }
 
-    .history-content {
-        max-width: 49%;
-    }
+            .history-content {
+                max-width: 49%;
+            }
 
-    /*--- Live*/
-    .timeline-area {
-        margin-top: 5vh;
-    }
+            /*--- Live*/
+            .timeline-area {
+                margin-top: 5vh;
+            }
 
-    .tl-item {
-        width: 60%;
-        height: 160px;
-    }
+            .tl-item {
+                width: 60%;
+                height: 160px;
+            }
 
-    /*--- Footer*/
-    footer {
-        max-height: 10vh;
-    }
+            /*--- Footer*/
+            footer {
+                max-height: 10vh;
+            }
 
 
-}
+        }
