@@ -519,7 +519,6 @@ footer {
 @media screen and (max-width:576px) {
 
     /*--- Header*/
-
     #homeimage,
     #nav-container {
         border-radius: 25px 25px 25px 25px;
@@ -564,24 +563,14 @@ footer {
 }
 
 
-@media screen and (min-width:576px) {
-
-
-    /*--- Special Margin and Padding*/
-    .image-gallery-container,
-    .history-grid-container,
-    .timeline-container {
-        margin-top: 130px;
-    }
-
-    /*navbar fade + right align, not block elements for tablet*/
-}
-
 @media screen and (max-width:768px) {
 
     /*--- Header*/
     #nav-container {
         background-color: rgba(232, 232, 232, 0.9);
+        display: block;
+        flex-wrap: wrap-reverse;
+        border-radius: 10px;
     }
 
     .navbar-toggler {
@@ -597,12 +586,6 @@ footer {
         height: 5vh;
         margin-left: -30px;
         margin-top: -20px;
-    }
-
-    #nav-container {
-        display: block;
-        flex-wrap: wrap-reverse;
-        border-radius: 10px;
     }
 
     .navbar-nav {
@@ -705,13 +688,11 @@ footer {
 
 @media screen and (min-width:768px) {
 
-    /*----Colors */
-    /* Info on how to make colour gradients (https: //www.w3schools.com/css/css3_gradients.asp)*/
-    .nav-container {
-        background-image: linear-gradient(to right, rgba(148, 97, 142, 0.001), rgba(148, 97, 142, 1));
+    /*--- Header*/
+    #nav-container {
+        background-color: rgba(232, 232, 232, 0.9);
     }
 
-    /*--- Header*/
     #nav-container {
         border-radius: 0 25px 25px 0;
     }
@@ -753,4 +734,18 @@ footer {
     }
 
 
+}
+
+
+@media screen and (max-width:900px) {
+
+}
+
+@media screen and (min-width:900px) {
+
+    /*----Colors */
+    /* Info on how to make colour gradients (https: //www.w3schools.com/css/css3_gradients.asp)*/
+    .nav-container {
+        background-image: linear-gradient(to right, rgba(148, 97, 142, 0.001), rgba(148, 97, 142, 1));
+    }
 }
