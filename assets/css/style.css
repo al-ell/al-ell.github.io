@@ -168,12 +168,12 @@ nav a:hover {
 }
 
 #history-image1 {
-    background: url("../images/band-practice-cropped.png") no-repeat bottom center;
+    background: url("../images/band-practice-cropped.jpg") no-repeat bottom center;
     background-size: cover;
 }
 
 #history-image2 {
-    background: url("../images/history2cropped.png") no-repeat bottom center;
+    background: url("../images/history2cropped.jpg") no-repeat bottom center;
     background-size: cover;
     padding: 0;
 }
@@ -519,9 +519,6 @@ footer {
 @media screen and (max-width:576px) {
 
     /*--- Header*/
-    #nav-container {
-        background-color: rgba(232, 232, 232, 0.9);
-    }
 
     #homeimage,
     #nav-container {
@@ -550,13 +547,6 @@ footer {
         padding: 3px 3px 5px 3px;
     }
 
-    /*--- Special Margin and Padding*/
-    .image-gallery-container,
-    .history-grid-container,
-    .timeline-container {
-        margin-top: 200px;
-    }
-
     /*--- History*/
     .history-content {
         margin: 5px;
@@ -576,11 +566,6 @@ footer {
 
 @media screen and (min-width:576px) {
 
-    /*----Colors */
-    /* Info on how to make colour gradients (https: //www.w3schools.com/css/css3_gradients.asp)*/
-    .nav-container {
-        background-image: linear-gradient(to right, rgba(148, 97, 142, 0.001), rgba(148, 97, 142, 1));
-    }
 
     /*--- Special Margin and Padding*/
     .image-gallery-container,
@@ -595,7 +580,9 @@ footer {
 @media screen and (max-width:768px) {
 
     /*--- Header*/
-
+    #nav-container {
+        background-color: rgba(232, 232, 232, 0.9);
+    }
 
     .navbar-toggler {
         color: #AEABBA;
@@ -648,6 +635,12 @@ footer {
         display: none;
     }
 
+    /*--- Special Margin and Padding*/
+    .image-gallery-container,
+    .history-grid-container,
+    .timeline-container {
+        margin-top: 120px;
+    }
 
     /*--- Homepage*/
     #homeimage {
@@ -685,73 +678,79 @@ footer {
     }
 
     /*--- Footer*/
-    /*  Tutorials and websites used to understand flexbox and increase responsiveness of webpages */
+    /*  Tutorials and websites used to understand flexbox and increase responsiveness of webpages:
     (https: //www.youtube.com/playlist?list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG)
         (https: //css-tricks.com/almanac/properties/f/flex-wrap/) */
 
-            .social-container {
-                padding-bottom: 50px;
-                flex-wrap: nowrap;
-                justify-content: flex-end;
-                align-items: center;
-                width: 50%;
-            }
+    .social-container {
+        padding-bottom: 50px;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        align-items: center;
+        width: 50%;
+    }
 
-            .contact-container {
-                padding: 2vh 4vh;
-                flex-wrap: nowrap;
-                justify-content: flex-start;
-                width: 50%;
-            }
+    .contact-container {
+        padding: 2vh 4vh;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        width: 50%;
+    }
 
-            footer {
-                max-height: 7vh;
-                align-items: center;
-            }
-        }
+    footer {
+        max-height: 7vh;
+        align-items: center;
+    }
+}
 
-        @media screen and (min-width:768px) {
+@media screen and (min-width:768px) {
 
-            /*--- Header*/
-            #nav-container {
-                border-radius: 0 25px 25px 0;
-            }
+    /*----Colors */
+    /* Info on how to make colour gradients (https: //www.w3schools.com/css/css3_gradients.asp)*/
+    .nav-container {
+        background-image: linear-gradient(to right, rgba(148, 97, 142, 0.001), rgba(148, 97, 142, 1));
+    }
 
-            /*--- Special Headings and Margins*/
-            #live-heading,
-            #history-heading,
-            #gallery-heading {
-                margin-top: 20px;
-            }
+    /*--- Header*/
+    #nav-container {
+        border-radius: 0 25px 25px 0;
+    }
 
-            /*--- Homepage*/
-            #homeimage {
-                border-radius: 25px 25px 25px 25px;
-            }
+    /*--- Special Headings and Margins*/
+    #live-heading,
+    #history-heading,
+    #gallery-heading {
+        margin-top: 20px;
+    }
 
-            /*--- History*/
-            .history-content-top-row {
-                max-width: 32%;
-            }
+    /*--- Homepage*/
+    #homeimage {
+        border-radius: 25px 25px 25px 25px;
+    }
 
-            .history-content {
-                max-width: 49%;
-            }
+    /*--- History*/
+    .history-content-top-row {
+        max-width: 32%;
+    }
 
-            /*--- Live*/
-            .timeline-area {
-                margin-top: 5vh;
-            }
+    .history-content {
+        max-width: 49%;
+    }
 
-            .tl-item {
-                width: 60%;
-                height: 160px;
-            }
+    /*--- Live*/
+    .timeline-area {
+        margin-top: 5vh;
+    }
 
-            /*--- Footer*/
-            footer {
-                max-height: 10vh;
-            }
+    .tl-item {
+        width: 60%;
+        height: 160px;
+    }
+
+    /*--- Footer*/
+    footer {
+        max-height: 10vh;
+    }
 
 
-        }
+}
