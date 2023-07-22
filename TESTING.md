@@ -1,170 +1,166 @@
-# Deaf Cats -  Testing
+# Deaf Cats - Testing
 
 ![()
 
 Visit the deployed site: [Deaf Cats]()
 
-- - -
+---
 
 ## CONTENTS
 
-  * [AUTOMATED TESTING](#automated-testing)
-  * [W3C Validator](#w3c-validator)
-  * [JavaScript Validator](#javascript-validator)
-  * [Python Validator](#python-validator)
-  * [Lighthouse](#lighthouse)
-  * [WAVE Testing](#wave-testing)
-  * [MANUAL TESTING](#manual-testing)
-  * [Testing User Stories](#testing-user-stories)
-  * [Full Testing](#full-testing)
-  * [BUGS](#bugs)
-  * [Solved Bugs](#solved-bugs)
-  * [Known Bugs](#known-bugs)
+- [AUTOMATED TESTING](#automated-testing)
+- [W3C Validator](#w3c-validator)
+- [JavaScript Validator](#javascript-validator)
+- [Python Validator](#python-validator)
+- [Lighthouse](#lighthouse)
+- [WAVE Testing](#wave-testing)
+- [MANUAL TESTING](#manual-testing)
+- [Testing User Stories](#testing-user-stories)
+- [Full Testing](#full-testing)
+- [BUGS](#bugs)
+- [Solved Bugs](#solved-bugs)
+- [Known Bugs](#known-bugs)
 
-
-- - -
+---
 
 ## AUTOMATED TESTING
 
 ### W3C Validator
 
-[W3C](https://validator.w3.org/) was used to validate the HTML on all pages of the website. 
+[W3C](https://validator.w3.org/) was used to validate the HTML on all pages of the website.
 
-* [Index Page]()
-* [Gallery Page]()
-* [History Page]()
-* [Live Page]()
-.
+- [Index Page]()
+- [Gallery Page]()
+- [History Page]()
+- [Live Page]()
+  .
 
-- - -
+---
 
 ### Lighthouse
 
-
-
-
-Use of <iframe> 
+Use of <iframe>
+slows down result as it is a lot of data to load. The use of <lite-youtube> (https://github.com/justinribeiro/lite-youtube/tree/main) would improve this result but I have not been able to successfully implement this.
 
 ### Desktop Results
 
-* [Index Page]()
-* [Gallery Page]()
-* [History Page]()
-* [Live Page]()
-- - -
+- [Index Page]()
+- [Gallery Page]()
+- [History Page]()
+- [Live Page]()
+
+---
 
 ### WAVE Testing
 
-[WAVE](http://wave.webaim.org/) (Web Accessibility Evaluation Tool) 
+[WAVE](http://wave.webaim.org/) (Web Accessibility Evaluation Tool)
 
-- - -
+---
 
 ## MANUAL TESTING
 
 ### Testing User Stories
 
-| Goals | How are they achieved? | Image |
-| :--- | :--- | :--- |
+| Goals                 | How are they achieved? | Image |
+| :-------------------- | :--------------------- | :---- |
 | `First Time Visitors` |
-|  |  |  |
-| | | :--- |
-| | | :--- |
-| | | :--- |
-|`Returning Visitors`|
-| |  |  |
-| | | :--- |
-| | | :--- |
-| | | :--- |
-|  | :--- |
-|`Admin User` |
-|  |  |  |
-| | |  |
+|                       |                        |       |
+|                       |                        | :---  |
+|                       |                        | :---  |
+|                       |                        | :---  |
+| `Returning Visitors`  |
+|                       |                        |       |
+|                       |                        | :---  |
+|                       |                        | :---  |
+|                       |                        | :---  |
+|                       | :---                   |
+| `Admin User`          |
+|                       |                        |       |
+|                       |                        |       |
 
-- - -
+---
 
 ### Full Testing
 
 Full testing was performed on the following devices:
 
-* Laptop:
-
+- Laptop:
 
 Each device tested the site using the following browsers:
 
-
-
-| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
-| --- | --- | --- | --- | --- |
-| `Navbar` |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  | |  |  |  |
-|  |  |  |  |  |
-| `Footer` |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  | |  |  |  |
-|  |  |  |  |  |
-| `Home Page` |
-|   |   |   |   |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  | |  |  |  |
-|  |  |  |  |  |
-| `Gallery Page` |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  | |  |  |  |
-|  |  |  |  |  |
-| `History Page` |
-| | | | | | |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  | |  |  |  |
-|  |  |  |  |  |
-| `Live Page` |
-|   |   |   |   |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  | |  |  |  |
-|  |  |  |  |  |
+| Feature              | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| -------------------- | ---------------- | ----------------- | ------ | --------- | --- |
+| `Navbar`             |
+|                      |                  |                   |        |           |
+|                      |                  |                   |        |           |
+|                      |                  |                   |        |           |
+|                      |                  |                   |        |           |
+| `Footer`             |
+|                      |                  |                   |        |           |
+|                      |                  |                   |        |           |
+|                      |                  |                   |        |           |
+|                      |                  |                   |        |           |
+|                      |                  |                   |        |           |
+| `Home Page`          |
+|                      |                  |                   |        |
+|                      |                  |                   |        |           |
+|                      |                  |                   |        |           |
+|                      |                  |                   |        |           |
+|                      |                  |                   |        |           |
+| `Gallery Page`       |
+|                      |                  |                   |        |           |
+|                      |                  |                   |        |           |
+|                      |                  |                   |        |           |
+|                      |                  |                   |        |           |
+| `History Page`       |
+|                      |                  |                   |        |           |     |
+|                      |                  |                   |        |           |
+|                      |                  |                   |        |           |
+|                      |                  |                   |        |           |
+|                      |                  |                   |        |           |
+| `Live Page`          |
+|                      |                  |                   |        |           |
+|                      |                  |                   |        |           |
+|                      |                  |                   |        |           |
+|                      |                  |                   |        |           |
+|                      |                  |                   |        |           |
 | `Contact Form Modal` |
-|   |   |   |   |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  | |  |  |  |
-|  |  |  |  |  |
-| `Books Page` |
+|                      |                  |                   |        |           |
+|                      |                  |                   |        |           |
+|                      |                  |                   |        |           |
+|                      |                  |                   |        |           |
+|                      |                  |                   |        |           |
 
- - - -
+---
 
 ## BUGS
 
 ### Solved Bugs
 
-| No | Bug | How I solved the issue |
-| :--- | :--- | :--- |
-| 1 | Hero image won't display | I was seeking tutor support for another issue and Gemma spotted a typo, the class I was attempting to target did not match with the index page. | ![No Hero image](documentation/bugs/bug-hero-image-wont-display.png)  |  |
-|  | Modal displayed under background | Stackoverflow forum(https://stackoverflow.com/questions/41292673/bootstrap-modal-opens-but-stays-in-gray-background-and-cannot-close-or-interact) Bootstrap z-index{https://getbootstrap.com/docs/5.0/layout/z-index/} | ![Modal under background](documentation/bugs/bug-modal-display-under-background.jpg) |  |
-|  | Social media icons altered when bootstrap updated to include script needed for Modal | Tutor assistance sought. I was not using the best Fontawesome icon classes and the script was at the top, not the bottom of the html page. | ![Lost social media icons](documentation/bugs/bug-lost-social-icons-added-modal.jpg) |  |
-|  | Modal components not working when clicked | Rewatched Code Institute video on Modals and moved code to bottom of html page, now fully functioning. |  |  |
-|  | Navigation styling lost when componenet changed to a different bootstrap type |  experimented with targeting different elements that make up the navbar to override Bootstrap default styling. | ![Navbar styling lost](documentation/bugs/bug-navbar-styling-lost.jpg) |  |
-|  | Youtube video not playing | Change of embed method, now working. |  |  |
-|  | History grid made with flexbox tutorial not changing to stack style for smaller screen sizes | I requested tutor support, they suggested I use Bootstrap grid instead of flexbox to be in keeping with the rest of the website. | ![Grid not responsive](documentation/bugs/grid-not-responsive.png) |  |
-|  | Footer has too many parts for mobile view | I researched how to get different columns to dissapear, I found some help on Stack Overflow () | ![No watch link](documentation/bugs/nav-toggler-working-no-watch-link.png) |  |
-|  | Navbar didn't revert to button for smaller screens | I don't know what I changed to get this working, but as I was trying to target other things it started working! However, it wasn't converting at the right breakpoint. I found some help on Stack Overflow (https://stackoverflow.com/questions/19827605/how-to-change-bootstrap-navbar-collapse-breakpoint) I then had to update margins for difference @media queries| ![Nav button](documentation/bugs/nav-toggler-working-no-watch-link.png) |  |
-|  | Homepage image didn't fit container | I researched the issue and found it was an object-fit issue. has been amended and now fills container and is responsive |  |  |
-|  |  |  |  |  |
+| No  | Bug                                                                                          | How I solved the issue                                                                                                                                                                                                                                                                                                                                                  |
+| :-- | :------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | --- |
+| 1   | Hero image won't display                                                                     | I was seeking tutor support for another issue and Gemma spotted a typo, the class I was attempting to target did not match with the index page.                                                                                                                                                                                                                         | ![No Hero image](documentation/bugs/bug-hero-image-wont-display.png)                         |     |
+|     | Modal displayed under background                                                             | Stackoverflow forum(https://stackoverflow.com/questions/41292673/bootstrap-modal-opens-but-stays-in-gray-background-and-cannot-close-or-interact) Bootstrap z-index{https://getbootstrap.com/docs/5.0/layout/z-index/}                                                                                                                                                  | ![Modal under background](documentation/bugs/bug-modal-display-under-background.jpg)         |     |
+|     | Social media icons altered when bootstrap updated to include script needed for Modal         | Tutor assistance sought. I was not using the best Fontawesome icon classes and the script was at the top, not the bottom of the html page.                                                                                                                                                                                                                              | ![Lost social media icons](documentation/bugs/bug-lost-social-icons-added-modal.jpg)         |     |
+|     | Modal components not working when clicked                                                    | Rewatched Code Institute video on Modals and moved code to bottom of html page, now fully functioning.                                                                                                                                                                                                                                                                  |                                                                                              |     |
+|     | Navigation styling lost when componenet changed to a different bootstrap type                | experimented with targeting different elements that make up the navbar to override Bootstrap default styling.                                                                                                                                                                                                                                                           | ![Navbar styling lost](documentation/bugs/bug-navbar-styling-lost.jpg)                       |     |
+|     | Youtube video not playing                                                                    | Change of embed method, now working.                                                                                                                                                                                                                                                                                                                                    |                                                                                              |     |
+|     | History grid made with flexbox tutorial not changing to stack style for smaller screen sizes | I requested tutor support, they suggested I use Bootstrap grid instead of flexbox to be in keeping with the rest of the website.                                                                                                                                                                                                                                        | ![Grid not responsive](documentation/bugs/grid-not-responsive.png)                           |     |
+|     | Footer has too many parts for mobile view                                                    | I researched how to get different columns to dissapear, I found some help on Stack Overflow ()                                                                                                                                                                                                                                                                          | ![No watch link](documentation/bugs/nav-toggler-working-no-watch-link.png)                   |     |
+|     | Navbar didn't revert to button for smaller screens                                           | I don't know what I changed to get this working, but as I was trying to target other things it started working! However, it wasn't converting at the right breakpoint. I found some help on Stack Overflow (https://stackoverflow.com/questions/19827605/how-to-change-bootstrap-navbar-collapse-breakpoint) I then had to update margins for difference @media queries | ![Nav button](documentation/bugs/nav-toggler-working-no-watch-link.png)                      |     |
+|     | Homepage image didn't fit container                                                          | I researched the issue and found it was an object-fit issue. has been amended and now fills container and is responsive                                                                                                                                                                                                                                                 |                                                                                              |
+|     | Navbar container background displays under button                                            | I changed the background colour to the same as the body for smaller screen sizes so it appears hidden. The use of display:none would resuly in no button displayed.                                                                                                                                                                                                     | ![Nav background](documentation/bugs/navbar-container-background-displaying-with-button.png) |     |
+|     |                                                                                              |                                                                                                                                                                                                                                                                                                                                                                         |                                                                                              |     |
+|     |                                                                                              |                                                                                                                                                                                                                                                                                                                                                                         |                                                                                              |     |
+|     |                                                                                              |                                                                                                                                                                                                                                                                                                                                                                         |                                                                                              |     |
 
-
-- - -
+---
 
 ### Known Bugs
 
-| No | Bug | |
-| :--- | :--- | :--- |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  | |  |  |  |
-|  |  |  |  |  |
+| No  | Bug |     |
+| :-- | :-- | :-- | --- | --- |
+|     |     |     |     |     |
+|     |     |     |     |     |
+|     |     |     |     |     |
+|     |     |     |     |     |

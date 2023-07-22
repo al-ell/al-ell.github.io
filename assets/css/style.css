@@ -301,8 +301,6 @@ ul {
 .timeline-area {
     border-left: 4px solid #49274A;
     left: -30px;
-
-
 }
 
 .tl-item {
@@ -560,6 +558,15 @@ footer {
     .timeline-area {
         margin-top: 20px;
     }
+
+    .tl-item::before {
+        left: -28px;
+    }
+
+    .tl-item::after {
+        left: -26px;
+
+    }
 }
 
 
@@ -636,8 +643,16 @@ footer {
 
     /*--- Live*/
     .timeline-container {
-        margin-left: 20px;
+        margin-left: 40px;
         margin-bottom: 7vh;
+    }
+
+    .tl-item::before {
+        left: -87px;
+    }
+
+    .tl-item::after {
+        left: -85px;
     }
 
     .tl-item {
@@ -737,9 +752,7 @@ footer {
 }
 
 
-@media screen and (max-width:900px) {
-
-}
+@media screen and (max-width:900px) {}
 
 @media screen and (min-width:900px) {
 
