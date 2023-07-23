@@ -10,7 +10,6 @@
     background-color: rgba(148, 97, 142, 1);
 }
 
-
 body,
 #logo,
 .modal-content,
@@ -135,27 +134,14 @@ nav a:hover {
 
 /*-------------------Homepage */
 
-.home-container {
-    margin-top: 5vh;
-    margin-bottom: 10vh;
-}
 
-#homeimage {
-    background: url("../images/homepage-image.jpg") no-repeat center center;
-    width: 100%;
-    min-height: 600px;
-    background-size: cover;
-    padding: 0;
+
+.hero-image {
+    position: relative;
+    background-size: contain;
     opacity: 0.7;
-    border: 1px solid #151C32;
-    border-radius: 25px 25px 25px 25px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-}
-
-#home-image-container {
-    margin-top: 5vh;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -517,7 +503,6 @@ footer {
 @media screen and (max-width:576px) {
 
     /*--- Header*/
-    #homeimage,
     #nav-container {
         border-radius: 25px 25px 25px 25px;
     }
@@ -528,7 +513,6 @@ footer {
 
     #logo {
         font-size: 9vh;
-        margin-bottom: 30px 0;
     }
 
     #ticket-alert {
@@ -608,7 +592,7 @@ footer {
         display: block;
         flex-wrap: wrap-reverse;
         position: absolute;
-        top: 6vh;
+        top: 5vh;
     }
 
     .flex-container {
@@ -618,7 +602,7 @@ footer {
 
     #logo {
         font-size: 10vh;
-        margin: 20px 0;
+        margin: 0 0 20px 0;
     }
 
     #ticket-alert {
@@ -633,72 +617,73 @@ footer {
     }
 
     /*--- Homepage*/
-    #homeimage {
-        border-radius: 25px 25px 25px 25px;
+    .hero-image {
+        background: url("../images/street2.jpg") no-repeat center center;
+        background-size: cover;
+        width: 100%;
+        height: 60vh;
+        margin-top: 22vh;
     }
+}
 
-    .home-container {
-        margin-top: 360px;
-    }
+/*--- Live*/
+.timeline-container {
+    margin-left: 40px;
+    margin-bottom: 7vh;
+}
 
-    /*--- Live*/
-    .timeline-container {
-        margin-left: 40px;
-        margin-bottom: 7vh;
-    }
+.tl-item::before {
+    left: -87px;
+}
 
-    .tl-item::before {
-        left: -87px;
-    }
+.tl-item::after {
+    left: -85px;
+}
 
-    .tl-item::after {
-        left: -85px;
-    }
+.tl-item {
+    width: 90%;
+    height: 140px;
+}
 
-    .tl-item {
-        width: 90%;
-        height: 140px;
-    }
+/*--- History*/
+.history-grid-container {
+    margin-left: 20px;
+    margin-bottom: 7vh;
+}
 
-    /*--- History*/
-    .history-grid-container {
-        margin-left: 20px;
-        margin-bottom: 7vh;
-    }
+/*--- Gallery*/
+.image-gallery-container {
+    margin-bottom: 7vh;
+}
 
-    /*--- Gallery*/
-    .image-gallery-container {
-        margin-bottom: 7vh;
-    }
+#gallery-heading {
+    text-align: center;
+}
 
-    #gallery-heading {
-        text-align: center;
-    }
-
-    /*--- Footer*/
-    /*  Tutorials and websites used to understand flexbox and increase responsiveness of webpages:
+/*--- Footer*/
+/*  Tutorials and websites used to understand flexbox and increase responsiveness of webpages:
     (https: //www.youtube.com/playlist?list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG)
         (https: //css-tricks.com/almanac/properties/f/flex-wrap/) */
 
-    .social-container {
-        padding-bottom: 50px;
-        flex-wrap: nowrap;
-        justify-content: flex-end;
-        align-items: center;
-        width: 50%;
-    }
+.social-container {
+    padding-bottom: 50px;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+}
 
-    .contact-container {
-        padding: 2vh 4vh;
-        flex-wrap: nowrap;
-        justify-content: flex-start;
-        width: 50%;
-    }
+.contact-container {
+    padding: 2vh 4vh;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    width: 50%;
+}
 
-    footer {
-        max-height: 7vh;
-        align-items: center;
-    }
+footer {
+    max-height: 7vh;
+    align-items: center;
+}
 }
 
 @media screen and (min-width:768px) {
@@ -720,33 +705,38 @@ footer {
     }
 
     /*--- Homepage*/
-    #homeimage {
-        border-radius: 25px 25px 25px 25px;
+    .hero-image {
+        background: url("../images/homepage-image.jpg") no-repeat center center;
+        background-size: cover;
+        width: 100%;
+        height: 75vh;
     }
+}
 
-    /*--- History*/
-    .history-content-top-row {
-        max-width: 32%;
-    }
 
-    .history-content {
-        max-width: 49%;
-    }
+/*--- History*/
+.history-content-top-row {
+    max-width: 32%;
+}
 
-    /*--- Live*/
-    .timeline-area {
-        margin-top: 5vh;
-    }
+.history-content {
+    max-width: 49%;
+}
 
-    .tl-item {
-        width: 60%;
-        height: 160px;
-    }
+/*--- Live*/
+.timeline-area {
+    margin-top: 5vh;
+}
 
-    /*--- Footer*/
-    footer {
-        max-height: 10vh;
-    }
+.tl-item {
+    width: 60%;
+    height: 160px;
+}
+
+/*--- Footer*/
+footer {
+    max-height: 10vh;
+}
 
 
 }
