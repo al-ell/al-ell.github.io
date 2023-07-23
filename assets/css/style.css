@@ -1,4 +1,5 @@
 /*----------------------Colors */
+.hero-text-container,
 .tl-item,
 .history-content-top-row,
 .history-content {
@@ -134,15 +135,35 @@ nav a:hover {
 
 /*-------------------Homepage */
 
-
+.hero-image-container {
+    padding: 0;
+    width: 100%;
+}
 
 .hero-image {
     position: relative;
     opacity: 0.7;
     margin: 0;
     padding: 0;
+    margin-bottom: 7vh;
 }
 
+.hero-text-container {
+    height: fit-content;
+    text-align: center;
+    display: flex;
+    align-self: flex-end;
+    width: fit-content;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 20px 15px;
+    margin-top: 50vh;
+}
+
+.star {
+    font-size: 25px;
+    color: #49274A;
+}
 
 /*-------------------History Page */
 
@@ -349,7 +370,6 @@ ul {
 
 /*-------------------Footer */
 
-
 .social-links li a i {
     width: 40px;
     height: 40px;
@@ -372,8 +392,6 @@ ul {
     justify-content: center;
     align-items: center;
 }
-
-
 
 .social-links li a i:hover {
     color: #1c2543;
@@ -412,6 +430,10 @@ ul {
     padding: 5px;
 }
 
+.footer-container {
+    margin: 0;
+
+}
 
 footer {
     position: fixed;
@@ -620,8 +642,8 @@ footer {
         background: url("../images/street2.jpg") no-repeat center center;
         background-size: cover;
         width: 100%;
-        height: 63vh;
-        margin-top: 22vh;
+        height: 80h;
+        margin-top: 14vh;
     }
 
     /*--- Live*/
@@ -707,9 +729,9 @@ footer {
     /*--- Homepage*/
     .hero-image {
         background: url("../images/homepage-image.jpg") no-repeat center center;
-        background-size: contain;
+        background-size: cover;
         width: 100%;
-        height: 75vh;
+        height: 78vh;
         margin-top: 20px;
     }
 
