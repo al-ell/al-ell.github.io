@@ -138,7 +138,6 @@ nav a:hover {
 
 .hero-image {
     position: relative;
-    background-size: contain;
     opacity: 0.7;
     margin: 0;
     padding: 0;
@@ -621,80 +620,81 @@ footer {
         background: url("../images/street2.jpg") no-repeat center center;
         background-size: cover;
         width: 100%;
-        height: 60vh;
+        height: 63vh;
         margin-top: 22vh;
     }
-}
 
-/*--- Live*/
-.timeline-container {
-    margin-left: 40px;
-    margin-bottom: 7vh;
-}
+    /*--- Live*/
+    .timeline-container {
+        margin-left: 40px;
+        margin-bottom: 7vh;
+    }
 
-.tl-item::before {
-    left: -87px;
-}
+    .tl-item::before {
+        left: -87px;
+    }
 
-.tl-item::after {
-    left: -85px;
-}
+    .tl-item::after {
+        left: -85px;
+    }
 
-.tl-item {
-    width: 90%;
-    height: 140px;
-}
+    .tl-item {
+        width: 90%;
+        height: 140px;
+    }
 
-/*--- History*/
-.history-grid-container {
-    margin-left: 20px;
-    margin-bottom: 7vh;
-}
+    /*--- History*/
+    .history-grid-container {
+        margin-left: 20px;
+        margin-bottom: 7vh;
+    }
 
-/*--- Gallery*/
-.image-gallery-container {
-    margin-bottom: 7vh;
-}
+    /*--- Gallery*/
+    .image-gallery-container {
+        margin-bottom: 7vh;
+    }
 
-#gallery-heading {
-    text-align: center;
-}
+    #gallery-heading {
+        text-align: center;
+    }
 
-/*--- Footer*/
-/*  Tutorials and websites used to understand flexbox and increase responsiveness of webpages:
-    (https: //www.youtube.com/playlist?list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG)
-        (https: //css-tricks.com/almanac/properties/f/flex-wrap/) */
+    /*--- Footer*/
+    /*  Tutorials and websites used to understand flexbox and increase responsiveness of webpages:
+        (https: //www.youtube.com/playlist?list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG)
+            (https: //css-tricks.com/almanac/properties/f/flex-wrap/) */
 
-.social-container {
-    padding-bottom: 50px;
-    flex-wrap: nowrap;
-    justify-content: flex-end;
-    align-items: center;
-    width: 50%;
-}
+    .social-container {
+        padding-bottom: 50px;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        align-items: center;
+        width: 50%;
+    }
 
-.contact-container {
-    padding: 2vh 4vh;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    width: 50%;
-}
+    .contact-container {
+        padding: 2vh 4vh;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        width: 50%;
+    }
 
-footer {
-    max-height: 7vh;
-    align-items: center;
-}
+    footer {
+        max-height: 7vh;
+        align-items: center;
+    }
 }
 
 @media screen and (min-width:768px) {
 
     /*--- Header*/
     #nav-container {
-        background-color: rgba(232, 232, 232, 0.9);
+        border-radius: 0 25px 25px 0;
     }
 
-    #nav-container {
-        border-radius: 0 25px 25px 0;
+    /*----Colors */
+    /* Info on how to make colour gradients (https: //www.w3schools.com/css/css3_gradients.asp)*/
+    .nav-container {
+        background-image: linear-gradient(to right, rgba(148, 97, 142, 0.001), rgba(148, 97, 142, 1));
     }
 
     /*--- Special Headings and Margins*/
@@ -707,48 +707,35 @@ footer {
     /*--- Homepage*/
     .hero-image {
         background: url("../images/homepage-image.jpg") no-repeat center center;
-        background-size: cover;
+        background-size: contain;
         width: 100%;
         height: 75vh;
+        margin-top: 20px;
     }
-}
 
-
-/*--- History*/
-.history-content-top-row {
-    max-width: 32%;
-}
-
-.history-content {
-    max-width: 49%;
-}
-
-/*--- Live*/
-.timeline-area {
-    margin-top: 5vh;
-}
-
-.tl-item {
-    width: 60%;
-    height: 160px;
-}
-
-/*--- Footer*/
-footer {
-    max-height: 10vh;
-}
-
-
-}
-
-
-@media screen and (max-width:900px) {}
-
-@media screen and (min-width:900px) {
-
-    /*----Colors */
-    /* Info on how to make colour gradients (https: //www.w3schools.com/css/css3_gradients.asp)*/
-    .nav-container {
-        background-image: linear-gradient(to right, rgba(148, 97, 142, 0.001), rgba(148, 97, 142, 1));
+    /*--- History*/
+    .history-content-top-row {
+        max-width: 32%;
     }
+
+    .history-content {
+        max-width: 49%;
+    }
+
+    /*--- Live*/
+    .timeline-area {
+        margin-top: 5vh;
+    }
+
+    .tl-item {
+        width: 60%;
+        height: 160px;
+    }
+
+    /*--- Footer*/
+    footer {
+        max-height: 10vh;
+    }
+
+
 }
