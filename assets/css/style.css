@@ -574,6 +574,16 @@ footer {
     }
 }
 
+@media screen and (max-width:576px) {
+
+    /*--- Special Margin and Padding*/
+    .image-gallery-container,
+    .history-grid-container,
+    .timeline-container {
+        margin-top: 170px;
+    }
+}
+
 
 @media screen and (max-width:768px) {
 
@@ -648,16 +658,8 @@ footer {
 
     /*--- Live*/
     .timeline-container {
-        margin-left: 40px;
+        margin-left: 20px;
         margin-bottom: 7vh;
-    }
-
-    .tl-item::before {
-        left: -87px;
-    }
-
-    .tl-item::after {
-        left: -85px;
     }
 
     .tl-item {
