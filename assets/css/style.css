@@ -174,12 +174,12 @@ nav a:hover {
 }
 
 #history-image1 {
-    background: url("../images/band-practice-cropped.jpg") no-repeat bottom center;
+    background: url("../images/band-practice-cropped.webp") no-repeat bottom center;
     background-size: cover;
 }
 
 #history-image2 {
-    background: url("../images/history2cropped.jpg") no-repeat bottom center;
+    background: url("../images/history2cropped.webp") no-repeat bottom center;
     background-size: cover;
     padding: 0;
 }
@@ -191,7 +191,7 @@ nav a:hover {
 }
 
 #festival-image {
-    background: url("../images/festival-stage.jpg") no-repeat center center;
+    background: url("../images/festival-stage.webp") no-repeat center center;
     background-size: cover;
     padding: 0;
 }
@@ -582,6 +582,10 @@ footer {
     .timeline-container {
         margin-top: 170px;
     }
+
+    .hero-image {
+        margin-top: 20vh;
+    }
 }
 
 
@@ -649,7 +653,7 @@ footer {
 
     /*--- Homepage*/
     .hero-image {
-        background: url("../images/street2.jpg") no-repeat center center;
+        background: url("../images/street2.webp") no-repeat center top;
         background-size: cover;
         width: 100%;
         height: 80h;
@@ -730,7 +734,7 @@ footer {
 
     /*--- Homepage*/
     .hero-image {
-        background: url("../images/homepage-image.jpg") no-repeat center center;
+        background: url("../images/homepage-image.webp") no-repeat center top;
         background-size: cover;
         width: 100%;
         height: 78vh;
