@@ -22,6 +22,7 @@
     <link rel="icon" href="/images/favicon.ico">
     <title>Deaf Cats</title>
 </head>
+<!-- Bootstrap components used: https://getbootstrap.com/docs/4.5/layout/grid/-->
 
 <body>
     <header>
@@ -30,6 +31,7 @@
                 <div class="col-md-5 col-sm-12" id="logo-container">
                     <h1 class="logo" id="logo">Deaf Cats</h1>
                 </div>
+                <!-- Bootstrap components used: https://getbootstrap.com/docs/4.5/components/navbar/-->
                 <div class="col-lg-7 nav-container topnav header-container" id="nav-container">
                     <div class="container nav-button-container">
                         <nav class="navbar navbar-expand-lg uppercase">
@@ -60,6 +62,7 @@
                 </div>
             </div>
         </div>
+        <!-- Bootstrap components used: https://getbootstrap.com/docs/4.5/components/alerts/-->
         <div class="row no-gutters justify-content-center" id="alert-container">
             <div class="col-md-5 col-lg-4 alert alert-dark uppercase" id="ticket-alert" role="alert">
                 New Tour Dates Added!! <a href="https://www.ticketmaster.co.uk/" target="_blank" class="alert-link"
@@ -74,7 +77,9 @@
                 <div class="container-fluid hero-text-container">
                     <div class="hero-text">
                         <h5 class="uppercase">
-                            "The hottest new Jazz band in Wales"
+                            "The hottest new Jazz
+                            <br>
+                            band in Wales"
                             <br>
                             <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                     class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
@@ -90,6 +95,7 @@
     <footer class="container-fluid" id="footer-container">
         <div class="row no gutters">
             <div class="col-sm-6 col-md-4 contact-container">
+                <!--Bootstrap components used: https://getbootstrap.com/docs/4.5/components/buttons/-->
                 <!-- Button trigger modal -->
                 <button type="button" id="contact-button" class="btn btn-lg" data-toggle="modal"
                     data-target="#formModal">
@@ -133,6 +139,7 @@
             </div>
         </div>
     </footer>
+    <!--Bootstrap components used: https://getbootstrap.com/docs/4.5/components/modal/-->
     <!-- Modal -->
     <div class="modal fade" id="formModal" tabindex="-1" data-backdrop="false" aria-labelledby="contact form"
         aria-hidden="true">
@@ -145,6 +152,7 @@
                 </div>
                 <div class="modal-body">
                     <form action="send-message.php" method="post">
+                        <!--Bootstrap components used: https://getbootstrap.com/docs/4.5/components/forms/-->
                         <fieldset class="form-group">
                             <legend id="form-header">
                                 <h5 class="uppercase">We'd love to hear from you!</h5>

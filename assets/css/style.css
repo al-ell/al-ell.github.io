@@ -27,7 +27,7 @@ h4,
 h5 {
     font-family: Ubuntu, sans-serif;
     font-weight: 700;
-    margin-bottom: 20px;  
+    margin-bottom: 20px;
     color: #49274A;
 }
 
@@ -368,43 +368,50 @@ ul {
 /*-------------------Footer */
 
 .social-links li a i {
-    width: 40px;
-    height: 40px;
-    padding: 15px 0;
+    margin: 0 auto;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
-    font-size: 24px;
     line-height: 7px;
-    text-align: center;
+    font-size: 26px;
     color: #ececef;
-    background-color: #151C32;
+    background-color: #49274A;
+    padding: 0;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
 
-.social-links {
-    padding: 15px 0;
+.social-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+}
+
+.social-links {
+    padding: 0;
+    marin: 10px 0;
+    list-style-type: none;
 }
 
 .social-links li a i:hover {
-    color: #1c2543;
+    color: #49274A;
     background-color: #ececef;
 }
 
 /* snippet below from: https://www.w3schools.com/css/css_align.asp */
-#watch-link {
+.contact-container,
+.watch-link-container {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-#watch-link {
-    font-size: 18px;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding: 10px 15px;
+    font-size: 12px;
     text-decoration: none;
     text-align: center;
 }
@@ -414,7 +421,7 @@ ul {
 }
 
 #contact-button {
-    background-color: #151C32;
+    background-color: #49274A;
     color: #ececef;
     text-decoration: none;
     font-family: "Ubuntu", sans-serif;
@@ -580,8 +587,17 @@ footer {
         margin-top: 170px;
     }
 
-    .hero-image {
-        margin-top: 20vh;
+    .hero-image-container {
+        margin-top: 9vh;
+    }
+
+    #logo-container {
+        margin: 10px 0;
+    }
+
+    .social-links li {
+        scale: 0.9;
+        margin-bottom: 10px;
     }
 }
 
@@ -689,23 +705,17 @@ footer {
             (https: //css-tricks.com/almanac/properties/f/flex-wrap/) */
 
     .social-container {
-        padding-bottom: 50px;
         flex-wrap: nowrap;
-        justify-content: flex-end;
-        align-items: center;
         width: 50%;
     }
 
     .contact-container {
         padding: 2vh 4vh;
-        flex-wrap: nowrap;
-        justify-content: flex-start;
         width: 50%;
     }
 
     footer {
         max-height: 7vh;
-        align-items: center;
     }
 }
 
