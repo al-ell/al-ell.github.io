@@ -88,6 +88,10 @@ a {
     color: #49274A;
     text-decoration: none;
     font-size: 20px;
+}
+
+/* Moved from above to stop offestting the soical links at the bottom*/
+.nav-item a {
     letter-spacing: 2px;
     padding: 5px 5px 10px 5px;
 }
@@ -368,7 +372,6 @@ ul {
 /*-------------------Footer */
 
 .social-links li a i {
-    margin: 0 auto;
     width: 45px;
     height: 45px;
     border-radius: 50%;
@@ -377,6 +380,10 @@ ul {
     color: #ececef;
     background-color: #49274A;
     padding: 0;
+    /*flex added to links themselves, from tutor support*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -384,6 +391,7 @@ ul {
 }
 
 .social-container {
+    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -392,7 +400,7 @@ ul {
 
 .social-links {
     padding: 0;
-    marin: 10px 0;
+    margin: 10px 0;
     list-style-type: none;
 }
 
