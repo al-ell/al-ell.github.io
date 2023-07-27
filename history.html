@@ -143,7 +143,6 @@
             <div class="col-sm-12 col-md-6 history-content">
                 <!-- How to embed youtube video (https://www.w3schools.com/html/html_youtube.asp) -->
                 <iframe id="history-video" src="https://www.youtube.com/embed/wPRwhu7WKp4" title="YouTube video player"
-                    frameborder="0"
                     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen></iframe>
             </div>
@@ -214,7 +213,7 @@
             <!-- Watch link-->
             <div class="d-sm-none cd-md-block ol-md-4 watch-link-container">
                 <span class="watch-link" id="watch-link">
-                    <a href="https://www.youtube.com" target="_blank" aria-labelledby="youtube link">Watch our new
+                    <a href="https://www.youtube.com" target="_blank" aria-labelledby="watch-link">Watch our new
                         music
                         video!</a>
                 </span>
@@ -223,9 +222,8 @@
     </footer>
     <!-- Modal -->
     <!--Bootstrap components used: https://getbootstrap.com/docs/4.5/components/modal/-->
-    <div class="modal fade" id="formModal" tabindex="-1" data-backdrop="false" aria-labelledby="contact form"
-        aria-hidden="true">
-        <div class="modal-dialog modal-lg justify-content-center">
+    <div class="modal fade" id="formModal" tabindex="-1" data-backdrop="false" aria-hidden="true">
+        <div class="modal-dialog modal-lg justify-content-center" aria-labelledby="formModal">
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" id="modalBtnClick" class="close" data-dismiss="modal" aria-label="Close">
@@ -259,8 +257,9 @@
                 </div>
             </div>
         </div>
-        <!--Fontawesome CDN-->
-        <script src="https://kit.fontawesome.com/fe32e32a81.js" crossorigin="anonymous"></script>
+    </div>
+    <!--Fontawesome CDN-->
+    <script src="https://kit.fontawesome.com/fe32e32a81.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
