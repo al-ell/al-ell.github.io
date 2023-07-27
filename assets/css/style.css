@@ -150,7 +150,7 @@ nav a:hover {
     opacity: 0.7;
     margin: 0;
     padding: 0;
-    margin-bottom: 7vh;
+    margin-bottom: 8.5vh;
 }
 
 .hero-text-container {
@@ -542,10 +542,6 @@ footer {
         border-radius: 25px 25px 25px 25px;
     }
 
-    #logo-container {
-        top: 35vh;
-    }
-
     #ticket-alert {
         display: none;
     }
@@ -564,11 +560,6 @@ footer {
     }
 
     /*--- Live*/
-    .timeline-container {
-        margin-left: 20px;
-        margin-bottom: 7vh;
-    }
-
     .timeline-area {
         margin-top: 20px;
     }
@@ -593,7 +584,7 @@ footer {
     }
 
     .hero-image-container {
-        margin-top: 9vh;
+        margin-top: 0;
     }
 
     #logo-container {
@@ -622,22 +613,22 @@ footer {
     .image-gallery-container,
     .history-grid-container,
     .timeline-container {
-        margin-top: 120px;
+        margin-top: 14vh;
     }
 
     /*--- Homepage*/
     .hero-image {
-        background: url("../images/street2.webp") no-repeat center top;
+        background: url("../images/street2cropped.webp") no-repeat center top;
         background-size: cover;
         width: 100%;
-        height: 80h;
-        margin-top: 14vh;
+        height: 78h;
+        margin-top: 4vh;
     }
 
     /*--- Live*/
     .timeline-container {
         margin-left: 20px;
-        margin-bottom: 7vh;
+        margin-bottom: 8.5vh;
     }
 
     .tl-item {
@@ -648,12 +639,12 @@ footer {
     /*--- History*/
     .history-grid-container {
         margin-left: 20px;
-        margin-bottom: 7vh;
+        margin-bottom: 8.5vh;
     }
 
     /*--- Gallery*/
     .image-gallery-container {
-        margin-bottom: 7vh;
+        margin-bottom: 8.5vh;
     }
 
     #gallery-heading {
