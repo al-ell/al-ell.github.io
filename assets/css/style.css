@@ -53,12 +53,15 @@ h5 {
 
 /*----------------------Header */
 
+#logo-container {
+    justify-content: center;
+}
+
 #logo {
     font-family: Monoton;
-    text-align: center;
     margin-top: 8px;
     color: #49274A;
-    font-size: 5.5vw;
+    font-size: 12vh;
 }
 
 /*how to push header/nav down> */
@@ -109,10 +112,11 @@ nav a:hover {
 }
 
 #alert-container {
-    margin-top: 3vh;
+    margin-top: 6vh;
 }
 
 #ticket-alert {
+    position: relative;
     margin: 5px;
     text-align: center;
     font-size: 16px;
@@ -544,10 +548,6 @@ footer {
         top: 35vh;
     }
 
-    #logo {
-        font-size: 9vh;
-    }
-
     #ticket-alert {
         display: none;
     }
@@ -613,51 +613,7 @@ footer {
 @media screen and (max-width:768px) {
 
     /*--- Header*/
-    #nav-container {
-        background-color: rgba(232, 232, 232, 0.9);
-        display: block;
-        flex-wrap: wrap-reverse;
-        border-radius: 10px;
-    }
-
-    .navbar-toggler {
-        color: #AEABBA;
-        text-align: center;
-        background-color: rgba(148, 97, 142, 1);
-        justify-content: flex-start;
-    }
-
-    .nav-button-container {
-        width: 10vh;
-        justify-content: center;
-        height: 5vh;
-        margin-left: -30px;
-        margin-top: -20px;
-    }
-
-    .navbar-nav {
-        background-color: rgba(148, 97, 142, 1);
-        padding: 5px 20px 5px 20px;
-        border-radius: 10px;
-        text-align: center;
-        letter-spacing: 1px;
-        color: #AEABBA;
-    }
-
-    #logo-container {
-        display: block;
-        flex-wrap: wrap-reverse;
-        position: absolute;
-        top: 5vh;
-    }
-
-    .flex-container {
-        display: flex;
-        flex-wrap: wrap-reverse;
-    }
-
     #logo {
-        font-size: 10vh;
         margin: 0 0 20px 0;
     }
 
@@ -729,17 +685,6 @@ footer {
 
 @media screen and (min-width:768px) {
 
-    /*--- Header*/
-    #nav-container {
-        border-radius: 0 25px 25px 0;
-    }
-
-    /*----Colors */
-    /* Info on how to make colour gradients (https: //www.w3schools.com/css/css3_gradients.asp)*/
-    .nav-container {
-        background-image: linear-gradient(to right, rgba(148, 97, 142, 0.001), rgba(148, 97, 142, 1));
-    }
-
     /*--- Special Headings and Margins*/
     #live-heading,
     #history-heading,
@@ -781,4 +726,74 @@ footer {
     }
 
 
+}
+
+@media screen and (max-width:992px) {
+
+    /*--- Header*/
+    #nav-container {
+        background-color: rgba(232, 232, 232, 0.9);
+        display: flex;
+        flex-wrap: wrap-reverse;
+        border-radius: 10px;
+    }
+
+    .navbar-toggler {
+        color: #AEABBA;
+        text-align: center;
+        background-color: rgba(148, 97, 142, 1);
+        justify-content: flex-start;
+    }
+
+    .nav-button-container {
+        width: 10vh;
+        justify-content: center;
+        height: 5vh;
+        margin-left: -30px;
+        margin-top: -20px;
+    }
+
+    .navbar-nav {
+        background-color: rgba(148, 97, 142, 1);
+        padding: 5px 20px 5px 20px;
+        border-radius: 10px;
+        text-align: center;
+        letter-spacing: 1px;
+        color: #AEABBA;
+    }
+
+    #logo-container {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        position: absolute;
+        top: 5vh;
+    }
+
+    #alert-container {
+        margin-top: 13vh;
+    }
+}
+
+/*had to amend to 993 from 992 as nav container was still displaying fade colors */
+@media screen and (min-width:993px) {
+
+    /*--- Header*/
+    .nav-container {
+        border-radius: 0 25px 25px 0;
+        background-image: linear-gradient(to right, rgba(148, 97, 142, 0.001), rgba(148, 97, 142, 1));
+    }
+
+    #logo,
+    .nav-container {
+        flex-wrap: nowrap;
+
+    }
+
+    #logo {
+        font-size: 8vh;
+    }
+
+    #alert-container {
+        margin-top: 2vh;
+    }
 }
