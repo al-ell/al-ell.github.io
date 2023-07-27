@@ -376,6 +376,7 @@ ul {
 /*-------------------Footer */
 
 .social-links li a i {
+    bottom: 2vh;
     width: 45px;
     height: 45px;
     border-radius: 50%;
@@ -397,9 +398,6 @@ ul {
 .social-container {
     padding: 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 }
 
 .social-links {
@@ -552,12 +550,11 @@ footer {
         display: none;
     }
 
-    a {
+    .nav-item a {
         overflow: hidden;
         Margin-top: 2px;
         text-decoration: none;
         font-size: 12px;
-        letter-spacing: 2px;
         padding: 3px 3px 5px 3px;
     }
 
@@ -603,9 +600,9 @@ footer {
         margin: 10px 0;
     }
 
-    .social-links li {
-        scale: 0.9;
-        margin-bottom: 10px;
+    #contact-button,
+    .social-links {
+        transform: scale(0.9);
     }
 }
 
@@ -670,16 +667,15 @@ footer {
 
     .social-container {
         flex-wrap: nowrap;
-        width: 50%;
+        width: 60%;
     }
 
     .contact-container {
-        padding: 2vh 4vh;
-        width: 50%;
+        width: 40%;
     }
 
     footer {
-        max-height: 7vh;
+        max-height: 8vh;
     }
 }
 
