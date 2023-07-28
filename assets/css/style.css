@@ -194,14 +194,14 @@ iframe {
     height: 400px;
 }
 
-
-
 .history-video {
     box-sizing: border-box;
     border: 1px solid #151C32;
     border-radius: 10px;
     margin-top: 8px;
     background-color: black;
+    /* Resource used to better fit iframe to container
+        https: //www.tutorialspoint.com/how-to-set-div-width-to-fit-content-using-css#:~:text=Using%20the%20fit%2Dcontent%20value,on%20its%20parent%20container's%20width.*/
     height: fit-content;
 }
 
@@ -331,7 +331,7 @@ ul {
     font-size: 20px;
     border: 3px solid #49274A;
     border-radius: 10px;
-    width: 40%;
+    width: 60%;
     position: relative;
     text-align: center;
     margin-bottom: 20px;
@@ -644,7 +644,7 @@ footer {
 
     .tl-item {
         width: 90%;
-        height: 140px;
+        height: 180px;
     }
 
     /*--- History*/
@@ -715,7 +715,7 @@ footer {
     }
 
     .tl-item {
-        width: 60%;
+        width: 70%;
         height: 160px;
     }
 
@@ -794,5 +794,10 @@ footer {
 
     #alert-container {
         margin-top: 2vh;
+    }
+
+    /*--- Live */
+    .tl-item {
+        width: 100%;
     }
 }
