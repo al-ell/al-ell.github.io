@@ -189,10 +189,13 @@ nav a:hover {
     padding: 0;
 }
 
-#history-video {
-    min-height: 350px;
-    width: 100%;
+.history-video {
+    box-sizing: border-box;
+    border: 1px solid #151C32;
     border-radius: 10px;
+    height: fit-content;
+    width: 100%;
+    background-color: black;
 }
 
 #festival-image {
@@ -693,6 +696,7 @@ footer {
         max-width: 32%;
     }
 
+    .history-video,
     .history-content {
         max-width: 49%;
     }
