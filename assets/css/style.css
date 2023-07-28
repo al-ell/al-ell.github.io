@@ -362,10 +362,10 @@ ul {
     top: 5px;
 }
 
-
 .tl-item h4 {
     font-size: 20px;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 30px;
     text-align: center;
 }
 
@@ -382,6 +382,15 @@ ul {
     color: #49274A;
     font-family: "Cabin Condensed", sans-serif;
     font-weight: 600;
+}
+
+.live-video {
+    height: fit-content;
+    width: 300px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 1px solid #151C32;
+    background-color: black;
 }
 
 /*-------------------Footer */
