@@ -29,19 +29,21 @@ Visit the deployed site: [Deaf Cats]()
 
 [W3C](https://validator.w3.org/) was used to validate the HTML on all pages of the website.
 
-- [Index Page]() No errors found 
+- [Index Page]() No errors found
 - [Gallery Page]() No errors found
 - [History Page]() No errors found
 - [Live Page]() No erorrs found
-_ [css]() No errors found, 3 wardnings : !["/assets/docmenation/bugs/css-jigsaw-warnings.png"]
+  \_ [css]() No errors found, 3 wardnings : !["/assets/docmenation/bugs/css-jigsaw-warnings.png"]
   .
 
 ---
 
 ### Lighthouse
 
-Use of <iframe>
-slows down result as it is a lot of data to load. The use of <lite-youtube> (https://github.com/justinribeiro/lite-youtube/tree/main) would improve this result but I have not been able to successfully implement this.
+##### Future Updates
+
+- Use of <iframe>
+  slows down result as it is a lot of data to load. The use of <lite-youtube> (https://github.com/justinribeiro/lite-youtube/tree/main) would improve this result but I have not been able to successfully implement this.
 
 ### Desktop Results
 
@@ -55,6 +57,16 @@ slows down result as it is a lot of data to load. The use of <lite-youtube> (htt
 ### WAVE Testing
 
 [WAVE](http://wave.webaim.org/) (Web Accessibility Evaluation Tool)
+
+![Initial result](/assets/documentation/testing/wave-intitial-result.png)
+
+- Missing form label for modal form text box (added)
+- Contrast updated manually to pass accessability guidelines:
+
+![Wave contrast editor 1](/assets/documentation/testing/wave-contrast-pass1.png)
+![Wave contrast editor 2](/assets/documentation/testing/wave-contrast-pass-footer.png)
+
+![Final result](/assets/documentation/testing/wave-final-result.png)
 
 ---
 
@@ -140,8 +152,8 @@ Google Chrome
 
 ### Solved Bugs
 
-| No  | Bug                                                                                                                  | How I solved the issue                                                                                                                                                                                                                                                                                                                                                  |
-| :-- | :------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------- | --- |
+| No  | Bug                                                                                                                  | How I solved the issue                                                 |
+| :-- | :------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------- | --- |
 | 1   | Hero image won't display                                                                                             | I was seeking tutor support for another issue and Gemma spotted a typo, the class I was attempting to target did not match with the index page.                                                                                                                                                                                                                         | ![No Hero image](documentation/bugs/bug-hero-image-wont-display.png)                          |     |
 |     | Modal displayed under background                                                                                     | Stackoverflow forum(https://stackoverflow.com/questions/41292673/bootstrap-modal-opens-but-stays-in-gray-background-and-cannot-close-or-interact) Bootstrap z-index{https://getbootstrap.com/docs/5.0/layout/z-index/}                                                                                                                                                  | ![Modal under background](documentation/bugs/bug-modal-display-under-background.jpg)          |     |
 |     | Social media icons altered when bootstrap updated to include script needed for Modal                                 | Tutor assistance sought. I was not using the best Fontawesome icon classes and the script was at the top, not the bottom of the html page.                                                                                                                                                                                                                              | ![Lost social media icons](documentation/bugs/bug-lost-social-icons-added-modal.jpg)          |     |
