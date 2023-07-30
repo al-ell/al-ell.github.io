@@ -54,7 +54,6 @@ h5 {
 
 .hero-image-container {
     margin-bottom: 0;
-    display: flex;
 }
 
 .history-grid-container,
@@ -166,11 +165,10 @@ nav a:hover {
 
 .hero-text-container {
     position: relative;
-    height: fit-content;
+    height: 200px;
     text-align: center;
-    display: flex;
     width: fit-content;
-    font-size: 20px;
+    font-size: 16px;
     border-radius: 10px;
     padding: 20px 15px;
 }
@@ -603,7 +601,7 @@ footer {
 
     .hero-text-container {
         transform: scale(0.8);
-        top: 45vh;
+        top: 40vh;
     }
 
     /* --- Footer */
@@ -657,6 +655,8 @@ footer {
 
     .hero-text-container {
         transform: scale(0.8);
+        height: fit-content;
+        margin: 0 auto;
         top: 40vh;
     }
 
@@ -713,8 +713,8 @@ footer {
     }
 
     .hero-text-container {
-        transform: scale(1.2);
         top: 45vh;
+        margin: 0 auto;
     }
 
     /*--- History*/
