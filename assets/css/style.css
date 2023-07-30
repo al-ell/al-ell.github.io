@@ -1,13 +1,17 @@
 /*----------------------Colors */
-.hero-text-container,
+.hero-text-container {
+    background-color: rgba(191, 155, 191, 0.8);
+}
+
 .tl-item,
 .history-content-top-row,
 .history-content {
-    background-color: rgba(148, 97, 142, 0.7);
+    background-color: #BF9BBF;
 }
 
+
 #footer-container {
-    background-color: rgba(148, 97, 142, 1);
+    background-color: #B495B0;
 }
 
 body,
@@ -27,7 +31,7 @@ h5 {
     font-family: Ubuntu, sans-serif;
     font-weight: 700;
     margin-bottom: 20px;
-    color: #49274A;
+    color: #140B14;
 }
 
 h2,
@@ -50,6 +54,7 @@ h5 {
 
 .hero-image-container {
     margin-bottom: 0;
+    display: flex;
 }
 
 .history-grid-container,
@@ -68,7 +73,7 @@ h5 {
 #logo {
     font-family: Monoton;
     margin-top: 8px;
-    color: #49274A;
+    color: #140B14;
 }
 
 /*how to push header/nav down> */
@@ -94,7 +99,7 @@ a {
     Margin-top: 5px;
     font-family: "Ubuntu", sans-serif;
     font-weight: 700;
-    color: #49274A;
+    color: #140B14;
     text-decoration: none;
     font-size: 20px;
 }
@@ -123,6 +128,7 @@ nav a:hover {
 
 #ticket-alert {
     position: relative;
+    background-color: #B3B7B7;
     margin: 5px;
     text-align: center;
     font-size: 16px;
@@ -140,7 +146,7 @@ nav a:hover {
     font-size: 16px;
     margin: 0;
     padding: 5px;
-    color: red;
+    color: #610000;
 }
 
 
@@ -171,7 +177,7 @@ nav a:hover {
 
 .stars {
     font-size: 25px;
-    color: #49274A;
+    color: #140B14;
 }
 
 /*-------------------History Page */
@@ -313,14 +319,14 @@ nav a:hover {
 /*-------------------Live */
 
 .timeline-area {
-    border-left: 4px solid #49274A;
+    border-left: 4px solid #140B14;
 }
 
 .tl-item {
-    color: #49274A;
+    color: #140B14
     padding: 10px 10px;
     font-size: 20px;
-    border: 3px solid #49274A;
+    border: 2px solid #140B14;
     border-radius: 10px;
     width: 60%;
     position: relative;
@@ -334,8 +340,8 @@ nav a:hover {
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background-color: rgba(148, 97, 142, 1);
-    border: 2px solid #49274A;
+    background-color: #140B14;
+    border: 2px solid #140B14;
     position: absolute;
     top: 8px;
     left: -28px;
@@ -346,7 +352,7 @@ nav a:hover {
     width: 0;
     height: 0;
     border-style: solid;
-    border-color: transparent #49274A transparent transparent;
+    border-color: transparent #140B14 transparent transparent;
     border-width: 12px;
     position: absolute;
     left: -26px;
@@ -370,7 +376,7 @@ nav a:hover {
     text-decoration: none;
     text-align: right;
     font-size: 22px;
-    color: #49274A;
+    color: #140B14;
     font-family: "Cabin Condensed", sans-serif;
     font-weight: 600;
 }
@@ -389,8 +395,8 @@ iframe {
     border-radius: 50%;
     line-height: 7px;
     font-size: 26px;
-    color: #ececef;
-    background-color: #49274A;
+    color: #140B14;
+    background-color: #ececef;
     padding: 0;
     /*flex added to links themselves, from tutor support*/
     display: flex;
@@ -405,8 +411,8 @@ iframe {
 }
 
 .social-links li a i:hover {
-    color: #49274A;
-    background-color: #ececef;
+    color: #ececef;
+    background-color: #140B14;
 }
 
 .social-links {
@@ -440,7 +446,7 @@ iframe {
 }
 
 #contact-button {
-    background-color: #49274A;
+    background-color: #140B14;
     color: #ececef;
     text-decoration: none;
     text-transform: uppercase;
@@ -491,14 +497,14 @@ footer {
     position: relative;
     padding: 3px;
     max-width: 80%;
-    border: 1px solid #151C32;
+    border: 1px solid #140B14;
     border-radius: 25px 25px 25px 25px;
 }
 
 .modal-content {
     width: 100%;
     background-color: #ececef;
-    border: 1px solid #151C32;
+    border: 1px solid #140B14;
     border-radius: 25px 25px 25px 25px;
 }
 

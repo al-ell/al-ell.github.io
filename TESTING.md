@@ -29,10 +29,11 @@ Visit the deployed site: [Deaf Cats]()
 
 [W3C](https://validator.w3.org/) was used to validate the HTML on all pages of the website.
 
-- [Index Page]()
-- [Gallery Page]()
-- [History Page]()
-- [Live Page]()
+- [Index Page]() No errors found 
+- [Gallery Page]() No errors found
+- [History Page]() No errors found
+- [Live Page]() No erorrs found
+_ [css]() No errors found, 3 wardnings : !["/assets/docmenation/bugs/css-jigsaw-warnings.png"]
   .
 
 ---
@@ -88,6 +89,8 @@ Full testing was performed on the following devices:
 
 Each device tested the site using the following browsers:
 
+Google Chrome
+
 | Feature              | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | -------------------- | ---------------- | ----------------- | ------ | --------- | --- |
 | `Navbar`             |
@@ -138,7 +141,7 @@ Each device tested the site using the following browsers:
 ### Solved Bugs
 
 | No  | Bug                                                                                                                  | How I solved the issue                                                                                                                                                                                                                                                                                                                                                  |
-| :-- | :------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- | --- |
+| :-- | :------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------- | --- |
 | 1   | Hero image won't display                                                                                             | I was seeking tutor support for another issue and Gemma spotted a typo, the class I was attempting to target did not match with the index page.                                                                                                                                                                                                                         | ![No Hero image](documentation/bugs/bug-hero-image-wont-display.png)                          |     |
 |     | Modal displayed under background                                                                                     | Stackoverflow forum(https://stackoverflow.com/questions/41292673/bootstrap-modal-opens-but-stays-in-gray-background-and-cannot-close-or-interact) Bootstrap z-index{https://getbootstrap.com/docs/5.0/layout/z-index/}                                                                                                                                                  | ![Modal under background](documentation/bugs/bug-modal-display-under-background.jpg)          |     |
 |     | Social media icons altered when bootstrap updated to include script needed for Modal                                 | Tutor assistance sought. I was not using the best Fontawesome icon classes and the script was at the top, not the bottom of the html page.                                                                                                                                                                                                                              | ![Lost social media icons](documentation/bugs/bug-lost-social-icons-added-modal.jpg)          |     |
