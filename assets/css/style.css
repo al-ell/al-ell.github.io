@@ -6,7 +6,6 @@
     background-color: rgba(148, 97, 142, 0.8);
 }
 
-
 #footer-container {
     background-color: rgba(148, 97, 142, 1);
 }
@@ -36,7 +35,6 @@ h3 {
     font-size: 35px;
     letter-spacing: 2px;
 }
-
 
 h1,
 h2,
@@ -86,7 +84,6 @@ h5 {
 /*tutor support to help with nav alignment*/
 #nav-list {
     margin: 0 !important;
-    margin-left: auto;
 }
 
 a {
@@ -201,10 +198,6 @@ nav a:hover {
     background-color: black;
     /* Resource used to better fit iframe to container
             https: //www.tutorialspoint.com/how-to-set-div-width-to-fit-content-using-css#:~:text=Using%20the%20fit%2Dcontent%20value,on%20its%20parent%20container's%20width.*/
-    height: fit-content;
-}
-
-.history-video {
     height: 390px;
 }
 
@@ -237,31 +230,26 @@ nav a:hover {
     padding: 20px 30px 10px 20px;
 }
 
+
 /*-------------------Gallery Page */
 
-
-
 /*-------------------Responsive Gallery Styling */
-
-/* Code below from tutorial: (https: //blog.logrocket.com/responsive-image-gallery-css-flexbox/)
-    Code source: https: //codesandbox.io/s/delicate-wave-sts6l7?file=/style.css:395-1242) */
-
-ul {
-    list-style: none;
-}
 
 .gallery-heading {
     margin-top: 20px;
     margin-bottom: 10px;
-    font-family: Ubuntu, sans-serif;
     font-size: 35px;
     letter-spacing: 2px;
     color: #151C32;
 }
 
+/* Code below from tutorial: (https: //blog.logrocket.com/responsive-image-gallery-css-flexbox/)
+    Code source: https: //codesandbox.io/s/delicate-wave-sts6l7?file=/style.css:395-1242) */
+
 /* Responsive image gallery rules begin*/
 
 .image-gallery {
+    list-style: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -323,7 +311,6 @@ ul {
 
 .timeline-area {
     border-left: 4px solid #49274A;
-    left: -30px;
 }
 
 .tl-item {
@@ -385,6 +372,10 @@ ul {
     font-weight: 600;
 }
 
+iframe {
+    width: 100%;
+    height: 100%;
+}
 
 
 /*-------------------Footer */
@@ -403,6 +394,7 @@ ul {
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
+    /* From Resume project */
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -424,7 +416,6 @@ ul {
     justify-content: space-around;
     align-items: center;
 }
-
 
 .contact-container,
 .watch-link-container {
@@ -449,6 +440,7 @@ ul {
     background-color: #49274A;
     color: #ececef;
     text-decoration: none;
+    text-transform: uppercase;
     font-family: "Ubuntu", sans-serif;
     text-align: center;
     font-weight: 700;
@@ -469,6 +461,7 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
 
 /*-------------------Modal */
 
@@ -549,7 +542,6 @@ footer {
 
 /*-------------------Media Queries */
 
-
 @media screen and (max-width:576px) {
 
     /*--- Header*/
@@ -557,16 +549,8 @@ footer {
         border-radius: 25px 25px 25px 25px;
     }
 
-    #ticket-alert {
-        display: none;
-    }
-
-    .nav-item a {
-        overflow: hidden;
-        Margin-top: 2px;
-        text-decoration: none;
-        font-size: 12px;
-        padding: 3px 3px 5px 3px;
+    #logo-container {
+        margin: 10px 0;
     }
 
     /*--- History*/
@@ -587,9 +571,6 @@ footer {
         left: -26px;
 
     }
-}
-
-@media screen and (max-width:576px) {
 
     /*--- Special Margin and Padding*/
     .image-gallery-container,
@@ -616,28 +597,33 @@ footer {
         top: 35vh;
     }
 
-    #logo-container {
-        margin: 10px 0;
-    }
-
-
+    /* --- Footer */
+    /* Help to scale https: //developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale */
     #contact-button,
     .social-icon {
         transform: scale(0.8);
     }
 
+    /* --- Gallery */
     .image-gallery-container {
         padding-left: 0;
         padding-right: 15px;
     }
 }
 
-
 @media screen and (max-width:768px) {
 
     /*--- Header*/
     #logo {
         margin: 0 0 20px 0;
+    }
+
+    .nav-item a {
+        overflow: hidden;
+        Margin-top: 2px;
+        text-decoration: none;
+        font-size: 12px;
+        padding: 7px 10px;
     }
 
     #ticket-alert {
@@ -675,7 +661,6 @@ footer {
         margin-left: 20px;
     }
 
-
     /*--- Gallery*/
     #gallery-heading {
         text-align: center;
@@ -685,7 +670,6 @@ footer {
     /*  Tutorials and websites used to understand flexbox and increase responsiveness of webpages:
         (https: //www.youtube.com/playlist?list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG)
             (https: //css-tricks.com/almanac/properties/f/flex-wrap/) */
-
     .social-container {
         flex-wrap: nowrap;
         width: 60%;
@@ -744,7 +728,7 @@ footer {
 
     /*--- Header*/
     #logo {
-        font-size: 11vh;
+        font-size: 9vh;
     }
 
     #nav-container {
@@ -790,7 +774,7 @@ footer {
     }
 }
 
-/*had to amend to 993 from 992 as nav container was still displaying fade colors */
+/* I had to amend to 993 from 992 as nav container was still displaying fade background image */
 @media screen and (min-width:993px) {
 
     /*--- Header*/
@@ -802,7 +786,6 @@ footer {
     #logo,
     .nav-container {
         flex-wrap: nowrap;
-
     }
 
     #logo {
@@ -814,15 +797,12 @@ footer {
     }
 
     /*--- Live */
+    .timeline-area {
+        margin-left: 30px;
+    }
 
     .tl-item {
         width: 100%;
-    }
-
-    iframe {
-        width: 100%;
-        height: 100%;
-
     }
 
     .live-video {
