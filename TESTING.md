@@ -168,8 +168,8 @@ Google Chrome
 | 12 | Gallery page navigation not displaying inline as on other pages. | I found this bug during a mentoring session. I found out later that I had a typo in the <meta name="viewport"> section of the header. Once this was corrected it displayed as normal. | ![No viewport](documentation/bugs/bug-no-viewport.png) | |
 | 13 | Navbar not collapsed on medium screen sizes | I realised that my grid column was targeting md instead of lg for the button toggle. I changed this and now the navbar is collapsed for tablet and mobile. | ![Navbar not collapsed](documentation/bugs/bug-navbar-not-collapsed.png) | |
 | 14 | After applying flex properties to the footer sections the social links went out of alignment. | I couldn't figure out how to align them again, so after a few hours I got tutor assistance to help fix the issue. I was not targeting the right elements with flex properties. | ![Social icon misalignment](documentation/bugs/bug-social-icon-misaligned.png) | |
-| 15 | | | | |
-| 16 | | | | |
+| 15 | Logo too large for medium screen, altert and heading out of alignment | I used chrome dev tools to find the appropriate size that won't put the sections out of alignment | ![Logo to big](documentation/bugs/bug-logo-too-big.png) | |
+| 16 |  | | | |
 | 17 | | | | |
 | 18 | | | | |
 | 19 | | | | |
@@ -180,7 +180,9 @@ Google Chrome
 
 | No  | Bug |     |
 | :-- | :-- | :-- | --- | --- |
-|     |     |     |     |     |
-|     |     |     |     |     |
-|     |     |     |     |     |
+|  1  | The hero text sits too low in the viewport | I couldn't find the right size for the text box as I have ran out of time to build (I may come back to this issue later) | ![Hero text alignment](documentation/bugs/known-bug-hero-text-alignment.png) |     |
+|     | The hero text sits too low in the viewport |     | ![Scroll on mobile](documentation/bugs/known-bug-scroll-mobile.png) |    |
+|     | The hero text sits too low in the viewport |     | ![Scroll on mobile](documentation/bugs/known-bug-scroll-on-mobile.png) |     |
+|  2  | The header top margins are too large on some devices | I have ran out of time to fix this, but adjusting the unit of measurement or being more precise may give better results. | ![Large Margins](documentation/bugs/known-bug-large-margins.png) |     |
+|  3  |  |     |     |     |
 |     |     |     |     |     |
