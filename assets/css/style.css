@@ -3,7 +3,7 @@
 .tl-item,
 .history-content-top-row,
 .history-content {
-    background-color: rgba(148, 97, 142, 0.8);
+    background-color: rgba(148, 97, 142, 0.7);
 }
 
 #footer-container {
@@ -169,7 +169,7 @@ nav a:hover {
     padding: 20px 15px;
 }
 
-.star {
+.stars {
     font-size: 25px;
     color: #49274A;
 }
