@@ -6,7 +6,7 @@
 
 Deaf Cats was created as my first milestone project for the Code Institutes Level 5 Diploma in Web Application Development.
 
-Link to deployed site: [Deaf Cats](https://web-production-b7c20.up.railway.app/)
+Link to deployed site: [Deaf Cats]()
 
 ![GitHub last commit]()
 ![GitHub contributors]()
@@ -116,9 +116,7 @@ I then experimented with different tones and shades of these colours using WebAI
 ![Contrast checker][https://webaim.org/resources/contrastchecker/]
 
 
-
-The the contrast ratio for the chosen colors for text and header & footer background elements is 7.5.1
-
+The the contrast ratio for the chosen colors for text and header & footer background elements passes the contrast checker for all colors. 
 
 ### Typography
 
