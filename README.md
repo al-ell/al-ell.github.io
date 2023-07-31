@@ -144,6 +144,8 @@ Icons are a good way to add accessability features to a website
 
 ### Imagery
 
+Favicon generated using [Favicon generator](https://www.favicon-generator.org/) ![Favicon](/assets/images/dc-favicon.ico)
+
 As the site is for fans of the band I have chosen imsges of a group of people from a stockfile website. I have complimented these with musical themed images.Please view the media section for more information on where each image was sourced.
 
 
@@ -177,12 +179,12 @@ Wireframes were created for mobile and desktop using Balsamiq.
 
 #### __User Journey__
 
-![User Journey](documentation/user-journey.png)
+![User Journey](documentatio)
 
 
 ## Features
 
-The website is comprised of 4 pages which are extended from a base template.
+The website is comprised of 4 pages ana modal which are extended from a base template.
 
 * Home page
 * Gallery page
@@ -200,6 +202,10 @@ The website is comprised of 4 pages which are extended from a base template.
   __Navbar__
   
   ![Navbar]()
+
+  __Nav-button__
+
+    ![Nav-button-toggler]()
 
 * Footer - A footer containing the modal button and external social media icons links is displayed on all pages of the website.
 
@@ -238,14 +244,18 @@ In future implementations I would like to:
 * Create a ticket booking system/allow users to boy tickets on the website.
 * Create an online shop selling merchandise.
 * Add a sign up link for a mailing list.
+* Add a blog documenting tour journey.
+* Add a live instagram or twitter feed.
+* Add an audio player with user controls to the gallery page.
 
 ### Accessibility
 
 I have been mindful during coding to ensure that the website is as accessible friendly as possible. This has been achieved by:
 
 * Using semantic HTML.
-* Using descriptive alt attributes on images on the site.
+* Using descriptive alt attributes and titles for images and video on the site.
 * Providing information for screen readers where there are icons used and no text.
+* Adding "current" to navigation for screen reader to inform of page being accessed.
 * Ensuring that there is a sufficient colour contrast throughout the site.
 
 - - -
@@ -258,6 +268,9 @@ HTML, CSS.
 
 ### Databases Used
 
+[W3 Schools html]()
+[W3 Schools css]()
+
 
 ### Frameworks Used
 
@@ -265,6 +278,8 @@ HTML, CSS.
 
 ### Libraries & Packages Used
 
+[W3 Schools html]()
+[W3 Schools css]()
 
 
 ### Programs Used
@@ -315,15 +330,52 @@ Please see [TESTING.md](TESTING.md) for all testing performed
 
 ### Code Used
 
+
+All instances of Tutor support and fixes found online are documented as comments in the code.
+
+##### Gallery Page
+
+[Responsive Gallery Tutorial](https://blog.logrocket.com/responsive-image-gallery-css-flexbox/)
+[Responsive Gallery Source Code](https://codesandbox.io/s/delicate-wave-sts6l7?file=/index.html:313-2227)
+To create the gallery page I followed the above tutorial to make the responsive gallery page. Doing this helped me to learn more about how flexbox works. After this I went to make the history page.
+
+##### History Page
+
+[Youtube Flexbox Tutorial](https://www.youtube.com/watch?v=Y8zMYaD1bz0)
+I used the tutorial playlist above to make a flexbox grid layout that becomes a stack for a smaller resolution.
+
+##### Live Page
+
+[Youtube timeline tutorial](https://www.youtube.com/watch?v=TcYSRI1JFQE&t=6s)
+I used the timeline and knowlege gained during the Resume project to make the timeline for the tour dates. 
+
+
+##### Bootstrap Components  
+
+* Bootstrap Grid and flexbox used across all pages
+
+* Alert
+* Buttons
+* Navbar
+* Modal
+* Form
+*
+*
+*
+*
+
+
+
+
 ### Content
 
 Content for this project was written by Alice Elliott.
 
 ### Media
 
-* Homepage Image[street-homeimage](https://www.pexels.com/photo/two-men-and-woman-sitting-next-to-each-other-2479312/)
+* Homepage Image for larger screen resolutions [street-homeimage](https://www.pexels.com/photo/two-men-and-woman-sitting-next-to-each-other-2479312/)
 
-* Image for gallery [street2](https://www.pexels.com/photo/man-playing-guitar-beside-woman-and-man-listening-to-him-2479320/)
+* Homepage Image for smaller screen resolutions/Image for gallery [street2](https://www.pexels.com/photo/man-playing-guitar-beside-woman-and-man-listening-to-him-2479320/)
 
 * Image for gallery [street3](https://www.pexels.com/photo/man-playing-guitar-on-street-2479323/)
 
@@ -350,5 +402,6 @@ Content for this project was written by Alice Elliott.
 * Image for history [festival-stage](https://www.pexels.com/search/festival%20stage/)
 
 * Video for history [youtube-video](https://youtu.be/wPRwhu7WKp4)
+* Video for live [youtube-video](https://www.youtube.com/watch?v=St7G1F4mu_4&t=3s)
 
 ### Acknowledgments
