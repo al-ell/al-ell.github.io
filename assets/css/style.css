@@ -34,7 +34,9 @@ h5 {
     color: #140B14;
 }
 
-h2 {
+.live-heading,
+.history-heading,
+.gallery-heading {
     font-size: 35px;
     letter-spacing: 2px;
 }
@@ -167,13 +169,13 @@ nav a:hover {
     height: 200px;
     text-align: center;
     width: fit-content;
-    font-size: 16px;
+    font-size: 26px;
     border-radius: 10px;
     padding: 20px 15px;
 }
 
 .stars {
-    font-size: 25px;
+    font-size: 30px;
     color: #140B14;
 }
 
