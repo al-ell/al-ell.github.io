@@ -201,39 +201,47 @@ The website is comprised of 4 pages ana modal which are extended from a base tem
 
   __Navbar__
   
-  ![Navbar]()
+* Bootstrap navbar styled to have right sided margin.
+  
+  ![Navbar](/documentation/manual-testing/homepage-nav.png)
 
   __Nav-button__
 
-    ![Nav-button-toggler]()
+* Flex wrap reverse used to get nav button to toggle and logo to sit below for smaller screen resolutions. 
 
-* Footer - A footer containing the modal button and external social media icons links is displayed on all pages of the website.
+    ![Nav-button-toggler](/documentation/manual-testing/mobile-nav-toggler.png)
 
-__Footer__
 
-  ![Footer]()
+  __Footer__
+
+* Footer containing the modal button and external social media icons links is displayed on all pages of the website. d-none used to hide watch link for smaller devices.
+  ![Footer](/documentation/manual-testing/homepage-footer.png)
 
 - - -
 
 ### Home Page
 
-![Home Page]()
+![Home Page](/documentation/manual-testing/desktop-index.png)
+
+![Home Page](/documentation/manual-testing/mobile-index.png)
+
+![Home Page](/documentation/manual-testing/tablet-index.png)
 
 ### Gallery Page
 
-![Gallery Page]()
+![Gallery Page](/documentation/manual-testing/desktop-gallery.png)
 
 ### History Page
 
-![History Page]()
+![History Page](/documentation/manual-testing/desktop-history.png)
 
 ### Live Page
 
-![Live Page]()
+![Live Page](/documentation/manual-testing/desktop-live.png)
 
 ### Contact Form Modal
 
-![Contact Form Modal]()
+![Contact Form Modal](/documentation/manual-testing/desktop-modal.png)
 
 - - -
 
