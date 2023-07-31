@@ -679,7 +679,7 @@ https://stackoverflow.com/questions/41292673/bootstrap-modal-opens-but-stays-in-
 
     /*--- History*/
     .history-grid-container {
-        margin-left: 20px;
+        margin-left: 5px;
     }
 
     /*--- Gallery*/
@@ -707,7 +707,7 @@ https://stackoverflow.com/questions/41292673/bootstrap-modal-opens-but-stays-in-
     #live-heading,
     #history-heading,
     #gallery-heading {
-        margin-top: 20px;
+        margin-top: 10vh;
     }
 
     /*--- Homepage*/
@@ -819,7 +819,7 @@ https://stackoverflow.com/questions/41292673/bootstrap-modal-opens-but-stays-in-
 
     /*--- Homepage */
     .hero-image-container {
-        margin-top: 6vh;
+        margin-top: 9vh;
     }
 
     /*--- Live */
@@ -845,5 +845,14 @@ https://stackoverflow.com/questions/41292673/bootstrap-modal-opens-but-stays-in-
         transform: translateY(100%);
         animation: fade-in-up 0.75s ease forwards;
         z-index: 1;
+    }
+}
+
+
+
+@media screen and (min-width:1200px) {
+    /*--- Homepage */
+    .hero-image-container {
+        margin-top: 3vh;
     }
 }
