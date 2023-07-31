@@ -33,12 +33,21 @@ Visit the deployed site: [Deaf Cats]()
 - [Gallery Page]() No errors found
 - [History Page]() No errors found
 - [Live Page]() No erorrs found
-  \_ [css]() No errors found, 3 wardnings : !["/assets/docmenation/bugs/css-jigsaw-warnings.png"]
-  .
+- [css]() No errors found, 3 warnings : ![jigsaw warnings](/assets/docmenation/bugs/css-jigsaw-warnings.png)
 
 ---
 
 ### Lighthouse
+
+- ![Index Page]() 
+- ![Gallery Page]() 
+- ![History Page]() 
+- ![Live Page]() 
+
+
+
+
+
 
 ##### Future Updates
 
@@ -140,7 +149,7 @@ Google Chrome
 | typing in text box | words appear on screen | typing in button | words appear on screen| pass |
 | attempting to send empty form | | clicking on send button | nothing happens | fail |
 
-![amiresponsive result](/documentation/manual-testing/amiresponsive-result.png)
+![amiresponsive result](/documentation/manual-testing/amiresponsive-results.png)
 
 ---
 
