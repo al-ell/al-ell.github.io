@@ -40,14 +40,14 @@ Visit the deployed site: [Deaf Cats](https://al-ell.github.io/index.html)
 
 ### Lighthouse
 
-- ![Index Page Desktop]() 
-- ![Index Page Mobile]() 
-- ![Gallery Page Desktop]() 
-- ![Gallery Page Mobile]()
-- ![History Page Desktop]() 
-- ![History Page Mobile]() 
-- ![Live Page Desktop]() 
-- ![Live Page Mobile]() 
+- ![Index Page Desktop](/documentation/testing/lighthouse-index-desktop.png) 
+- ![Index Page Mobile](/documentation/testing/lighthouse-index-mobile.png) 
+- ![Gallery Page Desktop](/documentation/testing/lighthouse-gallery-desktop.png) 
+- ![Gallery Page Mobile](/documentation/testing/lighthouse-gallery-mobile.png)
+- ![History Page Desktop](/documentation/testing/lighthouse-history-desktop.png) 
+- ![History Page Mobile](/documentation/testing/lighthouse-history-mobile.png) 
+- ![Live Page Desktop](/documentation/testing/lighthouse-live-desktop.png) 
+- ![Live Page Mobile](/documentation/testing/lighthouse-live-mobile.png) 
 
 ##### Opportunities to Improve Performance
 
