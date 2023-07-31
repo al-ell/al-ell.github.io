@@ -1,6 +1,6 @@
 # Deaf Cats
 
-![Welcome to ](documentation/) - image of homepage in different devices
+![Welcome to Deaf Cats](/documentation/multi-device-mockup.png) - image of homepage in different devices
 
 !](documentation/)
 
@@ -135,10 +135,10 @@ The font is easy to read, has good speacing between letters and continues the cu
 ##### Paragraphs 
 ![Cabin Condensed](https://fonts.google.com/specimen/Cabin+Condensed?preview.text=Deaf%20Cats&preview.text_type=custom&query=cabin+con)
 I felt this complimented the headings font well and is a sans-serif which improves legability. 
-![sample](documentation/fonts/cabincondensedsample.png)
+![sample](/documentation/fonts/cabincondensedsample.png)
 
 ##### Icons 
-![Font Awesome](https://fontawesome.com/icons)
+[Font Awesome](https://fontawesome.com/icons)
 Icons are a good way to add accessability features to a website 
 
 
@@ -155,23 +155,23 @@ Wireframes were created for mobile and desktop using Balsamiq.
 
 #### __Home Page__
 
-![Home Page](documentation/wireframeshomepage.png)
+![Home Page](/documentation/wireframes/wireframehomepage.png)
 
 #### __Contact Modal__
 
-![]](documentation/wireframes/contactus.png)
+![]](/documentation/wireframes/wireframecontactus.png)
 
 #### __Gallery Page__
 
-![Login Page](documentation/wireframes/gallery.png)
+![Login Page](/documentation/wireframes/wireframegallery.png)
 
 #### __History Page__
 
-![Profile Page](documentation/wireframes/history.png)
+![Profile Page](/documentation/wireframes/wireframehistory.png)
 
 #### __Live Page__
 
-![Live Page](documentation/wireframes/livedates.png)
+![Live Page](/documentation/wireframes/wireframelivedates.png)
 
 
 
@@ -179,7 +179,7 @@ Wireframes were created for mobile and desktop using Balsamiq.
 
 #### __User Journey__
 
-![User Journey](documentatio)
+
 
 
 ## Features
@@ -268,8 +268,7 @@ HTML, CSS.
 
 ### Databases Used
 
-[W3 Schools html]()
-[W3 Schools css]()
+[css flexbox guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 
 ### Frameworks Used
@@ -278,8 +277,8 @@ HTML, CSS.
 
 ### Libraries & Packages Used
 
-[W3 Schools html]()
-[W3 Schools css]()
+[W3 Schools html](https://www.w3schools.com/html/default.asp)
+[W3 Schools css](https://www.w3schools.com/css/default.asp)
 
 
 ### Programs Used
@@ -287,8 +286,6 @@ HTML, CSS.
 [Codeanywhere] - Online code editor.
 
 [Balsamiq](https://balsamiq.com/) - Used to create wireframes.
-
-[Git](https://git-scm.com/) - For version control.
 
 [Github](https://github.com/) - To save and store the files for the website.
 

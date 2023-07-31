@@ -95,7 +95,7 @@ Visit the deployed site: [Deaf Cats]()
 
 ### Full Testing
 
-Full testing was performed on the following devices:
+Full testing was performed using [amiresponsive](https://ui.dev/amiresponsive?url=https://al-ell.github.io/index.html):
 
 - Laptop:
 
@@ -105,46 +105,42 @@ Google Chrome
 
 | Feature              | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | -------------------- | ---------------- | ----------------- | ------ | --------- | --- |
-| `Navbar`             |
-|                      |                  |                   |        |           |
-|                      |                  |                   |        |           |
-|                      |                  |                   |        |           |
-|                      |                  |                   |        |           |
+| `Navbar` - all links tested on all pages  |
+| Click on gallery page nav link |gallery page loads | clicking on link | taken to page | pass |
+| Click on index page nav link |index page loads | clicking on link | taken to page | pass |
+| Click on history page nav link |history page loads | clicking on link | taken to page | pass |
+| Click on live page nav link |live page loads | clicking on link | taken to page | pass |
+| Click on ticket alert link |ticket sellers website loads | clicking on link | new page opens in new tab | pass |
+| ticket alert dissapears on smaller screen resolutions | alert dissapears | use of amiresponsive & Google dev tools to test different device and screeen sizes | alert dissapears| pass |
 | `Footer`             |
-|                      |                  |                   |        |           |
-|                      |                  |                   |        |           |
-|                      |                  |                   |        |           |
-|                      |                  |                   |        |           |
-|                      |                  |                   |        |           |
+| Click on spotify icon |spotify loads in new tab | clicking on link | spotify opens in new tab | pass |
+| Click on youtube icon |youtube loads in new tab | clicking on link | youtube opens in new tab | pass |
+| Click on bandcamp icon |bandcamp loads in new tab | clicking on link | bandcamp opens in new tab | pass |
+| Click on instagram |instagram loads in new tab | clicking on link | instagram opens in new tab | pass |
+| Click on watch link |new page loads in new tab | clicking on link | youtube opens in new tab | pass |
+| Click on contact button |modal loads over webpage | clicking on button | modal loads over webpage | pass |
 | `Home Page`          |
-|                      |                  |                   |        |
-|                      |                  |                   |        |           |
-|                      |                  |                   |        |           |
-|                      |                  |                   |        |           |
-|                      |                  |                   |        |           |
+| hero text sits at an appropriate height for all screen sizes | doesn't cover faces and isn't hidden by the footer | use of amiresponsive & Google dev tools to test different device and screeen sizes | alert dissapears | doesn't cover faces but is cropped by footer for almost all screen sizes | fail |
 | `Gallery Page`       |
-|                      |                  |                   |        |           |
-|                      |                  |                   |        |           |
-|                      |                  |                   |        |           |
-|                      |                  |                   |        |           |
+| click on all images in the gallery | overlay text appears | clicking on images | overlay text appears | pass |
+| gallery converts from grid to stack for smaller screen sizes | gallery converts to stack | use of amiresponsive & Google dev tools to test different device and screeen sizes | gallery converts to stack| pass |
 | `History Page`       |
-|                      |                  |                   |        |           |     |
-|                      |                  |                   |        |           |
-|                      |                  |                   |        |           |
-|                      |                  |                   |        |           |
-|                      |                  |                   |        |           |
+| history grid converts from grid to stack for smaller screen sizes | grid converts to stack | use of amiresponsive & Google dev tools to test different device and screeen sizes | grid converts to stack| pass |    
+| images crop for smaller screens and grow for larger resolutions | images crop/grow | use of amiresponsive & Google dev tools to test different device and screeen sizes | images crop/grow | pass |
+|youtube video plays when clicked on | video plays | clicking on iframe | video plays | pass |
 | `Live Page`          |
-|                      |                  |                   |        |           |
-|                      |                  |                   |        |           |
-|                      |                  |                   |        |           |
-|                      |                  |                   |        |           |
-|                      |                  |                   |        |           |
+|youtube video plays when clicked on | video plays | clicking on iframe | video plays | pass |
+|youtube video dissapears on smaller screen resolutions | video dissapears | use of amiresponsive & Google dev tools to test different device and screeen sizes | video dissapears| pass |
+| buy link opens ticket seller website when clicked | seller website opens in new tab | clicking on link |seller website opens in new tab  | pass |
+| timeline items grow and shrink for different screen resolutions | use of amiresponsive & Google dev tools to test different device and screeen sizes | timeline elements change width| pass |
 | `Contact Form Modal` |
-|                      |                  |                   |        |           |
-|                      |                  |                   |        |           |
-|                      |                  |                   |        |           |
-|                      |                  |                   |        |           |
-|                      |                  |                   |        |           |
+| Click on contact button |modal loads over webpage | clicking on button | modal loads over webpage | pass |
+| Click on close button |modal closes | clicking on button | modal closes | pass |
+| typing in input boxes | words appear on screen | typing in button | words appear on screen| pass |
+| typing in text box | words appear on screen | typing in button | words appear on screen| pass |
+| attempting to send empty form | | clicking on send button | nothing happens | fail |
+
+![amiresponsive result](/documentation/manual-testing/amiresponsive-result.png)
 
 ---
 
