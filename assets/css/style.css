@@ -173,7 +173,7 @@ nav a:hover {
     height: 200px;
     text-align: center;
     width: fit-content;
-    font-size: 26px;
+    font-size: 22px;
     border-radius: 10px;
     padding: 20px 15px;
 }
@@ -250,7 +250,6 @@ nav a:hover {
 .gallery-heading {
     margin-top: 20px;
     margin-bottom: 10px;
-    font-size: 35px;
     letter-spacing: 2px;
     color: #151C32;
 }
@@ -596,7 +595,7 @@ https://stackoverflow.com/questions/41292673/bootstrap-modal-opens-but-stays-in-
     }
 
     .hero-image-container {
-        margin-top: 12vh;
+        margin-top: 9vh;
     }
 
     /*--- Homepage*/
@@ -637,9 +636,8 @@ https://stackoverflow.com/questions/41292673/bootstrap-modal-opens-but-stays-in-
     .nav-item a {
         overflow: hidden;
         Margin-top: 2px;
-        text-decoration: none;
-        font-size: 12px;
-        padding: 7px 10px;
+        text-decoration: none;;
+        padding: 8px 10px;
     }
 
     #ticket-alert {
@@ -819,6 +817,11 @@ https://stackoverflow.com/questions/41292673/bootstrap-modal-opens-but-stays-in-
         margin-top: 2vh;
     }
 
+    /*--- Homepage */
+    .hero-image-container {
+        margin-top: 6vh;
+    }
+
     /*--- Live */
     .timeline-area {
         margin-left: 30px;
@@ -826,9 +829,7 @@ https://stackoverflow.com/questions/41292673/bootstrap-modal-opens-but-stays-in-
 
     .tl-item {
         width: 100%;
-    }
-
-    
+    }   
 
     .live-video {
         border-radius: 10px;
