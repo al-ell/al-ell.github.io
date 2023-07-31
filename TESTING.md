@@ -1,6 +1,6 @@
 # Deaf Cats - Testing
 
-![()
+![markup examples](/documentation/testing/testing-markup-header.png)
 
 Visit the deployed site: [Deaf Cats](https://al-ell.github.io/index.html)
 
@@ -111,11 +111,10 @@ Visit the deployed site: [Deaf Cats](https://al-ell.github.io/index.html)
 
 Full testing was performed using [amiresponsive](https://ui.dev/amiresponsive?url=https://al-ell.github.io/index.html):
 
-- Laptop:
 
 Each device tested the site using the following browsers:
 
-Google Chrome
+Google Chrome (dev tools & device types)
 
 | Feature              | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | -------------------- | ---------------- | ----------------- | ------ | --------- | --- |

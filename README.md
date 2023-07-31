@@ -357,10 +357,6 @@ I used the timeline and knowlege gained during the Resume project to make the ti
 * Modal
 * Form
 
-
-
-
-
 ### Content
 
 Content for this project was written by Alice Elliott.
@@ -396,6 +392,7 @@ Content for this project was written by Alice Elliott.
 * Image for history [festival-stage](https://www.pexels.com/search/festival%20stage/)
 
 * Video for history [youtube-video](https://youtu.be/wPRwhu7WKp4)
+
 * Video for live [youtube-video](https://www.youtube.com/watch?v=St7G1F4mu_4&t=3s)
 
-### Acknowledgments
+* Device mark up creator [markup maker](https://techsini.com/multi-mockup/index.php)
