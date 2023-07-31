@@ -2,7 +2,7 @@
 
 ![()
 
-Visit the deployed site: [Deaf Cats]()
+Visit the deployed site: [Deaf Cats](https://al-ell.github.io/index.html)
 
 ---
 
@@ -10,8 +10,6 @@ Visit the deployed site: [Deaf Cats]()
 
 - [AUTOMATED TESTING](#automated-testing)
 - [W3C Validator](#w3c-validator)
-- [JavaScript Validator](#javascript-validator)
-- [Python Validator](#python-validator)
 - [Lighthouse](#lighthouse)
 - [WAVE Testing](#wave-testing)
 - [MANUAL TESTING](#manual-testing)
@@ -33,26 +31,33 @@ Visit the deployed site: [Deaf Cats]()
 - [Gallery Page]() No errors found
 - [History Page]() No errors found
 - [Live Page]() No erorrs found
+
+[Jigsaw W3C](https://jigsaw.w3.org/css-validator/) was used to validate the CSS stylesheet.
+
 - [css]() No errors found, 3 warnings : ![jigsaw warnings](/assets/docmenation/bugs/css-jigsaw-warnings.png)
 
 ---
 
 ### Lighthouse
 
-- ![Index Page]() 
-- ![Gallery Page]() 
-- ![History Page]() 
-- ![Live Page]() 
+- ![Index Page Desktop]() 
+- ![Index Page Mobile]() 
+- ![Gallery Page Desktop]() 
+- ![Gallery Page Mobile]()
+- ![History Page Desktop]() 
+- ![History Page Mobile]() 
+- ![Live Page Desktop]() 
+- ![Live Page Mobile]() 
 
+##### Opportunities to Improve Performance
 
-
-
-
-
-##### Future Updates
-
-- Use of <iframe>
-  slows down result as it is a lot of data to load. The use of <lite-youtube> (https://github.com/justinribeiro/lite-youtube/tree/main) would improve this result but I have not been able to successfully implement this.
+* Eliminate render-blocking resources: remove third party CDNs, unable to improve as essential but could only import the components being used on each specific page
+* Eliminate render-blocking resources: remove third party CDNs, unable to improve as essential
+* Minimize main-thread work: JS  is determined by Bootstrap CDNs, I could import only the components being used instead of the whole package
+* Serve static assets with an efficient cache policy: give elements a longer cache lifetime 
+* Reduce JavaScript execution time: Consider reducing the time spent parsing, compiling, and executing JS. You may find delivering smaller JS payloads helps with this.
+* Properly size images: I could use smaller image sizes for smaller resolutions via @media queries across all pages to reduce the loading time and use less data. 
+*Some third party resources can be lazy loaded:  Use of <iframe> slows down result as it is a lot of data to load. The use of <lite-youtube> (https://github.com/justinribeiro/lite-youtube/tree/main) would improve this result but I have not been able to successfully implement this.
 
 ### Desktop Results
 
