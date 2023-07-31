@@ -359,10 +359,7 @@ I used the timeline and knowlege gained during the Resume project to make the ti
 * Navbar
 * Modal
 * Form
-*
-*
-*
-*
+
 
 
 
