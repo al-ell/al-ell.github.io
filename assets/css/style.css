@@ -834,16 +834,16 @@ https://stackoverflow.com/questions/41292673/bootstrap-modal-opens-but-stays-in-
         width: 100%;
     }   
 
+    .timeline-container {
+        height:100%
+        width: 100%;
+    }
+
     .live-video {
-        border-radius: 10px;
-        box-sizing: border-box;
-        border: 1px solid #151C32;
-        background-color: black;
         /* Code below to add sticky position https: //wpdevdesign.com/sticky-floating-video-on-scroll/ */
-        position: fixed;
-        bottom: 16vh;
-        top: 1vh;
-        right: 40px;
+        position: sticky;
+        right: 20px;
+        bottom: 60px;
         width: 100%;
         height: 360px;
         transform: translateY(100%);
