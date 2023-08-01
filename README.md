@@ -100,9 +100,11 @@ As an administrator for the site I want to be able to:
 
 ### Colour Scheme
 
-I began using the pallete below as inspiration for the colour scheme:
+I began using the pallete below as inspiration for the colour scheme and then adapted the colours to increase accessability:
 
-![Colour Scheme for Deaf Cats](https://www.color-hex.com/color-palette/1027514)
+![Colour Scheme for Deaf Cats](/documentation/color-scheme-inspo.png)
+
+[source website](https://www.canva.com/learn/website-color-schemes/)
 
 I then experimented with different tones and shades of these colours using WebAIM's color contrast checker:
 ![Contrast checker][https://webaim.org/resources/contrastchecker/]
@@ -117,12 +119,12 @@ I used Google Fonts to import the following fonts for use in the site:
 ##### Logo 
 ![Monoton](https://fonts.google.com/specimen/Monoton?query=monoton) 
 I chose this as it has smooth curves and makes a unique logo style. 
-![sample](documentation/fonts/monotonsample.png)
+![sample](/documentation/fonts/monotonsample.png)
 
 ##### Headings 
 ![Ubuntu](https://fonts.google.com/specimen/Ubuntu?preview.text=Deaf%20Cats&preview.text_type=custom&query=ubun) 
 The font is easy to read, has good speacing between letters and continues the curves of the logo. 
-![sample](documentation/fonts/ubuntusample.png)
+![sample](/documentation/fonts/ubuntusample.png)
 
 ##### Paragraphs 
 ![Cabin Condensed](https://fonts.google.com/specimen/Cabin+Condensed?preview.text=Deaf%20Cats&preview.text_type=custom&query=cabin+con)

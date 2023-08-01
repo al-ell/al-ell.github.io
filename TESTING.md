@@ -34,7 +34,7 @@ Visit the deployed site: [Deaf Cats](https://al-ell.github.io/index.html)
 
 [Jigsaw W3C](https://jigsaw.w3.org/css-validator/) was used to validate the CSS stylesheet.
 
-- css: No errors found, 3 warnings : ![jigsaw warnings](/assets/docmenation/bugs/css-jigsaw-warnings.png)
+- css: No errors found, 3 warnings 
 
 ---
 
