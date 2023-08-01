@@ -184,7 +184,7 @@ Wireframes were created for mobile and desktop using Balsamiq.
 
 ## Features
 
-The website is comprised of 4 pages ana modal which are extended from a base template.
+The website is comprised of 4 pages and a modal which are extended from a base template.
 
 * Home page
 * Gallery page
@@ -311,7 +311,15 @@ HTML, CSS.
 
 ### Deployment
 
+The project was developed using Codeanywhere cloud IDE and pushed to GitHub using the inbuilt command line. To deploy to GitHub Pages from the [Github repository](https://github.com/al-ell/al-ell.github.io/tree/main) follow these steps:
 
+    1. Log in to [GitHub]()
+    2. Go to the [repository page](https://github.com/al-ell/al-ell.github.io/tree/main)
+    3. Change the name of the respository to "username.github.io" (al-ell.github.io)
+    4. From the menu above the repository menu select __settings__
+    5. On the left select __pages__ 
+    6. Under __source__ select __deploy from a branch__
+    7. 
 
 
 
