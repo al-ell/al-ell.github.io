@@ -95,7 +95,7 @@ __Wave Initial Results__
 
 [WAVE](http://wave.webaim.org/) (Web Accessibility Evaluation Tool)
 
-![Initial result](/documentation/testing/wave-final-result.png)
+![Initial result](/documentation/testing/wave-initial-result.png)
 
 - Missing form label for modal form text box (added)
 - Contrast updated manually to pass accessability guidelines:
