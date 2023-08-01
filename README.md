@@ -1,17 +1,13 @@
 # Deaf Cats
 
-![Welcome to Deaf Cats](/documentation/multi-device-mockup.png) - image of homepage in different devices
+![Welcome to Deaf Cats](/documentation/multi-device-mockup.png) 
 
-!](documentation/)
 
 Deaf Cats was created as my first milestone project for the Code Institutes Level 5 Diploma in Web Application Development.
 
-Link to deployed site: [Deaf Cats]()
+Link to deployed site: [Deaf Cats](https://al-ell.github.io/index.html)
 
 ![GitHub last commit]()
-![GitHub contributors]()
-![GitHub language count]()
-![GitHub top language](e)
 
 ## CONTENTS
 
@@ -24,10 +20,6 @@ Link to deployed site: [Deaf Cats]()
   * [Typography](#typography)
   * [Imagery](#imagery)
   * [Wireframes](#wireframes)
-  * [Database Schema & User Journey](#database-schema--user-journey)
-    * [User Journey](#user-journey)
-    * [First Draft Database Schema](#first-draft-database-schema)
-    * [Final Database Schema](#final-database-schema)
 
 * [Features](#features)
   * [Elements Fount on Each Page](#elements-found-on-each-page)
@@ -59,7 +51,6 @@ Link to deployed site: [Deaf Cats]()
   * [Code Used](#code-used)
   * [Content](#content)
   * [Media](#media)
-  * [Acknowledgments](#acknowledgments)
 
 - - -
 
@@ -67,7 +58,8 @@ Link to deployed site: [Deaf Cats]()
 
 ### Project Goals
 
-
+To create a website for fan's of the jazz bans "Deaf Cats" to see when and where they are playing live, look at pictures from past events
+and to find out more about their history. The project will have media and social links for fans to find their music and content online on other platforms. 
 
 ### User Stories
 
@@ -173,13 +165,7 @@ Wireframes were created for mobile and desktop using Balsamiq.
 
 ![Live Page](/documentation/wireframes/wireframelivedates.png)
 
-
-
-###  User Journey
-
-#### __User Journey__
-
-
+ -----
 
 
 ## Features
