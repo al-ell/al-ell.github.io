@@ -315,11 +315,11 @@ The project was developed using Codeanywhere cloud IDE and pushed to GitHub usin
 
     1. Log in to [GitHub]()
     2. Go to the [repository page](https://github.com/al-ell/al-ell.github.io/tree/main)
-    3. Change the name of the respository to "username.github.io" (al-ell.github.io)
+    3. Change the name of the respository to "username.github.io" : al-ell.github.io
     4. From the menu above the repository menu select __settings__
     5. On the left select __pages__ 
     6. Under __source__ select __deploy from a branch__
-    7. 
+    7. Go to "username.github.io" : al-ell.github.io
 
 
 
@@ -327,10 +327,25 @@ The project was developed using Codeanywhere cloud IDE and pushed to GitHub usin
 
 #### How to Fork
 
-
+    1. On GitHub.com, navigate to the octocat/Spoon-Knife repository
+    2. In the top-right corner of the page, click __Fork__
+    3. Under "Owner," select the dropdown menu and click an owner for the forked repository
+    4. By default, forks are named the same as their upstream repositories. Optionally, to further distinguish your fork, in the "Repository name" field, type a name
+    5. Optionally, in the "Description" field, type a description of your fork
+    6. Optionally, select __Copy the DEFAULT branch only__
+    7. Click __Create fork__   
 
 #### How to Clone
 
+    1. On GitHub.com, navigate to the main page of the repository
+    2. Above the list of files, click __<> Code__
+    3. Copy the URL for the repository
+        * To clone the repository using HTTPS, under "HTTPS", click __clipboard icon__
+        * To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click SSH, then click __clipboard icon__
+        * To clone a repository using GitHub CLI, click GitHub CLI, then click __copy icon__
+    4. Open Terminal, change the current working directory to the location where you want the cloned directory
+    5. Type 'git clone', and then paste the URL copied earlier
+    6. Press __Enter__ to create your local clone
 
 - - -
 
@@ -391,7 +406,7 @@ Content for this project was written by Alice Elliott.
 
 * Image for gallery [outdoor-concert](https://www.pexels.com/photo/man-playing-a-saxophone-16803242/)
 
-* Image for gallery [outdoor-concert2](https://www.pexels.com/photo/man-and-woman-dancing-while-man-in-black-clothes-playing-the-saxophone-on-the-roof-top-7502577/)
+* Image for gallery [outdoor-concert2](https://www.pexels.com/photo/    man-and-woman-dancing-while-man-in-black-clothes-playing-the-saxophone-on-the-roof-top-7502577/)
 
 * Image for gallery [drums-studio](https://www.pexels.com/photo/man-in-black-jacket-playing-drum-5650907/)
 
