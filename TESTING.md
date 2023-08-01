@@ -93,17 +93,17 @@ Visit the deployed site: [Deaf Cats](https://al-ell.github.io/index.html)
 __Wave Initial Results__
 [WAVE](http://wave.webaim.org/) (Web Accessibility Evaluation Tool)
 
-![Initial result](/assets/documentation/testing/wave-intitial-result.png)
+![Initial result](/documentation/testing/wave-intitial-result.png)
 
 - Missing form label for modal form text box (added)
 - Contrast updated manually to pass accessability guidelines:
 
 __Wave Final Results__
-![Wave contrast editor 1](/assets/documentation/testing/wave-contrast-pass1.png)
+![Wave contrast editor 1](/documentation/testing/wave-contrast-pass1.png)
 
-![Wave contrast editor 2](/assets/documentation/testing/wave-contrast-pass-footer.png)
+![Wave contrast editor 2](/documentation/testing/wave-contrast-pass-footer.png)
 
-![Final result](/assets/documentation/testing/wave-final-result.png)
+![Final result](/documentation/testing/wave-final-result.png)
 
 ---
 
