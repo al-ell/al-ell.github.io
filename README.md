@@ -65,17 +65,17 @@ and to find out more about their history. The project will have media and social
 
 #### __Target Audience__
 
-The target audience for the website are people who like the bands music and want to 
+The target audience for the website are people who like the bands music and want to find them on social media platforms, spotify and see them play live. It is also for people who would like to contact the band to book them for gigs and events. 
 
 #### __First Time Visitor Goals__
 
 As a first time user of the site I want to be able to:
 
-* Understand the putpose of the site and how to navigate to other pages.
+* Understand the purpose of the site and how to navigate to other pages.
 * Find where I can play their music online.
 * Find out more about the band and see pictures of them.
 * See when and where they are playing live.
-* Book the band to play at an event.
+* Contact the the band or book them to play at an event.
 
 #### __Returning Visitor Goals__
 

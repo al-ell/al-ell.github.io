@@ -121,19 +121,22 @@ __Wave Final Results__
 | Goals                 | How are they achieved? | Image |
 | :-------------------- | :--------------------- | :---- |
 | `First Time Visitors` |
-|                       |                        |       |
-|                       |                        | :---  |
-|                       |                        | :---  |
-|                       |                        | :---  |
+| Understand the purpose of the site |  |       |
+| Understand how to navigate to other pages | Clear navbar and menu buttons | :---  |
+| Find where I can play their music online | Embedded Youtube videos; watch link, Spotify, Youtube and Bandcamp icons in footer  | :---  |
+| Find out more about the band and see pictures of them | Gallery and History pages, Instagram icon in footer | :---  |
+| See when and where they are playing live | Live dates page with listings and links to ticket selling websites | :---  |
+| Contact the the band or book them to play at an event | "Contact us" button linked to form in modal | :---  |
 | `Returning Visitors`  |
-|                       |                        |       |
-|                       |                        | :---  |
-|                       |                        | :---  |
-|                       |                        | :---  |
+| Find out about new music releases and where it can be played online | Watch link, Bandcamp and Spotify icons in footer |       |
+| See when and where they are playing live | Live dates page with listings and links to ticket selling websites | :---  |
+| Contact the the band or book them to play at an event | "Contact us" button linked to form in modal | :---  |
 |                       | :---                   |
 | `Admin User`          |
-|                       |                        |       |
-|                       |                        |       |
+| Provide a way for the band can be contacted | Modal form created, not yet linked |       |
+| Create a working form that sends messages to an email address | This will be added when I learn the skills |       |
+| Create a ticket booking sytem (future releases) | This will be added when I learn the skills |       |
+
 
 ---
 
