@@ -212,7 +212,7 @@ Google Chrome (dev tools & device types)
 | 12 | Gallery page navigation not displaying inline as on other pages. | I found this bug during a mentoring session. I found out later that I had a typo in the <meta name="viewport"> section of the header. Once this was corrected it displayed as normal. | ![No viewport](documentation/bugs/bug-no-viewport.png) | |
 | 13 | Navbar not collapsed on medium screen sizes | I realised that my grid column was targeting md instead of lg for the button toggle. I changed this and now the navbar is collapsed for tablet and mobile. | ![Navbar not collapsed](documentation/bugs/bug-navbar-not-collapsed.png) | |
 | 14 | After applying flex properties to the footer sections the social links went out of alignment. | I couldn't figure out how to align them again, so after a few hours I got tutor assistance to help fix the issue. I was not targeting the right elements with flex properties. | ![Social icon misalignment](documentation/bugs/bug-social-icon-misaligned.png) | |
-| 15 | Logo too large for medium screen, altert and heading out of alignment | I used chrome dev tools to find the appropriate size that won't put the sections out of alignment | <img src="/documentation/bugs/bug-logo-too-big.png" alt="Logo too big" style="max-width: 50px;"> | |
+| 15 | Logo too large for medium screen, altert and heading out of alignment | I used chrome dev tools to find the appropriate size that won't put the sections out of alignment | <img src="/documentation/bugs/bug-logo-too-big.png" alt="Logo too big" width= 50px> | |
 | 16 |  | | | |
 | 17 | | | | |
 | 18 | | | | |
