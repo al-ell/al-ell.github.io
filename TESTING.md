@@ -145,7 +145,13 @@ Full testing was performed using [amiresponsive](https://ui.dev/amiresponsive?ur
 
 Each device tested the site using the following browsers:
 
-Google Chrome (dev tools & device types)
+* iPhone 12 Plus (Safari, Chrome): Some overlappping of the logo and the hero image, some page headings displayed under header on other pages. 
+* iPhone XS Max (Safari): Some overlappping of the logo and the hero image, some page headings displayed under header on other pages. 
+* Huawei P30 Pro (Google Chrome, Firefox, Edge): No overlay of header and content, all elements displayed as expected.
+* Samsung s20 (Crome): No overlay of header and content, all elements displayed as expected.
+
+* Macbook Pro Retina 2013 - Google Chrome (dev tools & device types): Tested on multiple device (mobile & tablet) types with no header and content, all elements displayed as expected. Displays on desktop as expected. 
+
 
 | Feature              | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | ---------------------------------------------------------------------- | -------------------------------- | ------------------------------------------------------------------------------------ | -------------------------------- | ------ |
@@ -202,7 +208,7 @@ Google Chrome (dev tools & device types)
 | 4 | Modal components not working when clicked | Rewatched Code Institute video on Modals and moved code to bottom of html page, now fully functioning. | <img src="/documentation/bugs/bug-navbar-styling-lost.jpg" alt="Navbar styling lost" width="50px"> |
 | 5 | Youtube video not playing | Change of embed method, copied directly from share icon on youtube page. | |
 | 6 | History grid made with flexbox tutorial not changing to stack style for smaller screen sizes | I requested tutor support, they suggested I use Bootstrap grid instead of flexbox to be in keeping with the rest of the website. | <img src="/documentation/bugs/grid-not-responsive.png" alt="Grid not responsive" width="50px"> | 
-| 7 | Footer has too many parts for mobile view | I researched how to get different columns to dissapear, I found some help on Stack Overflow and learned about d-none for Bootstrap elements | <img src="/documentation/bugs/nav-toggler-working-no-watch-link.png" alt="No watch link" width="50px"> |
+| 7 | Footer has too many parts for mobile view | I researched how to get different columns to dissapear, I found some help on Stack Overflow and learned about d-none for [Bootstrap elements](https://getbootstrap.com/docs/4.0/utilities/display/) | 
 | 8 | Navbar didn't revert to button for smaller screens | I don't know what I changed to get this working, but as I was trying to target other things it started working! However, it wasn't converting at the right breakpoint. I found some [help on Stack Overflow](https://stackoverflow.com/questions/19827605/how-to-change-bootstrap-navbar-collapse-breakpoint) I then had to update margins for difference @media queries | <img src="/documentation/bugs/nav-toggler-working-no-watch-link.png" alt="Nav button" width:="50px"> |
 | 9 | Homepage image didn't fit container | I researched the issue and found it was an object-fit issue. has been amended and now fills container and is responsive | |
 | 10 | Navbar container background displays under button | I changed the background colour to the same as the body for smaller screen sizes so it appears hidden. The use of display:none would resuly in no button displayed. | <img src="/documentation/bugs/navbar-container-background-displaying-with-button.png" alt="Nav background" width="50px">|
@@ -211,10 +217,10 @@ Google Chrome (dev tools & device types)
 | 13 | Navbar not collapsed on medium screen sizes | I realised that my grid column was targeting md instead of lg for the button toggle. I changed this and now the navbar is collapsed for tablet and mobile. | <img src="documentation/bugs/bug-navbar-not-collapsed.png" alt="Navbar not collapsed" width="50px"> | 
 | 14 | After applying flex properties to the footer sections the social links went out of alignment. | I couldn't figure out how to align them again, so after a few hours I got tutor assistance to help fix the issue. I was not targeting the right elements with flex properties. | <img src="/documentation/bugs/bug-social-icon-misaligned.png" alt="Social icon misalignment" width= "50px"> |
 | 15 | Logo too large for medium screen, altert and heading out of alignment | I used chrome dev tools to find the appropriate size that won't put the sections out of alignment | <img src="/documentation/bugs/bug-logo-too-big.png" alt="Logo too big" width="50px"> |
-| 16 | Gallery not centered to the page (also affecting history page) | Even after adding "justify-content-center" class it still did not center. This is because there was some left padding that I did not write assigned to the div containing the gallery. I removed this and the gallery centered. | <img src="/documentation/bugs/bug-gallery-padding.png" alt="Gallery padding" width="50px"> |
-| 17 | The navbar was displaying behind the hero image on some mobile devices | I added a z-index which brought it to the front | <img src="/documentation/bugs/bug-navbar-behind-image.png" alt="Navbar behind image" width="50px"> |
-| 18 | On smaller mobile devices the fourth social icon was dropping under the others causing the footer to get fat | I played with the transform property and targeted the container the icons are in and adjusted the scale targeting the icons themselves | <img src="/documentation/bugs/bug-social-links-out-of-line.jpg" alt="Social links outof line" width="50px"> | 
-| 19 | | | |
+| 16 | Gallery not centered to the page (als affecting history page) | Even after adding "justify-content-center" class it still did not center. This is because there was some left padding that I did not write assigned to the div containing the gallery. I removed this and the gallery centered. | <img src="/documentation/bugs/bug-gallery-padding.png" alt="Gallery padding" width="50px"> |
+| 17 | The navbar was displaying behind the hero image on some mobile devices | I added a z-index which brought it to the front | <img src="/documentation/bugs/bug-navbar-behind-image." alt="Navbar behind image" width="50px"> |
+| 18 |  On smaller mobile devices the fourth social icon was dropping under the others causing the footer to get fat| |I played with the transform property and targeted the container the icons are in and adjusted the scale targeting the icons themselves   <img src="/documentation/bugs/bug-social-links-out-of-line.jpg" alt="Social links outof line" width="50px">| |
+
 
 
 ---
@@ -222,7 +228,7 @@ Google Chrome (dev tools & device types)
 ### Known Bugs
 
 | No  | Bug |     |
-| :-- |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | 
+| :-- |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
 |  1  | The hero text sits too low in the viewport | I couldn't find the right size for the text box as I have ran out of time to build (I may come back to this issue later) | <img src="/documentation/bugs/known-bug-hero-text-alignment.png" alt="Hero text alignment" width="50px"> |    
 | --  | The hero text sits too low in the viewport | I couldn't find the right size for the text box as I have ran out of time to build (I may come back to this issue later) | <img src="/documentation/bugs/known-bug-scroll-mobile.png" alt="Scroll on mobile" width="50"> |  
 |  2  | The header top margins are too large on some devices | I have ran out of time to fix this, but adjusting the unit of measurement or being more precise may give better results. | <img src="/documentation/bugs/known-bug-large-margins.png" alt="Large Margins" width="50px"> |   
