@@ -154,7 +154,7 @@ Each device tested the site using the following browsers:
 
 
 | Feature              | Expected Outcome | Testing Performed | Result | Pass/Fail |
-| ---------------------------------------------------------------------- | -------------------------------- | ------------------------------------------------------------------------------------ | -------------------------------- | ------ |
+| ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------------------------ |
 | `Navbar` - all links tested on all pages  |
 | Click on gallery page nav link |gallery page loads | clicking on link | taken to page | pass |
 | Click on index page nav link |index page loads | clicking on link | taken to page | pass |
@@ -219,7 +219,7 @@ Each device tested the site using the following browsers:
 | 15 | Logo too large for medium screen, altert and heading out of alignment | I used chrome dev tools to find the appropriate size that won't put the sections out of alignment | <img src="/documentation/bugs/bug-logo-too-big.png" alt="Logo too big" width="50px"> |
 | 16 | Gallery not centered to the page (als affecting history page) | Even after adding "justify-content-center" class it still did not center. This is because there was some left padding that I did not write assigned to the div containing the gallery. I removed this and the gallery centered. | <img src="/documentation/bugs/bug-gallery-padding.png" alt="Gallery padding" width="50px"> |
 | 17 | The navbar was displaying behind the hero image on some mobile devices | I added a z-index which brought it to the front | <img src="/documentation/bugs/bug-navbar-behind-image.png" alt="Navbar behind image" width="50px"> |
-| 18 |  On smaller mobile devices the fourth social icon was dropping under the others causing the footer to get fat| |I played with the transform property and targeted the container the icons are in and adjusted the scale targeting the icons themselves  | <img src="/documentation/bugs/bug-social-links-out-of-line.jpg" alt="Social links outof line" width="50px">| |
+| 18 |  On smaller mobile devices the fourth social icon was dropping under the others causing the footer to get fat | I played with the transform property and targeted the container the icons are in and adjusted the scale targeting the icons themselves  | <img src="/documentation/bugs/bug-social-links-out-of-line.jpg" alt="Social links outof line" width="50px">| 
 
 
 
@@ -227,7 +227,7 @@ Each device tested the site using the following browsers:
 
 ### Known Bugs
 
-| No  | Bug |       | :-- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| No  | Bug |       | :-- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----- |
 |  1  | The hero text sits too low in the viewport | I couldn't find the right size for the text box as I have ran out of time to build (I may come back to this issue later) | <img src="/documentation/bugs/known-bug-hero-text-alignment.png" alt="Hero text alignment" width="50px"> |    
 | --  | The hero text sits too low in the viewport | I couldn't find the right size for the text box as I have ran out of time to build (I may come back to this issue later) | <img src="/documentation/bugs/known-bug-scroll-mobile.png" alt="Scroll on mobile" width="50"> |  
 |  2  | The header top margins are too large on some devices | I have ran out of time to fix this, but adjusting the unit of measurement or being more precise may give better results. | <img src="/documentation/bugs/known-bug-large-margins.png" alt="Large Margins" width="50px"> |   
