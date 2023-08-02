@@ -211,10 +211,10 @@ Google Chrome (dev tools & device types)
 | 13 | Navbar not collapsed on medium screen sizes | I realised that my grid column was targeting md instead of lg for the button toggle. I changed this and now the navbar is collapsed for tablet and mobile. | <img src="documentation/bugs/bug-navbar-not-collapsed.png" alt="Navbar not collapsed" width="50px"> | 
 | 14 | After applying flex properties to the footer sections the social links went out of alignment. | I couldn't figure out how to align them again, so after a few hours I got tutor assistance to help fix the issue. I was not targeting the right elements with flex properties. | <img src="/documentation/bugs/bug-social-icon-misaligned.png" alt="Social icon misalignment" width= "50px"> |
 | 15 | Logo too large for medium screen, altert and heading out of alignment | I used chrome dev tools to find the appropriate size that won't put the sections out of alignment | <img src="/documentation/bugs/bug-logo-too-big.png" alt="Logo too big" width="50px"> |
-| 16 |  | | | |
-| 17 | | | | |
-| 18 | | | | |
-| 19 | | | | |
+| 16 | Gallery not centered to the page (also affecting history page) | Even after adding "justify-content-center" class it still did not center. This is because there was some left padding that I did not write assigned to the div containing the gallery. I removed this and the gallery centered. | <img src="/documentation/bugs/bug-gallery-padding.png" alt="Gallery padding" width="50px"> |
+| 17 | The navbar was displaying behind the hero image on some mobile devices | I added a z-index which brought it to the front | <img src="/documentation/bugs/bug-navbar-behind-image.png" alt="Navbar behind image" width="50px"> |
+| 18 | On smaller mobile devices the fourth social icon was dropping under the others causing the footer to get fat | I played with the transform property and targeted the container the icons are in and adjusted the scale targeting the icons themselves | <img src="/documentation/bugs/bug-social-links-out-of-line.jpg" alt="Social links outof line" width="50px"> | 
+| 19 | | | |
 
 
 ---

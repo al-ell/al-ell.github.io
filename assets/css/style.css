@@ -122,7 +122,8 @@ nav a:hover {
 /*Change the color of the link for current page */
 #nav-home a,
 #nav-gallery a,
-#nav-history a {
+#nav-history a,
+#nav-live a {
     color: #ececef;
 }
 
@@ -401,8 +402,8 @@ iframe {
     border-radius: 50%;
     line-height: 7px;
     font-size: 26px;
-    color: #140B14;
-    background-color: #ececef;
+    color: #ececef;
+    background-color: #140B14;
     padding: 0;
     /*flex added to links themselves, from tutor support*/
     /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
@@ -418,8 +419,8 @@ iframe {
 }
 
 .social-links li a i:hover {
-    color: #ececef;
-    background-color: #140B14;
+    color: #140B14;
+    background-color: #ececef;
 }
 
 .social-links {
