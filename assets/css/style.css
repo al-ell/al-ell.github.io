@@ -94,6 +94,10 @@ h5 {
     margin: 0 !important;
 }
 
+.navbar {
+    z-index: 100;
+}
+
 a {
     overflow: hidden;
     Margin-top: 5px;
@@ -419,7 +423,8 @@ iframe {
 }
 
 .social-links {
-    padding-top: 1vh;
+    padding: 1vh 0 0 0;
+    display: inherit;
 }
 
 .social-container {
@@ -609,15 +614,19 @@ https://stackoverflow.com/questions/41292673/bootstrap-modal-opens-but-stays-in-
     }
 
     .hero-text-container {
-        transform: scale(0.8);
+        transform: scale(0.7);
         top: 40vh;
     }
 
     /* --- Footer */
     /* Help to scale https: //developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale */
-    #contact-button,
-    .social-icon {
-        transform: scale(0.8);
+    #contact-button {
+        transform: scale(0.9);
+    }
+
+
+    .social-links {
+        transform: scale(0.7);
     }
 
     /* --- Gallery */
