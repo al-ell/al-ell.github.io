@@ -194,15 +194,13 @@ Google Chrome (dev tools & device types)
 
 ### Solved Bugs
 
-| No. | Bug | How I solved the issue | Image | |
-|---|---------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------| ----- |
-| 1 | Hero image won't display 
-| I was seeking tutor support for another issue and Gemma spotted a typo, the class I was attempting to target did not match with the index page. | <img src="/documentation/bugs/bug-hero-image-wont-display.png" alt="No Hero image" width="50px"> |
+| No. | Bug | How I solved the issue | Image |
+|---|---------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------| 
+| 1 | Hero image won't display | I was seeking tutor support for another issue and Gemma spotted a typo, the class I was attempting to target did not match with the index page. | <img src="/documentation/bugs/bug-hero-image-wont-display.png" alt="No Hero image" width="50px"> | 
 | 2 | Modal displayed under background | [Stackoverflow forum](https://stackoverflow.com/questions/41292673/bootstrap-modal-opens-but-stays-in-gray-background-and-cannot-close-or-interact) [Bootstrap z-index](https://getbootstrap.com/docs/5.0/layout/z-index/) |  <img src="/documentation/bugs/bug-modal-display-under-background.jpg" alt="Modal under background" width="50px"> |
-| 3 | Social media icons altered when bootstrap updated to include script needed for Modal | Tutor assistance sought. I was not using the best Fontawesome icon classes and the script was at the top, not the bottom of the html page. 
-|  <img src="/documentation/bugs/bug-lost-social-icons-added-modal.jpg" alt="Lost social media icons" width="50px"> | 
+| 3 | Social media icons altered when bootstrap updated to include script needed for Modal | Tutor assistance sought. I was not using the best Fontawesome icon classes and the script was at the top, not the bottom of the html page. |  <img src="/documentation/bugs/bug-lost-social-icons-added-modal.jpg" alt="Lost social media icons" width="50px"> | 
 | 4 | Modal components not working when clicked | Rewatched Code Institute video on Modals and moved code to bottom of html page, now fully functioning. | <img src="/documentation/bugs/bug-navbar-styling-lost.jpg" alt="Navbar styling lost" width="50px"> |
-| 5 | Youtube video not playing | Change of embed method, now working. | |
+| 5 | Youtube video not playing | Change of embed method, copied directly from share icon on youtube page. | |
 | 6 | History grid made with flexbox tutorial not changing to stack style for smaller screen sizes | I requested tutor support, they suggested I use Bootstrap grid instead of flexbox to be in keeping with the rest of the website. | <img src="/documentation/bugs/grid-not-responsive.png" alt="Grid not responsive" width="50px"> | 
 | 7 | Footer has too many parts for mobile view | I researched how to get different columns to dissapear, I found some help on Stack Overflow and learned about d-none for Bootstrap elements | <img src="/documentation/bugs/nav-toggler-working-no-watch-link.png" alt="No watch link" width="50px"> |
 | 8 | Navbar didn't revert to button for smaller screens | I don't know what I changed to get this working, but as I was trying to target other things it started working! However, it wasn't converting at the right breakpoint. I found some [help on Stack Overflow](https://stackoverflow.com/questions/19827605/how-to-change-bootstrap-navbar-collapse-breakpoint) I then had to update margins for difference @media queries | <img src="/documentation/bugs/nav-toggler-working-no-watch-link.png" alt="Nav button" width:="50px"> |
@@ -224,10 +222,8 @@ Google Chrome (dev tools & device types)
 ### Known Bugs
 
 | No  | Bug |     |
-| :-- | :----------------------------------------------- | :------------------------------------------------------------------------------------------------ | --- | 
-|  1  | The hero text sits too low in the viewport | I couldn't find the right size for the text box as I have ran out of time to build (I may come back to this issue later) | ![Hero text alignment](documentation/bugs/known-bug-hero-text-alignment.png) |     |
-|     | The hero text sits too low in the viewport |     | ![Scroll on mobile](documentation/bugs/known-bug-scroll-mobile.png) |    |
-|     | The hero text sits too low in the viewport |     | ![Scroll on mobile](documentation/bugs/known-bug-scroll-on-mobile.png) |     |
-|  2  | The header top margins are too large on some devices | I have ran out of time to fix this, but adjusting the unit of measurement or being more precise may give better results. | ![Large Margins](documentation/bugs/known-bug-large-margins.png) |     |
+| :-- | :-------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------- | 
+|  1  | The hero text sits too low in the viewport | I couldn't find the right size for the text box as I have ran out of time to build (I may come back to this issue later) | <img src="/documentation/bugs/known-bug-hero-text-alignment.png" alt="Hero text alignment" width="50px"> |    
+| --  | The hero text sits too low in the viewport | I couldn't find the right size for the text box as I have ran out of time to build (I may come back to this issue later) | <img src="/documentation/bugs/known-bug-scroll-mobile.png" alt="Scroll on mobile" width="50"> |  
+|  2  | The header top margins are too large on some devices | I have ran out of time to fix this, but adjusting the unit of measurement or being more precise may give better results. | <img src="/documentation/bugs/known-bug-large-margins.png" alt="Large Margins" width="50px"> |   
 |  3  |  |     |     |     |
-|     |     |     |     |     |
