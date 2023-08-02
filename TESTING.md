@@ -118,20 +118,18 @@ __Wave Final Results__
 
 ### Testing User Stories
 
-| Goals                 | How are they achieved? | Image |
-| :-------------------- | :--------------------- | :---- |
+| Goals                 | How are they achieved? | |
 | `First Time Visitors` |
-| Understand the purpose of the site |  |       |
-| Understand how to navigate to other pages | Clear navbar and menu buttons | :---  |
-| Find where I can play their music online | Embedded Youtube videos; watch link, Spotify, Youtube and Bandcamp icons in footer  | :---  |
-| Find out more about the band and see pictures of them | Gallery and History pages, Instagram icon in footer | :---  |
-| See when and where they are playing live | Live dates page with listings and links to ticket selling websites | :---  |
-| Contact the the band or book them to play at an event | "Contact us" button linked to form in modal | :---  |
+| Understand the purpose of the site | Hero text on homepage |       |
+| Understand how to navigate to other pages | Clear navbar and menu buttons |  |
+| Find where I can play their music online | Embedded Youtube videos; watch link, Spotify, Youtube and Bandcamp icons in footer  |  |
+| Find out more about the band and see pictures of them | Gallery and History pages, Instagram icon in footer | |
+| See when and where they are playing live | Live dates page with listings and links to ticket selling websites |  |
+| Contact the the band or book them to play at an event | "Contact us" button linked to form in modal | |
 | `Returning Visitors`  |
 | Find out about new music releases and where it can be played online | Watch link, Bandcamp and Spotify icons in footer |       |
-| See when and where they are playing live | Live dates page with listings and links to ticket selling websites | :---  |
-| Contact the the band or book them to play at an event | "Contact us" button linked to form in modal | :---  |
-|                       | :---                   |
+| See when and where they are playing live | Live dates page with listings and links to ticket selling websites |  |
+| Contact the the band or book them to play at an event | "Contact us" button linked to form in modal |  |
 | `Admin User`          |
 | Provide a way for the band can be contacted | Modal form created, not yet linked |       |
 | Create a working form that sends messages to an email address | This will be added when I learn the skills |       |
@@ -197,7 +195,7 @@ Google Chrome (dev tools & device types)
 ### Solved Bugs
 
 | No. | Bug | How I solved the issue | Image | |
-|---|---------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------| 
+|---|---------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------| ----- |
 | 1 | Hero image won't display 
 | I was seeking tutor support for another issue and Gemma spotted a typo, the class I was attempting to target did not match with the index page. | <img src="/documentation/bugs/bug-hero-image-wont-display.png" alt="No Hero image" width="50px"> |
 | 2 | Modal displayed under background | [Stackoverflow forum](https://stackoverflow.com/questions/41292673/bootstrap-modal-opens-but-stays-in-gray-background-and-cannot-close-or-interact) [Bootstrap z-index](https://getbootstrap.com/docs/5.0/layout/z-index/) |  <img src="/documentation/bugs/bug-modal-display-under-background.jpg" alt="Modal under background" width="50px"> |
