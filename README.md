@@ -7,7 +7,7 @@ Deaf Cats was created as my first milestone project for the Code Institutes Leve
 
 Link to deployed site: [Deaf Cats](https://al-ell.github.io/index.html)
 
-![GitHub last commit]()
+![GitHub last commit](https://github.com/al-ell/al-ell.github.io/commits/main)
 
 ## CONTENTS
 
