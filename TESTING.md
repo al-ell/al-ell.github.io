@@ -218,6 +218,8 @@ Google Chrome (dev tools & device types)
 | 18 | | | | |
 | 19 | | | | |
 
+<img src="/al-ell/al-ell.github.io/raw/main/documentation/bugs/bug-logo-too-big.png" alt="Logo too big" style="max-width: 50px;">
+
 ---
 
 ### Known Bugs
