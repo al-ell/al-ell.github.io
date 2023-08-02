@@ -5,7 +5,7 @@
 
 Deaf Cats was created as my first milestone project for the Code Institutes Level 5 Diploma in Web Application Development.
 
-Link to deployed site: [Deaf Cats](https://al-ell.github.io/index.html)
+Link to deployed site: [Deaf Cats](https://al-ell.github.io/deaf-cats)
 
 ![GitHub last commit](https://github.com/al-ell/al-ell.github.io/commits/main)
 
