@@ -78,16 +78,6 @@ Visit the deployed site: [Deaf Cats](https://al-ell.github.io/index.html)
 
 ---
 
-### Desktop Results
-
-- [Index Page]()
-- [Gallery Page]()
-- [History Page]()
-- [Live Page]()
-
----
-
-
 ### WAVE Testing
 
 __Wave Initial Results__
@@ -118,7 +108,8 @@ __Wave Final Results__
 
 ### Testing User Stories
 
-| Goals                 | How are they achieved? | | | 
+| Goals                 | How are they achieved? |---- |  
+|---------------------------------------------------------------------------------------------------------------------------------------- |-------------------------------------------------------------------------------------------------------------------------------------------- |----------------------------------------------------------------------- |
 | `First Time Visitors` |
 | Understand the purpose of the site | Hero text on homepage |       |
 | Understand how to navigate to other pages | Clear navbar and menu buttons |  |
@@ -153,9 +144,9 @@ Each device tested the site using the following browsers:
 * Macbook Pro Retina 2013 - Google Chrome (dev tools & device types): Tested on multiple device (mobile & tablet) types with no header and content, all elements displayed as expected. Displays on desktop as expected. 
 
 
-| Feature              | Expected Outcome | Testing Performed | Result | Pass/Fail |
-| ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------------------------ |
-| `Navbar` - all links tested on all pages  |
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| ------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------- |
+| `Navbar` | all links tested on all pages  |
 | Click on gallery page nav link |gallery page loads | clicking on link | taken to page | pass |
 | Click on index page nav link |index page loads | clicking on link | taken to page | pass |
 | Click on history page nav link |history page loads | clicking on link | taken to page | pass | 
@@ -227,7 +218,7 @@ Each device tested the site using the following browsers:
 
 ### Known Bugs
 
-| No  | Bug |       | :-- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----- |
+| No  | Bug | Image| ------ |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | 
 |  1  | The hero text sits too low in the viewport | I couldn't find the right size for the text box as I have ran out of time to build (I may come back to this issue later) | <img src="/documentation/bugs/known-bug-hero-text-alignment.png" alt="Hero text alignment" width="50px"> |    
 | --  | The hero text sits too low in the viewport | I couldn't find the right size for the text box as I have ran out of time to build (I may come back to this issue later) | <img src="/documentation/bugs/known-bug-scroll-mobile.png" alt="Scroll on mobile" width="50"> |  
 |  2  | The header top margins are too large on some devices | I have ran out of time to fix this, but adjusting the unit of measurement or being more precise may give better results. | <img src="/documentation/bugs/known-bug-large-margins.png" alt="Large Margins" width="50px"> |   
